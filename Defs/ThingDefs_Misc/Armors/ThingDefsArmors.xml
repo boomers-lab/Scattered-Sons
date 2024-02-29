@@ -20,7 +20,7 @@
 		<thingCategories>
 			<li>ApparelArmor</li>
 		</thingCategories>
-		<uiIconScale>1.6</uiIconScale>
+		<uiIconScale>1</uiIconScale>
         <tradeTags>
             <li>HPArmor</li>
         </tradeTags>
@@ -170,7 +170,6 @@
                 <li>GW_Guilliman</li>
 			</tags>
 		</apparel>
-		<comps Inherit="False" />
     </ThingDef>
 
 

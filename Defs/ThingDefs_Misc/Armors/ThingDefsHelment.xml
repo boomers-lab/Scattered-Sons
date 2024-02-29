@@ -6,7 +6,7 @@
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>1.6</drawSize>
+			<drawSize>1</drawSize>
 		</graphicData>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -110,7 +110,7 @@
 		<defName>GW_SM_GuillimanHelmet</defName>
 		<label>guilliman helmet</label>
 		<graphicData>
-			<texPath>Things/Apparel/Armor_Guilliman/Helmet/GuillimanC_helmet</texPath>
+			<texPath>Things/Apparel/Armor_Guilliman/Helmet/GuillimanC_helmet</texPath>			
 		</graphicData>
 		<uiIconPath>Things/Apparel/Armor_Guilliman/Helmet/GuillimanC_helmet</uiIconPath>
 		<apparel>

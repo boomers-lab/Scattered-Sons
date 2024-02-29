@@ -71,7 +71,7 @@
 			<li Class="VFECore.ApparelDrawPosExtension">
 				<apparelDrawSettings>
                     <drawPosNorthOffset>(0, 0.3, 0)</drawPosNorthOffset>
-                    <drawPosSouthOffset>(0, 0, 0)</drawPosSouthOffset>
+                    <drawPosSouthOffset>(0, 0.3, 0)</drawPosSouthOffset>
                     <drawPosWestOffset>(0, 0.3, 0)</drawPosWestOffset>
                     <drawPosEastOffset>(0, 0.3, 0)</drawPosEastOffset>
                 </apparelDrawSettings>
