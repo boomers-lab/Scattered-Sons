@@ -1,0 +1,177 @@
+<Defs>
+	
+	
+	<ThingDef Abstract="true" Name="GW_ScatteredSons_ArmorBase" ParentName="ArmorMachineableBase">
+        <techLevel>Spacer</techLevel>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>15</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="false">
+				<li>GW_SM_ScatteredSons_ArmorBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<uiIconScale>1.6</uiIconScale>
+        <tradeTags>
+            <li>HPArmor</li>
+        </tradeTags>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.50</ToxicEnvironmentResistance>
+		</equippedStatOffsets>
+		<apparel>
+			<tags>
+				<li>Spacer</li>
+				<li>EVA</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<countsAsClothingForNudity>true</countsAsClothingForNudity>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+				<li MayRequire="ceteam.combatextended">Hands</li>
+				<li MayRequire="ceteam.combatextended">Feet</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Middle</li>
+				<li>Shell</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>		
+	    <modExtensions>
+			<li Class="VFECore.ApparelDrawPosExtension">
+				<apparelDrawSettings>
+                    <drawPosNorthOffset>(0, 0.2, 0)</drawPosNorthOffset>
+                    <drawPosSouthOffset>(0, 0, 0)</drawPosSouthOffset>
+                    <drawPosWestOffset>(0, 0, -0.1)</drawPosWestOffset>
+                    <drawPosEastOffset>(0, 0, -0.1)</drawPosEastOffset>
+                </apparelDrawSettings>
+                <isUnifiedApparel>true</isUnifiedApparel>
+				<hideHead>false</hideHead>
+            </li>
+            <li Class="CombatExtended.PartialArmorExt" MayRequire="ceteam.combatextended">
+                <stats>		  				  
+                    <li>
+                        <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+                        <parts>
+                            <li>Hand</li>
+                        </parts>
+                    </li>
+                    <li>
+                        <ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+                        <parts>
+                            <li>Hand</li>
+                        </parts>
+                    </li>
+                </stats>
+            </li>
+	    </modExtensions>
+    </ThingDef>
+	
+	<ThingDef ParentName="GW_ScatteredSons_ArmorBase">
+		<defName>GW_SM_ChapterMasterArmor</defName>
+		<label>chapter master power armor</label>
+        <description>. . .</description>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_ChapterMaster/GuillimanW_torso_south</texPath>
+		</graphicData>
+		<recipeMaker>
+            <researchPrerequisite>GW_SM_ChapterMaster</researchPrerequisite>
+        </recipeMaker>
+        <statBases>
+			<WorkToMake>25000</WorkToMake>
+			<MaxHitPoints>800</MaxHitPoints>
+			<Mass>11</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>1.30</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.90</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.0</ArmorRating_Heat>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>20</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.2</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>10</ComponentSpacer>
+			<Plasteel>350</Plasteel>
+			<Steel>400</Steel>
+			<Uranium>50</Uranium>
+			<HP_Ceramite>50</HP_Ceramite>
+		</costList>
+		<apparel>
+            <wornGraphicPath>Things/Apparel/Armor_ChapterMaster/GuillimanW_torso</wornGraphicPath>
+			<tags>
+                <li>GW_ChapterMaster</li>
+			</tags>
+		</apparel>
+		<comps>
+            <li Class="GW4KArmor.CompProperties_TriColorMask">
+                <maskCount>4</maskCount>
+                <palettePresets>GW_SM_TorsoChapterPalettes</palettePresets>
+                <defaultPalette>
+                    <colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
+        </comps>
+    </ThingDef>
+	
+	<ThingDef ParentName="GW_ScatteredSons_ArmorBase">
+		<defName>GW_SM_GuillimanArmor</defName>
+		<label>guilliman power armor</label>
+        <description>. . .</description>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Guilliman/GuillimanC_torso_Male_south</texPath>
+		</graphicData>
+		<recipeMaker>
+            <researchPrerequisite>GW_SM_Guilliman</researchPrerequisite>
+        </recipeMaker>
+        <statBases>
+			<WorkToMake>25000</WorkToMake>
+			<MaxHitPoints>800</MaxHitPoints>
+			<Mass>11</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>1.30</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.90</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.0</ArmorRating_Heat>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>20</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.2</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>10</ComponentSpacer>
+			<Plasteel>350</Plasteel>
+			<Steel>400</Steel>
+			<Uranium>50</Uranium>
+			<HP_Ceramite>50</HP_Ceramite>
+		</costList>
+		<apparel>
+            <wornGraphicPath>Things/Apparel/Armor_Guilliman/GuillimanC_torso</wornGraphicPath>
+			<tags>
+                <li>GW_Guilliman</li>
+			</tags>
+		</apparel>
+		<comps Inherit="False" />
+    </ThingDef>
+
+
+</Defs>

@@ -1,0 +1,150 @@
+<Defs>
+	
+	<ThingDef Abstract="true" Name="GW_ScatteredSonsHelmetBase" ParentName="ArmorHelmetMakeableBase">
+		<techLevel>Spacer</techLevel>
+		<description>Space Marine helmets in Warhammer 40,000 are a crucial component of their power armor, providing protection, advanced sensory systems, and a distinct appearance that embodies the iconic look of these elite warriors.\n\nKey aspects and functionalities of Space Marine helmets include:\n\nProtection: Helmets are heavily armored, offering significant protection to the Space Marine's head, which is crucial in the midst of intense battles where they face various threats.\n\nSensory Augmentation: Space Marine helmets are equipped with sophisticated sensor arrays, enhancing the wearer's situational awareness. These systems include auto-senses, targeting reticules, infrared and night vision, motion sensors, and other advanced features that provide vital information about the battlefield.\n\nCommunications: Helmets incorporate communication systems that allow Space Marines to communicate with their squadmates, command structure, and vehicles. This enables coordinated tactics and battlefield awareness within the unit.\n\nAesthetic Variation: The appearance of Space Marine helmets can differ based on the specific chapter, unit type, or rank within the Space Marine hierarchy. Each chapter typically has its distinct helmet design, featuring chapter-specific iconography, crests, or markings that represent their unique heraldry and traditions.\n\nSpecialized Roles: Some specialized Space Marine units, such as Chaplains, Librarians, or Sergeants, may have unique helmets that reflect their roles within the chapter, showcasing their specialization or rank.\n\nSpace Marine helmets play a critical role not only in protecting the wearer but also in enhancing their combat capabilities through advanced sensory systems and communication technology. The distinct appearance of these helmets contributes to the iconic and intimidating presence of the Adeptus Astartes on the battlefield.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1.6</drawSize>
+		</graphicData>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>15</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>GW_SM_ScatteredSons_ArmorBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<uiIconScale>1.6</uiIconScale>
+        <tradeTags>
+            <li>HPHelmet</li>
+        </tradeTags>
+		<apparel>
+			<tags>
+				<li>Spacer</li>
+				<li>EVA</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<layers>
+				<li>EyeCover</li>
+				<li MayRequire="ceteam.combatextended">StrappedHead</li>
+				<li MayRequire="ceteam.combatextended">OnHead</li>
+				<li>Overhead</li> <!--Needs to be last for the tool to properly label this a helmet-->
+			</layers>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>		
+		<modExtensions>
+			<li Class="VFECore.ApparelDrawPosExtension">
+				<headgearDrawSettings>
+					<drawPosNorthOffset>(0, 0.1, 0)</drawPosNorthOffset>
+					<drawPosSouthOffset>(0, 0.001, 0)</drawPosSouthOffset>
+					<drawPosWestOffset>(0, 0, 0)</drawPosWestOffset>
+					<drawPosEastOffset>(0, 0, 0)</drawPosEastOffset>
+				</headgearDrawSettings>
+                <isUnifiedApparel>true</isUnifiedApparel>
+			</li>
+		</modExtensions>
+    </ThingDef>
+	
+	<ThingDef ParentName="GW_ScatteredSonsHelmetBase">
+		<defName>GW_SM_ChapterMasterHelmet</defName>
+		<label>chapter master helmet</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_ChapterMaster/Helmet/GuillimanW_helmet_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_ChapterMaster/Helmet/GuillimanW_helmet_south</uiIconPath>
+		<apparel>
+			<tags>
+				<li>GW_ChapterMaster</li>
+			</tags>
+			<wornGraphicPath>Things/Apparel/Armor_ChapterMaster/Helmet/GuillimanW_helmet</wornGraphicPath>
+		</apparel>		
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+			<AimingDelayFactor>-0.2</AimingDelayFactor>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>80</Plasteel>
+			<Steel>40</Steel>
+			<Uranium>15</Uranium>
+			<HP_Ceramite>10</HP_Ceramite>
+		</costList>
+		<statBases>
+			<WorkToMake>20000</WorkToMake>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Mass>2</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>1.30</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.90</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.0</ArmorRating_Heat>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>20</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>GW_SM_ChapterMaster</researchPrerequisite>
+		</recipeMaker>
+		<comps>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+				<maskCount>1</maskCount>
+				<palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
+				<defaultPalette>
+					<colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+				</defaultPalette>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="GW_ScatteredSonsHelmetBase">
+		<defName>GW_SM_GuillimanHelmet</defName>
+		<label>guilliman helmet</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Guilliman/Helmet/GuillimanC_helmet</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Guilliman/Helmet/GuillimanC_helmet</uiIconPath>
+		<apparel>
+			<tags>
+				<li>GW_Guilliman</li>
+			</tags>
+			<wornGraphicPath>Things/Apparel/Armor_Guilliman/Helmet/GuillimanC_helmet</wornGraphicPath>
+		</apparel>		
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+			<AimingDelayFactor>-0.2</AimingDelayFactor>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>80</Plasteel>
+			<Steel>40</Steel>
+			<Uranium>15</Uranium>
+			<HP_Ceramite>10</HP_Ceramite>
+		</costList>
+		<statBases>
+			<WorkToMake>20000</WorkToMake>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Mass>2</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>1.30</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.90</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.0</ArmorRating_Heat>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>20</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>GW_SM_Guilliman</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+</Defs>

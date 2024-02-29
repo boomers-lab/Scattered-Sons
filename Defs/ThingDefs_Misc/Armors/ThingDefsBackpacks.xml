@@ -1,0 +1,159 @@
+<Defs>
+
+	<ApparelLayerDef> <!--It's the same as CEs so they will act interchangably-->
+		<defName>Backpack</defName>
+		<label>backpack</label>
+		<drawOrder>220</drawOrder>
+	</ApparelLayerDef>
+	
+	<ThingDef Abstract="true" Name="GW_SM_ScatteredSonsBackpackBase" ParentName="ArmorMachineableBase">
+        <techLevel>Spacer</techLevel>
+		<description>In the Warhammer 40,000 universe, Space Marine backpacks, also known as "power packs" or "jump packs" in certain configurations, are critical components of a Space Marine's armor. These backpacks serve various functions and are essential for the mobility, life support, and combat capabilities of the Adeptus Astartes.\n\nKey features and functionalities of Space Marine backpacks include:\n\nPower Supply: The backpacks serve as power packs, providing energy to the Space Marine's armor systems, including the various servos, sensors, and energy weapons incorporated into their armor.\n\nLife Support Systems: They contain life support equipment, providing the Space Marine with a self-contained environment for survival in hostile environments, including the vacuum of space or toxic atmospheres.\n\nMobility and Jump Packs: Some Space Marine units, such as Assault Marines or Vanguard Veterans, are equipped with jump packs. These specialized backpacks allow for rapid aerial maneuverability, enabling the Marines to make high-speed, short-range flights or perform devastating aerial assaults on the enemy.\n\nCommunications and Sensor Arrays: Backpacks often contain communication devices and advanced sensor arrays, enhancing the Space Marine's situational awareness and facilitating communication with their squadmates and command structure.\n\nAesthetic Variation: Space Marine backpacks may vary in design and appearance based on the particular chapter, unit type, or role of the Space Marine. Different chapters may have distinct iconography or modifications on their backpacks to reflect their chapter's heraldry or specialized equipment.\n\nThese backpacks are a vital part of a Space Marine's equipment, providing them with the necessary power, survival capabilities, and sometimes specialized mobility options crucial for their missions and combat effectiveness within the grim and dangerous battles of the 41st millennium.</description>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>15</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="false">
+				<li>GW_SM_ScatteredSons_ArmorBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<uiIconScale>1.6</uiIconScale>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+        <tradeTags>
+            <li>GWSMBackpacks</li>
+        </tradeTags>
+		<apparel>
+			<tags>
+				<li>Spacer</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Backpack</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>		
+	    <modExtensions>
+			<li Class="VFECore.ApparelDrawPosExtension">
+				<apparelDrawSettings>
+                    <drawPosNorthOffset>(0, 0.4, 0)</drawPosNorthOffset>
+                    <drawPosSouthOffset>(0, -0.1, 0)</drawPosSouthOffset>
+                    <drawPosWestOffset>(0, 0.15, -0.1)</drawPosWestOffset>
+                    <drawPosEastOffset>(0, 0.15, -0.1)</drawPosEastOffset>
+                </apparelDrawSettings>
+                <isUnifiedApparel>true</isUnifiedApparel>
+				<hideHead>false</hideHead>
+            </li>
+        </modExtensions>
+    </ThingDef>
+	
+	<!-- chapter master -->
+	<ThingDef ParentName="GW_SM_ScatteredSonsBackpackBase">
+        <defName>GW_SM_ChapterMasterBackpack</defName>
+		<label>chapter master backpack</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_ChapterMaster/GuillimanW_backpack_south</texPath>
+		</graphicData>
+		<recipeMaker>
+            <researchPrerequisite>GW_SM_ChapterMaster</researchPrerequisite>
+        </recipeMaker>
+        <statBases>
+			<WorkToMake>2500</WorkToMake>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Mass>2</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.5</ArmorRating_Heat>
+			<Insulation_Cold>10</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>0.8</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>3</ComponentSpacer>
+			<Plasteel>50</Plasteel>
+			<Steel>70</Steel>
+			<Uranium>10</Uranium>
+			<HP_Ceramite>5</HP_Ceramite>
+		</costList>
+		<apparel>
+            <wornGraphicPath>Things/Apparel/Armor_ChapterMaster/GuillimanW_backpack</wornGraphicPath>
+			<tags>
+                <li>GW_ChapterMaster</li>
+			</tags>
+		</apparel>
+		<comps>
+            <li Class="GW4KArmor.CompProperties_TriColorMask">
+                <maskCount>2</maskCount>
+                <palettePresets>GW_SM_BackpackChapterPalettes</palettePresets>
+                <defaultPalette>
+                    <colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
+        </comps>
+    </ThingDef>
+	
+	<!-- guilliman -->
+	<ThingDef ParentName="GW_SM_ScatteredSonsBackpackBase">
+        <defName>GW_SM_GuillimanBackpack</defName>
+		<label>guilliman backpack</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Guilliman/GuillimanC_backpack</texPath>
+		</graphicData>
+		<recipeMaker>
+            <researchPrerequisite>GW_SM_ChapterMaster</researchPrerequisite>
+        </recipeMaker>
+        <statBases>
+			<WorkToMake>2500</WorkToMake>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Mass>2</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.5</ArmorRating_Heat>
+			<Insulation_Cold>10</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>0.8</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>3</ComponentSpacer>
+			<Plasteel>50</Plasteel>
+			<Steel>70</Steel>
+			<Uranium>10</Uranium>
+			<HP_Ceramite>5</HP_Ceramite>
+		</costList>
+		<apparel>
+            <wornGraphicPath>Things/Apparel/Armor_Guilliman/GuillimanC_backpack</wornGraphicPath>
+			<tags>
+                <li>GW_Guilliman</li>
+			</tags>
+		</apparel>
+		<comps Inherit="False" />
+    </ThingDef>
+	
+	
+
+</Defs>
