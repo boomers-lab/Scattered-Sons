@@ -91,7 +91,7 @@
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<recipeMaker>
-			<researchPrerequisite>GW_SM_ChapterMaster</researchPrerequisite>
+			<researchPrerequisite>GW_SM_Guilliman</researchPrerequisite>
 		</recipeMaker>
 		<comps>
 			<li Class="GW4KArmor.CompProperties_TriColorMask">

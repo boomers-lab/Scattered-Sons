@@ -58,7 +58,7 @@
 			<texPath>Things/Apparel/Armor_ChapterMaster/GuillimanW_backpack_south</texPath>
 		</graphicData>
 		<recipeMaker>
-            <researchPrerequisite>GW_SM_ChapterMaster</researchPrerequisite>
+            <researchPrerequisite>GW_SM_Guilliman</researchPrerequisite>
         </recipeMaker>
         <statBases>
 			<WorkToMake>2500</WorkToMake>
@@ -121,7 +121,7 @@
 			<texPath>Things/Apparel/Armor_Guilliman/GuillimanC_backpack</texPath>
 		</graphicData>
 		<recipeMaker>
-            <researchPrerequisite>GW_SM_ChapterMaster</researchPrerequisite>
+            <researchPrerequisite>GW_SM_Guilliman</researchPrerequisite>
         </recipeMaker>
         <statBases>
 			<WorkToMake>2500</WorkToMake>
