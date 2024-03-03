@@ -11,7 +11,7 @@
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
-				<Crafting>15</Crafting>
+				<Crafting>20</Crafting>
 			</skillRequirements>
 			<recipeUsers Inherit="False">
 				<li>GW_SM_ScatteredSons_ArmorBench</li>
