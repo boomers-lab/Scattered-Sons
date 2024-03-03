@@ -92,15 +92,6 @@
             <researchPrerequisite>GW_SM_ChapterMaster</researchPrerequisite>
         </recipeMaker>
         <statBases>
-<<<<<<< Updated upstream
-			<WorkToMake>25000</WorkToMake>
-			<MaxHitPoints>800</MaxHitPoints>
-			<Mass>11</Mass>
-			<Flammability>0.2</Flammability>
-			<ArmorRating_Sharp>1.30</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.90</ArmorRating_Blunt>
-			<ArmorRating_Heat>1.0</ArmorRating_Heat>
-=======
 			<WorkToMake>150000</WorkToMake>
 			<MaxHitPoints>2500</MaxHitPoints>
 			<Mass>11</Mass>
@@ -108,7 +99,6 @@
 			<ArmorRating_Sharp>4.00</ArmorRating_Sharp>
 			<ArmorRating_Blunt>3.50</ArmorRating_Blunt>
 			<ArmorRating_Heat>3.50</ArmorRating_Heat>
->>>>>>> Stashed changes
 			<Insulation_Cold>20</Insulation_Cold>
 			<Insulation_Heat>20</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
@@ -125,13 +115,13 @@
 			<HP_Auramite>100</HP_Auramite>
 		</costList>
 		<apparel>
-            <wornGraphicPath>Things/Apparel/Armor_ChapterMaster/GuillimanW_torso</wornGraphicPath>
-			<tags>
-                <li>GW_ChapterMaster</li>
-			</tags>
+			<wornGraphicPath>Things/Apparel/Armor_ChapterMaster/GuillimanW_torso</wornGraphicPath>
+		<tags>
+                	<li>GW_ChapterMaster</li>
+		</tags>
 		</apparel>
 		<comps>
-            <li Class="GW4KArmor.CompProperties_TriColorMask">
+            	<li Class="GW4KArmor.CompProperties_TriColorMask">
                 <maskCount>4</maskCount>
                 <palettePresets>GW_SM_TorsoChapterPalettes</palettePresets>
                 <defaultPalette>
@@ -139,7 +129,7 @@
 					<colorB>(250, 176, 67)</colorB>
 					<colorC>(180, 65, 74)</colorC>
                 </defaultPalette>
-            </li>
+           	 </li>
 		<li Class="GW40kHediffAura.CompProperties_ApparelGiveHediff">
 			<hediffDef>GW40k_SS_InspiringAura</hediffDef>
 		</li>
@@ -149,7 +139,7 @@
 	<ThingDef ParentName="GW_ScatteredSons_ArmorBase">
 		<defName>GW_SM_GuillimanArmor</defName>
 		<label>guilliman power armor</label>
-        <description>. . .</description>
+        	<description>. . .</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Guilliman/GuillimanC_torso_Male_south</texPath>
 		</graphicData>
@@ -157,15 +147,6 @@
             <researchPrerequisite>GW_SM_Guilliman</researchPrerequisite>
         </recipeMaker>
         <statBases>
-<<<<<<< Updated upstream
-			<WorkToMake>25000</WorkToMake>
-			<MaxHitPoints>800</MaxHitPoints>
-			<Mass>11</Mass>
-			<Flammability>0.2</Flammability>
-			<ArmorRating_Sharp>1.30</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.90</ArmorRating_Blunt>
-			<ArmorRating_Heat>1.0</ArmorRating_Heat>
-=======
 			<WorkToMake>150000</WorkToMake>
 			<MaxHitPoints>2500</MaxHitPoints>
 			<Mass>11</Mass>
@@ -173,7 +154,6 @@
 			<ArmorRating_Sharp>4.00</ArmorRating_Sharp>
 			<ArmorRating_Blunt>3.50</ArmorRating_Blunt>
 			<ArmorRating_Heat>3.50</ArmorRating_Heat>
->>>>>>> Stashed changes
 			<Insulation_Cold>20</Insulation_Cold>
 			<Insulation_Heat>20</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
@@ -190,10 +170,10 @@
 			<HP_Auramite>100</HP_Auramite>
 		</costList>
 		<apparel>
-            <wornGraphicPath>Things/Apparel/Armor_Guilliman/GuillimanC_torso</wornGraphicPath>
-			<tags>
-                <li>GW_Guilliman</li>
-			</tags>
+            	<wornGraphicPath>Things/Apparel/Armor_Guilliman/GuillimanC_torso</wornGraphicPath>
+		<tags>
+			<li>GW_Guilliman</li>
+		</tags>
 		</apparel>
 		<comps>
 		<li Class="GW40kHediffAura.CompProperties_ApparelGiveHediff">
