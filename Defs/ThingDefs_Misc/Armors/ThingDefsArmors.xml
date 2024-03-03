@@ -6,7 +6,7 @@
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
-				<Crafting>20</Crafting>
+				<Crafting>15</Crafting>
 			</skillRequirements>
 			<recipeUsers Inherit="false">
 				<li>GW_SM_ScatteredSons_ArmorBench</li>
@@ -89,19 +89,19 @@
 			<texPath>Things/Apparel/Armor_ChapterMaster/GuillimanW_torso_south</texPath>
 		</graphicData>
 		<recipeMaker>
-            <researchPrerequisite>GW_SM_Guilliman</researchPrerequisite>
+            <researchPrerequisite>GW_SM_ChapterMaster</researchPrerequisite>
         </recipeMaker>
         <statBases>
-			<WorkToMake>50000</WorkToMake>
-			<MaxHitPoints>2500</MaxHitPoints>
+			<WorkToMake>25000</WorkToMake>
+			<MaxHitPoints>800</MaxHitPoints>
 			<Mass>11</Mass>
-			<Flammability>0.0</Flammability>
-			<ArmorRating_Sharp>3.50</ArmorRating_Sharp>
-			<ArmorRating_Blunt>3.00</ArmorRating_Blunt>
-			<ArmorRating_Heat>3.0</ArmorRating_Heat>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>1.30</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.90</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.0</ArmorRating_Heat>
 			<Insulation_Cold>20</Insulation_Cold>
 			<Insulation_Heat>20</Insulation_Heat>
-			<EquipDelay>10</EquipDelay>
+			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.2</MoveSpeed>
@@ -129,8 +129,11 @@
 					<colorC>(180, 65, 74)</colorC>
                 </defaultPalette>
             </li>
+			<li Class="GW40kHediffAura.CompProperties_ApparelGiveHediff">
+                <hediffDef>GW40k_SS_InspiringAura</hediffDef>
+            </li>
         </comps>
-    </ThingDef>
+    </ThingDef>		
 	
 	<ThingDef ParentName="GW_ScatteredSons_ArmorBase">
 		<defName>GW_SM_GuillimanArmor</defName>
@@ -143,16 +146,16 @@
             <researchPrerequisite>GW_SM_Guilliman</researchPrerequisite>
         </recipeMaker>
         <statBases>
-			<WorkToMake>50000</WorkToMake>
-			<MaxHitPoints>2500</MaxHitPoints>
+			<WorkToMake>25000</WorkToMake>
+			<MaxHitPoints>800</MaxHitPoints>
 			<Mass>11</Mass>
-			<Flammability>0.0</Flammability>
-			<ArmorRating_Sharp>3.50</ArmorRating_Sharp>
-			<ArmorRating_Blunt>3.00</ArmorRating_Blunt>
-			<ArmorRating_Heat>3.0</ArmorRating_Heat>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>1.30</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.90</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.0</ArmorRating_Heat>
 			<Insulation_Cold>20</Insulation_Cold>
 			<Insulation_Heat>20</Insulation_Heat>
-			<EquipDelay>10</EquipDelay>
+			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.2</MoveSpeed>
@@ -170,6 +173,11 @@
                 <li>GW_Guilliman</li>
 			</tags>
 		</apparel>
+		<comps>
+			<li Class="GW40kHediffAura.CompProperties_ApparelGiveHediff">
+                <hediffDef>GW40k_SS_InspiringAura</hediffDef>
+            </li>
+		</comps>
     </ThingDef>
 
 
