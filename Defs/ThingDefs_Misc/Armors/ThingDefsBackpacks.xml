@@ -55,7 +55,7 @@
         <defName>GW_SM_ChapterMasterBackpack</defName>
 		<label>chapter master backpack</label>
 		<graphicData>
-			<texPath>Things/Apparel/Armor_ChapterMaster/GuillimanW_backpack_south</texPath>
+			<texPath>Things/Apparel/Armor_ChapterMaster/GuillimanW_backpack</texPath>
 		</graphicData>
 		<recipeMaker>
             <researchPrerequisite>GW_SM_Guilliman</researchPrerequisite>

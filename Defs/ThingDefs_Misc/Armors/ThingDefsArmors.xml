@@ -86,7 +86,7 @@
 		<label>chapter master power armor</label>
         <description>. . .</description>
 		<graphicData>
-			<texPath>Things/Apparel/Armor_ChapterMaster/GuillimanW_torso_south</texPath>
+			<texPath>Things/Apparel/Armor_ChapterMaster/GuillimanW_torso</texPath>
 		</graphicData>
 		<recipeMaker>
             <researchPrerequisite>GW_SM_Guilliman</researchPrerequisite>
@@ -141,7 +141,7 @@
 		<label>guilliman power armor</label>
         	<description>. . .</description>
 		<graphicData>
-			<texPath>Things/Apparel/Armor_Guilliman/GuillimanC_torso_Male_south</texPath>
+			<texPath>Things/Apparel/Armor_Guilliman/GuillimanC_torso</texPath>
 		</graphicData>
 		<recipeMaker>
             <researchPrerequisite>GW_SM_Guilliman</researchPrerequisite>

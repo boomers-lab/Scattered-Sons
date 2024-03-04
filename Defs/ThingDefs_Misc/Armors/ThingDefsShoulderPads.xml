@@ -132,7 +132,7 @@
 		<defName>GW_SM_GuillimanShoulderPads</defName>
 		<label>guilliman shoulder pads</label>
 		<graphicData>
-			<texPath>Things/Apparel/Armor_Guilliman/Shoulderpads/GuillimanC_shoulders_Male_south</texPath>
+			<texPath>Things/Apparel/Armor_Guilliman/Shoulderpads/GuillimanC_shoulders</texPath>
 		</graphicData>
 		<recipeMaker>
             <researchPrerequisite>GW_SM_Guilliman</researchPrerequisite>

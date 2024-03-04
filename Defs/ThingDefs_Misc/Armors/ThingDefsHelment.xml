@@ -58,9 +58,9 @@
 		<defName>GW_SM_ChapterMasterHelmet</defName>
 		<label>chapter master helmet</label>
 		<graphicData>
-			<texPath>Things/Apparel/Armor_ChapterMaster/Helmet/GuillimanW_helmet_south</texPath>
+			<texPath>Things/Apparel/Armor_ChapterMaster/Helmet/GuillimanW_helmet</texPath>
 		</graphicData>
-		<uiIconPath>Things/Apparel/Armor_ChapterMaster/Helmet/GuillimanW_helmet_south</uiIconPath>
+		<uiIconPath>Things/Apparel/Armor_ChapterMaster/Helmet/GuillimanW_helmet</uiIconPath>
 		<apparel>
 			<tags>
 				<li>GW_ChapterMaster</li>
@@ -95,7 +95,7 @@
 		</recipeMaker>
 		<comps>
 			<li Class="GW4KArmor.CompProperties_TriColorMask">
-				<maskCount>1</maskCount>
+				<maskCount>2</maskCount>
 				<palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
 				<defaultPalette>
 					<colorA>(250, 176, 67)</colorA>
