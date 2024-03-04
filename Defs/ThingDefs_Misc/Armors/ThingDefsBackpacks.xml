@@ -154,10 +154,10 @@
 		<modExtensions>
 			<li Class="VFECore.ApparelDrawPosExtension">
 				<apparelDrawSettings>
-                    <drawPosNorthOffset>(0, 0.4, 0.12)</drawPosNorthOffset>
-                    <drawPosSouthOffset>(0, -0.1, 0.12)</drawPosSouthOffset>
-                    <drawPosWestOffset>(0, 0.15, 0.12)</drawPosWestOffset>
-                    <drawPosEastOffset>(0, 0.15, 0.12)</drawPosEastOffset>
+                    <drawPosNorthOffset>(0, 0.4, 0.23)</drawPosNorthOffset>
+                    <drawPosSouthOffset>(0, -0.1, 0.23)</drawPosSouthOffset>
+                    <drawPosWestOffset>(0, 0.15, 0.23)</drawPosWestOffset>
+                    <drawPosEastOffset>(0, 0.15, 0.23)</drawPosEastOffset>
                 </apparelDrawSettings>
                 <isUnifiedApparel>true</isUnifiedApparel>
 				<hideHead>false</hideHead>
