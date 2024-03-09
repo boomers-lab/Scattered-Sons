@@ -8,7 +8,6 @@
 	
 	<ThingDef Abstract="true" Name="GW_SM_ScatteredSonsBackpackBase" ParentName="ArmorMachineableBase">
         <techLevel>Spacer</techLevel>
-		<description>In the Warhammer 40,000 universe, Space Marine backpacks, also known as "power packs" or "jump packs" in certain configurations, are critical components of a Space Marine's armor. These backpacks serve various functions and are essential for the mobility, life support, and combat capabilities of the Adeptus Astartes.\n\nKey features and functionalities of Space Marine backpacks include:\n\nPower Supply: The backpacks serve as power packs, providing energy to the Space Marine's armor systems, including the various servos, sensors, and energy weapons incorporated into their armor.\n\nLife Support Systems: They contain life support equipment, providing the Space Marine with a self-contained environment for survival in hostile environments, including the vacuum of space or toxic atmospheres.\n\nMobility and Jump Packs: Some Space Marine units, such as Assault Marines or Vanguard Veterans, are equipped with jump packs. These specialized backpacks allow for rapid aerial maneuverability, enabling the Marines to make high-speed, short-range flights or perform devastating aerial assaults on the enemy.\n\nCommunications and Sensor Arrays: Backpacks often contain communication devices and advanced sensor arrays, enhancing the Space Marine's situational awareness and facilitating communication with their squadmates and command structure.\n\nAesthetic Variation: Space Marine backpacks may vary in design and appearance based on the particular chapter, unit type, or role of the Space Marine. Different chapters may have distinct iconography or modifications on their backpacks to reflect their chapter's heraldry or specialized equipment.\n\nThese backpacks are a vital part of a Space Marine's equipment, providing them with the necessary power, survival capabilities, and sometimes specialized mobility options crucial for their missions and combat effectiveness within the grim and dangerous battles of the 41st millennium.</description>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
@@ -53,7 +52,8 @@
 	<!-- chapter master -->
 	<ThingDef ParentName="GW_SM_ScatteredSonsBackpackBase">
         <defName>GW_SM_ChapterMasterBackpack</defName>
-		<label>chapter master backpack</label>
+		<label>Imperial Regent backpack</label>
+		<description>The Imperial Regent backpack in the Warhammer 40,000 universe is a highly sophisticated piece of equipment, tailored for elite soldiers within the Imperium. Designed for maximum efficiency, it serves as a power source and support system for the Imperial Regent Power Armor.\n\nCrafted with a blend of advanced alloys and arcane technology, the backpack houses a compact yet powerful energy generator. This generator fuels the energy field of the power armor, providing an additional layer of protection to the wearer. The design is streamlined, minimizing bulk while maximizing energy output.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_ChapterMaster/GuillimanW_backpack</texPath>
 		</graphicData>
@@ -62,15 +62,15 @@
         </recipeMaker>
         <statBases>
 			<WorkToMake>2500</WorkToMake>
-			<MaxHitPoints>500</MaxHitPoints>
+			<MaxHitPoints>2000</MaxHitPoints>
 			<Mass>2</Mass>
-			<Flammability>0.2</Flammability>
-			<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.45</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.5</ArmorRating_Heat>
+			<Flammability>0.0</Flammability>
+			<ArmorRating_Sharp>4.00</ArmorRating_Sharp>
+			<ArmorRating_Blunt>3.50</ArmorRating_Blunt>
+			<ArmorRating_Heat>3.50</ArmorRating_Heat>
 			<Insulation_Cold>10</Insulation_Cold>
 			<Insulation_Heat>10</Insulation_Heat>
-			<EquipDelay>2</EquipDelay>
+			<EquipDelay>5</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>0.8</MoveSpeed>
@@ -116,7 +116,8 @@
 	<!-- guilliman -->
 	<ThingDef ParentName="GW_SM_ScatteredSonsBackpackBase">
         <defName>GW_SM_GuillimanBackpack</defName>
-		<label>guilliman backpack</label>
+		<label>Armor of Fate backpack</label>
+		<description>The backpack accompanying Guilliman's Armor of Fate in Warhammer 40,000 is a marvel of technological ingenuity and arcane craftsmanship. Designed exclusively for the Primarch Roboute Guilliman, this backpack serves as a vital component in the overall functionality of the armor.\n\nConstructed with a combination of rare materials and advanced mechanisms, the backpack houses a potent energy generator that fuels the intricate systems of Guilliman's power armor. This generator is finely tuned to provide sustained power for the armor's energy field and various auxiliary functions.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Guilliman/GuillimanC_backpack</texPath>
 		</graphicData>

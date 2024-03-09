@@ -14,7 +14,6 @@
 	
 	<ThingDef Abstract="true" Name="GW_SS_ShoulderBase" ParentName="ArmorMachineableBase">
         <techLevel>Spacer</techLevel>
-		<description>Shoulderpads are an integral part of the iconic appearance of Space Marine power armor in the Warhammer 40,000 universe. These components serve both practical and symbolic purposes:\n\nProtection: Shoulderpads in Space Marine power armor are heavily armored, providing protection to the upper body. They shield the Space Marine's shoulders from enemy fire, shrapnel, or melee attacks, adding an extra layer of defense to this crucial area.\n\nChapter Heraldry and Identification: The size, shape, and ornamentation of the shoulder pads often carry the iconography and heraldry of the Space Marine's chapter. These markings denote the specific chapter to which the Marine belongs and sometimes their rank or squad designation. Each chapter has its unique symbols and colors, allowing for easy identification on the battlefield.\n\nPersonalization and Decorations: Space Marine shoulder pads may also display additional decorations, honors, or adornments earned in battle. Decorations such as purity seals, campaign badges, or additional symbols might adorn the shoulder pads, signifying the Marine's history and accomplishments.\n\nAesthetic and Intimidation: The large and imposing size of the shoulder pads contributes to the Space Marines' imposing appearance. The exaggerated size serves not only to protect but also to intimidate adversaries, reinforcing the formidable presence of the Adeptus Astartes in combat.\n\nShoulderpads are a prominent and recognizable feature of Space Marine power armor, combining practical functionality with a display of chapter identity, personalization, and the honor and history of the individual warrior within the grim darkness of the 41st millennium.</description>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
@@ -50,7 +49,10 @@
 			<defaultOutfitTags>
 				<li>Soldier</li>
 			</defaultOutfitTags>
-		</apparel>		
+		</apparel>	
+		<equippedStatOffsets>
+			<SocialImpact>2.00</SocialImpact>
+		</equippedStatOffsets>		
 	    <modExtensions>
             <li Class="CombatExtended.PartialArmorExt" MayRequire="ceteam.combatextended">
                 <stats>		  				  
@@ -83,7 +85,8 @@
 	
 	<ThingDef ParentName="GW_SS_ShoulderBase">
 		<defName>GW_SM_ChapterMasterShoulderPads</defName>
-		<label>chapter master shoulder pads</label>
+		<label>Imperial Regent shoulder pads</label>
+		<description>The Imperial Regent Shoulderpads in Warhammer 40,000 are iconic components of the power armor worn by elite soldiers in the service of the Imperium. Crafted with a combination of durable materials and intricate design, these shoulderpads serve both functional and symbolic purposes on the battlefield.\n\nThe left shoulderpad often bears the chapter's symbol, while the right may display personal or campaign-specific markings.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_ChapterMaster/Shoulderpads/GuillimanW_shoulders</texPath>
 		</graphicData>
@@ -115,6 +118,9 @@
 				<li>GW_ChapterMaster</li>
 			</tags>
 		</apparel>
+		<equippedStatOffsets>
+			<SocialImpact>2.00</SocialImpact>
+		</equippedStatOffsets>
 		<comps>
 			<li Class="GW4KArmor.CompProperties_TriColorMask">
 				<maskCount>2</maskCount>
@@ -130,7 +136,8 @@
 	
 	<ThingDef ParentName="GW_SS_ShoulderBase">
 		<defName>GW_SM_GuillimanShoulderPads</defName>
-		<label>guilliman shoulder pads</label>
+		<label>Armor of Fate shoulder pads</label>
+		<description>The shoulderpads accompanying Guilliman's Armor of Fate in Warhammer 40,000 are masterfully crafted components, both ornate and functional. Specifically designed for the Primarch Roboute Guilliman, these shoulderpads serve as a symbol of his status and the might of the Ultramarines.\n\nThe left shoulderpad often bears the chapter's symbol, while the right may display personal or campaign-specific markings.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Guilliman/Shoulderpads/GuillimanC_shoulders</texPath>
 		</graphicData>
@@ -142,9 +149,9 @@
 			<MaxHitPoints>1900</MaxHitPoints>
 			<Mass>3</Mass>
 			<Flammability>0.0</Flammability>
-			<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.45</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.5</ArmorRating_Heat>
+			<ArmorRating_Sharp>4.00</ArmorRating_Sharp>
+			<ArmorRating_Blunt>3.50</ArmorRating_Blunt>
+			<ArmorRating_Heat>3.50</ArmorRating_Heat>
 			<Insulation_Cold>10</Insulation_Cold>
 			<Insulation_Heat>10</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>

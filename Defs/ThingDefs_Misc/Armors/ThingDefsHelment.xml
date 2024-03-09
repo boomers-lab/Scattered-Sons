@@ -2,7 +2,6 @@
 	
 	<ThingDef Abstract="true" Name="GW_ScatteredSonsHelmetBase" ParentName="ArmorHelmetMakeableBase">
 		<techLevel>Spacer</techLevel>
-		<description>Space Marine helmets in Warhammer 40,000 are a crucial component of their power armor, providing protection, advanced sensory systems, and a distinct appearance that embodies the iconic look of these elite warriors.\n\nKey aspects and functionalities of Space Marine helmets include:\n\nProtection: Helmets are heavily armored, offering significant protection to the Space Marine's head, which is crucial in the midst of intense battles where they face various threats.\n\nSensory Augmentation: Space Marine helmets are equipped with sophisticated sensor arrays, enhancing the wearer's situational awareness. These systems include auto-senses, targeting reticules, infrared and night vision, motion sensors, and other advanced features that provide vital information about the battlefield.\n\nCommunications: Helmets incorporate communication systems that allow Space Marines to communicate with their squadmates, command structure, and vehicles. This enables coordinated tactics and battlefield awareness within the unit.\n\nAesthetic Variation: The appearance of Space Marine helmets can differ based on the specific chapter, unit type, or rank within the Space Marine hierarchy. Each chapter typically has its distinct helmet design, featuring chapter-specific iconography, crests, or markings that represent their unique heraldry and traditions.\n\nSpecialized Roles: Some specialized Space Marine units, such as Chaplains, Librarians, or Sergeants, may have unique helmets that reflect their roles within the chapter, showcasing their specialization or rank.\n\nSpace Marine helmets play a critical role not only in protecting the wearer but also in enhancing their combat capabilities through advanced sensory systems and communication technology. The distinct appearance of these helmets contributes to the iconic and intimidating presence of the Adeptus Astartes on the battlefield.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
@@ -56,7 +55,8 @@
 	
 	<ThingDef ParentName="GW_ScatteredSonsHelmetBase">
 		<defName>GW_SM_ChapterMasterHelmet</defName>
-		<label>chapter master helmet</label>
+		<label>Imperial Regent helmet</label>
+		<description>The helm of the Imperial Regent armor is adorned with intricate carvings and sculpted details, resembling a fearsome visage. The helmet incorporates a heads-up display (HUD) for tactical information and a reinforced faceplate for added protection.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_ChapterMaster/Helmet/GuillimanW_helmet</texPath>
 		</graphicData>
@@ -70,6 +70,7 @@
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
 			<AimingDelayFactor>-0.2</AimingDelayFactor>
+			<SocialImpact>1.00</SocialImpact>
 		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>1</ComponentSpacer>
@@ -83,9 +84,9 @@
 			<MaxHitPoints>500</MaxHitPoints>
 			<Mass>2</Mass>
 			<Flammability>0.2</Flammability>
-			<ArmorRating_Sharp>1.30</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.90</ArmorRating_Blunt>
-			<ArmorRating_Heat>1.0</ArmorRating_Heat>
+			<ArmorRating_Sharp>4.00</ArmorRating_Sharp>
+			<ArmorRating_Blunt>3.50</ArmorRating_Blunt>
+			<ArmorRating_Heat>3.50</ArmorRating_Heat>
 			<Insulation_Cold>20</Insulation_Cold>
 			<Insulation_Heat>20</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
@@ -108,7 +109,8 @@
 	
 	<ThingDef ParentName="GW_ScatteredSonsHelmetBase">
 		<defName>GW_SM_GuillimanHelmet</defName>
-		<label>guilliman helmet</label>
+		<label>Armor of Fate helmet</label>
+		<description>The helm of the Armor of Fate is adorned with intricate carvings and sculpted details, resembling a fearsome visage. The helmet incorporates a heads-up display (HUD) for tactical information and a reinforced faceplate for added protection.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Guilliman/Helmet/GuillimanC_helmet</texPath>			
 		</graphicData>
@@ -122,6 +124,7 @@
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
 			<AimingDelayFactor>-0.2</AimingDelayFactor>
+			<SocialImpact>1.00</SocialImpact>
 		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>1</ComponentSpacer>

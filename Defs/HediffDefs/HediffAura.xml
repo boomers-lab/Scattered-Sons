@@ -4,7 +4,7 @@
 		<defName>GW40k_SS_InspiringAura</defName>
 		<hediffClass>HediffWithComps</hediffClass>
 		<label>inspiring presence</label>
-		<description>. . .</description>
+		<description>Your mythic aura makes the colonists around you fight better. For the glory of the Emperor!</description>
 		<initialSeverity>1</initialSeverity>
 		<maxSeverity>1</maxSeverity>
 		<isBad>false</isBad>
@@ -32,7 +32,7 @@
 	<HediffDef>
 		<defName>GW40k_SS_InspiringAura_Reciever</defName>
 		<label>inspiring effect</label>
-		<description>. . .</description>
+		<description>The presence of a powerful being makes you fight better. But you get tired much faster.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<defaultLabelColor>(85, 196, 109)</defaultLabelColor>
 		<initialSeverity>1</initialSeverity>
@@ -48,6 +48,8 @@
 			<statFactors>
 				<MoveSpeed>1.3</MoveSpeed>
 				<ShootingAccuracyPawn>1.3</ShootingAccuracyPawn>
+				<RestFallRateFactor>1.2</RestFallRateFactor>
+				<MeleeWeapon_CooldownMultiplier>1.3</MeleeWeapon_CooldownMultiplier>
 			</statFactors>
 			</li>
 		</stages>

@@ -1,6 +1,4 @@
 <Defs>
-	
-	
 	<ThingDef Abstract="true" Name="GW_ScatteredSons_ArmorBase" ParentName="ArmorMachineableBase">
         <techLevel>Spacer</techLevel>
 		<recipeMaker>
@@ -83,8 +81,8 @@
 	
 	<ThingDef ParentName="GW_ScatteredSons_ArmorBase">
 		<defName>GW_SM_ChapterMasterArmor</defName>
-		<label>chapter master power armor</label>
-        <description>. . .</description>
+		<label>Imperial Regent armor</label>
+        <description>The Imperial Regent power armor from Warhammer 40,000 is an advanced exoskeleton designed for elite soldiers in the service of the Imperium. It features a sleek and imposing design, with reinforced plating providing exceptional durability.\n\nThe armor is equipped with a streamlined helmet featuring an advanced heads-up display (HUD) for tactical information and targeting assistance. It also includes a versatile power pack for extended operational endurance. The Imperial Regent Power Armor is crafted with attention to detail, combining functionality with a commanding aesthetic to instill fear in the enemies of the Imperium.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_ChapterMaster/GuillimanW_torso</texPath>
 		</graphicData>
@@ -93,15 +91,15 @@
         </recipeMaker>
         <statBases>
 			<WorkToMake>150000</WorkToMake>
-			<MaxHitPoints>2500</MaxHitPoints>
+			<MaxHitPoints>4000</MaxHitPoints>
 			<Mass>11</Mass>
 			<Flammability>0.0</Flammability>
 			<ArmorRating_Sharp>4.00</ArmorRating_Sharp>
 			<ArmorRating_Blunt>3.50</ArmorRating_Blunt>
 			<ArmorRating_Heat>3.50</ArmorRating_Heat>
-			<Insulation_Cold>20</Insulation_Cold>
-			<Insulation_Heat>20</Insulation_Heat>
-			<EquipDelay>2</EquipDelay>
+			<Insulation_Cold>30</Insulation_Cold>
+			<Insulation_Heat>30</Insulation_Heat>
+			<EquipDelay>15</EquipDelay>
 		</statBases>
 		<costList>
 			<ComponentSpacer>40</ComponentSpacer>
@@ -117,7 +115,7 @@
 		<apparel>
 			<wornGraphicPath>Things/Apparel/Armor_ChapterMaster/GuillimanW_torso</wornGraphicPath>
 		<tags>
-                	<li>GW_ChapterMaster</li>
+            <li>GW_ChapterMaster</li>
 		</tags>
 		</apparel>
 		<comps>
@@ -138,8 +136,8 @@
 	
 	<ThingDef ParentName="GW_ScatteredSons_ArmorBase">
 		<defName>GW_SM_GuillimanArmor</defName>
-		<label>guilliman power armor</label>
-        	<description>. . .</description>
+		<label>Armor of Fate</label>
+        	<description>The Guilliman's Armor of Fate in the Warhammer 40,000 universe is an extraordinary piece of technology designed for the Primarch Roboute Guilliman. This power armor is a masterful fusion of advanced materials and arcane technology, providing unparalleled protection and versatility on the battlefield.\n\nThis power armor is a symbol of both martial prowess and strategic genius, befitting the Primarch of the Ultramarines. The Guilliman's Armor of Fate serves as a testament to the Imperium's technological prowess and the indomitable spirit of its greatest leaders.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Guilliman/GuillimanC_torso</texPath>
 		</graphicData>
