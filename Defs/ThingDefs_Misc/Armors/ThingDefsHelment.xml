@@ -73,8 +73,8 @@
 			<SocialImpact>1.00</SocialImpact>
 		</equippedStatOffsets>
 		<costList>
-			<ComponentSpacer>20</ComponentSpacer>
-			<ComponentIndustrial>45</ComponentIndustrial>
+			<ComponentSpacer>10</ComponentSpacer>
+			<ComponentIndustrial>25</ComponentIndustrial>
 			<GW_ComponentRelic>1</GW_ComponentRelic>
 			<Plasteel>400</Plasteel>
 			<Steel>600</Steel>
