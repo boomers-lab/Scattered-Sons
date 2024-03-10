@@ -29,12 +29,12 @@
 			<drawSize>1</drawSize>
 		</graphicData>
 		<uiIconScale>1.6</uiIconScale>
+		<equippedStatOffsets>
+			<Beauty>50</Beauty>
+		</equippedStatOffsets>
 		<thingCategories>
 			<li>GW_ArmorShoulderPad</li>
 		</thingCategories>
-        <tradeTags>
-            <li>HPArmor</li>
-        </tradeTags>
 		<apparel>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
@@ -49,10 +49,7 @@
 			<defaultOutfitTags>
 				<li>Soldier</li>
 			</defaultOutfitTags>
-		</apparel>	
-		<equippedStatOffsets>
-			<SocialImpact>2.00</SocialImpact>
-		</equippedStatOffsets>		
+		</apparel>			
 	    <modExtensions>
             <li Class="CombatExtended.PartialArmorExt" MayRequire="ceteam.combatextended">
                 <stats>		  				  
@@ -94,9 +91,9 @@
             <researchPrerequisite>GW_SM_Guilliman</researchPrerequisite>
         </recipeMaker>
 		<statBases>
-			<WorkToMake>20000</WorkToMake>
+			<WorkToMake>70000</WorkToMake>
 			<MaxHitPoints>1900</MaxHitPoints>
-			<Mass>3</Mass>
+			<Mass>4</Mass>
 			<Flammability>0.0</Flammability>
 			<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.45</ArmorRating_Blunt>
@@ -105,12 +102,19 @@
 			<Insulation_Heat>10</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
+		<equippedStatOffsets>
+			<SocialImpact>2.00</SocialImpact>
+		</equippedStatOffsets>
 		<costList>
-			<ComponentSpacer>3</ComponentSpacer>
-			<Plasteel>150</Plasteel>
-			<Steel>130</Steel>
-			<Uranium>75</Uranium>
-			<HP_Ceramite>25</HP_Ceramite>
+			<ComponentSpacer>25</ComponentSpacer>
+			<ComponentIndustrial>37</ComponentIndustrial>
+			<GW_ComponentRelic>3</GW_ComponentRelic>
+			<Plasteel>450</Plasteel>
+			<Steel>750</Steel>
+			<Uranium>190</Uranium>
+			<HP_Ceramite>310</HP_Ceramite>
+			<HP_Adamantium>220</HP_Adamantium>
+			<HP_Auramite>80</HP_Auramite>
 		</costList>
 		<apparel>
 			<wornGraphicPath>Things/Apparel/Armor_ChapterMaster/Shoulderpads/GuillimanW_shoulders</wornGraphicPath>
@@ -118,9 +122,6 @@
 				<li>GW_ChapterMaster</li>
 			</tags>
 		</apparel>
-		<equippedStatOffsets>
-			<SocialImpact>2.00</SocialImpact>
-		</equippedStatOffsets>
 		<comps>
 			<li Class="GW4KArmor.CompProperties_TriColorMask">
 				<maskCount>2</maskCount>
@@ -145,9 +146,9 @@
             <researchPrerequisite>GW_SM_Guilliman</researchPrerequisite>
         </recipeMaker>
 		<statBases>
-			<WorkToMake>20000</WorkToMake>
+			<WorkToMake>70000</WorkToMake>
 			<MaxHitPoints>1900</MaxHitPoints>
-			<Mass>3</Mass>
+			<Mass>4</Mass>
 			<Flammability>0.0</Flammability>
 			<ArmorRating_Sharp>4.00</ArmorRating_Sharp>
 			<ArmorRating_Blunt>3.50</ArmorRating_Blunt>
@@ -156,12 +157,19 @@
 			<Insulation_Heat>10</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
+		<equippedStatOffsets>
+			<SocialImpact>2.00</SocialImpact>
+		</equippedStatOffsets>
 		<costList>
-			<ComponentSpacer>3</ComponentSpacer>
-			<Plasteel>150</Plasteel>
-			<Steel>130</Steel>
-			<Uranium>75</Uranium>
-			<HP_Ceramite>25</HP_Ceramite>
+			<ComponentSpacer>25</ComponentSpacer>
+			<ComponentIndustrial>37</ComponentIndustrial>
+			<GW_ComponentRelic>3</GW_ComponentRelic>
+			<Plasteel>450</Plasteel>
+			<Steel>750</Steel>
+			<Uranium>190</Uranium>
+			<HP_Ceramite>310</HP_Ceramite>
+			<HP_Adamantium>220</HP_Adamantium>
+			<HP_Auramite>80</HP_Auramite>
 		</costList>
 		<apparel>
 			<wornGraphicPath>Things/Apparel/Armor_Guilliman/Shoulderpads/GuillimanC_shoulders</wornGraphicPath>

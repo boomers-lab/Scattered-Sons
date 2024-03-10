@@ -17,9 +17,9 @@
 			</recipeUsers>
 		</recipeMaker>
 		<uiIconScale>1.6</uiIconScale>
-        <tradeTags>
-            <li>HPHelmet</li>
-        </tradeTags>
+		<equippedStatOffsets>
+			<Beauty>50</Beauty>
+		</equippedStatOffsets>
 		<apparel>
 			<tags>
 				<li>Spacer</li>
@@ -69,26 +69,30 @@
 		</apparel>		
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
-			<AimingDelayFactor>-0.2</AimingDelayFactor>
+			<AimingDelayFactor>-0.3</AimingDelayFactor>
 			<SocialImpact>1.00</SocialImpact>
 		</equippedStatOffsets>
 		<costList>
-			<ComponentSpacer>1</ComponentSpacer>
-			<Plasteel>80</Plasteel>
-			<Steel>40</Steel>
-			<Uranium>15</Uranium>
-			<HP_Ceramite>10</HP_Ceramite>
+			<ComponentSpacer>20</ComponentSpacer>
+			<ComponentIndustrial>45</ComponentIndustrial>
+			<GW_ComponentRelic>1</GW_ComponentRelic>
+			<Plasteel>400</Plasteel>
+			<Steel>600</Steel>
+			<Uranium>100</Uranium>
+			<HP_Ceramite>300</HP_Ceramite>
+			<HP_Adamantium>240</HP_Adamantium>
+			<HP_Auramite>110</HP_Auramite>
 		</costList>
 		<statBases>
-			<WorkToMake>20000</WorkToMake>
-			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToMake>60000</WorkToMake>
+			<MaxHitPoints>2500</MaxHitPoints>
 			<Mass>2</Mass>
-			<Flammability>0.2</Flammability>
-			<ArmorRating_Sharp>4.00</ArmorRating_Sharp>
-			<ArmorRating_Blunt>3.50</ArmorRating_Blunt>
-			<ArmorRating_Heat>3.50</ArmorRating_Heat>
-			<Insulation_Cold>20</Insulation_Cold>
-			<Insulation_Heat>20</Insulation_Heat>
+			<Flammability>0.0</Flammability>
+			<ArmorRating_Sharp>3.00</ArmorRating_Sharp>
+			<ArmorRating_Blunt>2.50</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.70</ArmorRating_Heat>
+			<Insulation_Cold>10</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<recipeMaker>
@@ -123,26 +127,30 @@
 		</apparel>		
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
-			<AimingDelayFactor>-0.2</AimingDelayFactor>
+			<AimingDelayFactor>-0.3</AimingDelayFactor>
 			<SocialImpact>1.00</SocialImpact>
 		</equippedStatOffsets>
 		<costList>
-			<ComponentSpacer>1</ComponentSpacer>
-			<Plasteel>80</Plasteel>
-			<Steel>40</Steel>
-			<Uranium>15</Uranium>
-			<HP_Ceramite>10</HP_Ceramite>
+			<ComponentSpacer>20</ComponentSpacer>
+			<ComponentIndustrial>45</ComponentIndustrial>
+			<GW_ComponentRelic>1</GW_ComponentRelic>
+			<Plasteel>400</Plasteel>
+			<Steel>600</Steel>
+			<Uranium>100</Uranium>
+			<HP_Ceramite>300</HP_Ceramite>
+			<HP_Adamantium>240</HP_Adamantium>
+			<HP_Auramite>110</HP_Auramite>
 		</costList>
 		<statBases>
-			<WorkToMake>20000</WorkToMake>
-			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToMake>60000</WorkToMake>
+			<MaxHitPoints>2500</MaxHitPoints>
 			<Mass>2</Mass>
-			<Flammability>0.2</Flammability>
-			<ArmorRating_Sharp>1.30</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.90</ArmorRating_Blunt>
-			<ArmorRating_Heat>1.0</ArmorRating_Heat>
-			<Insulation_Cold>20</Insulation_Cold>
-			<Insulation_Heat>20</Insulation_Heat>
+			<Flammability>0.0</Flammability>
+			<ArmorRating_Sharp>3.00</ArmorRating_Sharp>
+			<ArmorRating_Blunt>2.50</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.70</ArmorRating_Heat>
+			<Insulation_Cold>10</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<recipeMaker>

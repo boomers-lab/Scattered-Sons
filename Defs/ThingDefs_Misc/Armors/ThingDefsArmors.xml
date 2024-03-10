@@ -4,7 +4,7 @@
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
-				<Crafting>15</Crafting>
+				<Crafting>20</Crafting>
 			</skillRequirements>
 			<recipeUsers Inherit="false">
 				<li>GW_SM_ScatteredSons_ArmorBench</li>
@@ -19,9 +19,6 @@
 			<li>ApparelArmor</li>
 		</thingCategories>
 		<uiIconScale>1</uiIconScale>
-        <tradeTags>
-            <li>HPArmor</li>
-        </tradeTags>
 		<equippedStatOffsets>
 			<Beauty>50</Beauty>
 		</equippedStatOffsets>
