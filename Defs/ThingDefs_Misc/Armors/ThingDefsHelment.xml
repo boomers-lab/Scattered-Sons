@@ -158,7 +158,7 @@
 		</recipeMaker>
 	</ThingDef>
 	
-	<!-- Imperail Warden Hood -->
+	<!-- Imperial Warden Hood -->
 	<ThingDef ParentName="GW_ScatteredSonsHelmetBase">
 		<defName>GW_SM_ImperialWardenHood</defName>
 		<label>Imperial Warden helmet(Hood)</label>
@@ -174,8 +174,6 @@
 			<wornGraphicPath>Things/Apparel/ImperialWardenr/Head_Hood/LionW_hood</wornGraphicPath>
 		</apparel>		
 		<equippedStatOffsets>
-			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
-			<AimingDelayFactor>-0.3</AimingDelayFactor>
 			<SocialImpact>1.00</SocialImpact>
 		</equippedStatOffsets>
 		<costList>
@@ -361,8 +359,6 @@
 			<wornGraphicPath>Things/Apparel/LionArmor/Helmet/LionC_hood</wornGraphicPath>
 		</apparel>		
 		<equippedStatOffsets>
-			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
-			<AimingDelayFactor>-0.3</AimingDelayFactor>
 			<SocialImpact>1.00</SocialImpact>
 		</equippedStatOffsets>
 		<costList>
