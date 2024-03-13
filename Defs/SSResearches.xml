@@ -11,10 +11,34 @@
         <baseCost>5000</baseCost>
 		<prerequisites>
 			<li>AdvancedFabrication</li>
-			<li>GW_SM_AstartesHeavy</li>
+			<li MayRequire="happypurging.ageofdarkness">GW_SM_AstartesHeavy</li>
 		</prerequisites>
 		<researchViewX>11.00</researchViewX>
 		<researchViewY>2.30</researchViewY>
+		<modExtensions>
+            <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
+                <StudyLocation>GW_Cogitator</StudyLocation>
+                <ItemStudyRequirements>
+                    <li Class="GW_Frame.StudyRequirement">
+                        <StudyObject>GW_STC_Fragment</StudyObject>
+                        <NumberRequired>5</NumberRequired>
+                    </li>    
+                </ItemStudyRequirements>
+            </li>
+        </modExtensions>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="GW_SM_SSTechBase">
+		<defName>GW_SM_LionArmor</defName>
+		<label>Lion Armor</label>
+		<description>. . .</description>
+        <baseCost>5000</baseCost>
+		<prerequisites>
+			<li>AdvancedFabrication</li>
+			<li MayRequire="happypurging.ageofdarkness">GW_SM_AstartesHeavy</li>
+		</prerequisites>
+		<researchViewX>11.00</researchViewX>
+		<researchViewY>3.30</researchViewY>
 		<modExtensions>
             <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
                 <StudyLocation>GW_Cogitator</StudyLocation>
