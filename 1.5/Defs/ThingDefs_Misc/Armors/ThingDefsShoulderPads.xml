@@ -38,7 +38,7 @@
 		<apparel>
 			<drawData>
 				<defaultData>
-					<offset>(0.0, 0.3, 0.0)</offset>
+					<layer>75</layer> <!--70-77 is over helmet and under gun-->
 				</defaultData>
                 <!--<scale>1.5</scale> Uncomment these to increase size while equipped
                 <childScale>1.5</childScale>-->
