@@ -183,7 +183,6 @@
 			<li Class="BM_ApparelSet.CompProperties_ApparelSet">
 				<apparelSetEffect>
 					<allApparels>
-						<li>GW_SM_GuillimanArmor</li>
 						<li>GW_SM_GuillimanBackpack</li>
 						<li>GW_SM_GuillimanHelmet</li>
 						<li>GW_SM_GuillimanShoulderPads</li>
