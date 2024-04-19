@@ -180,9 +180,15 @@
 		</tags>
 		</apparel>
 		<comps>
-		<li Class="GW40kHediffAura.CompProperties_ApparelGiveHediff">
-			<hediffDef>GW40k_SS_InspiringAura</hediffDef>
-		</li>
+			<li Class="BM_ApparelSet.CompProperties_ApparelSet">
+				<allApparels>
+					<li>GW_SM_GuillimanArmor</li>
+					<li>GW_SM_GuillimanBackpack</li>
+					<li>GW_SM_GuillimanHelmet</li>
+					<li>GW_SM_GuillimanShoulderPads</li>
+				</allApparels>
+				<hediff>GW40k_SS_InspiringAura</hediff>
+			</li>
 		</comps>
     </ThingDef>
 	
