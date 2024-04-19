@@ -181,13 +181,15 @@
 		</apparel>
 		<comps>
 			<li Class="BM_ApparelSet.CompProperties_ApparelSet">
-				<allApparels>
-					<li>GW_SM_GuillimanArmor</li>
-					<li>GW_SM_GuillimanBackpack</li>
-					<li>GW_SM_GuillimanHelmet</li>
-					<li>GW_SM_GuillimanShoulderPads</li>
-				</allApparels>
-				<hediff>GW40k_SS_InspiringAura</hediff>
+				<apparelSetEffect>
+					<allApparels>
+						<li>GW_SM_GuillimanArmor</li>
+						<li>GW_SM_GuillimanBackpack</li>
+						<li>GW_SM_GuillimanHelmet</li>
+						<li>GW_SM_GuillimanShoulderPads</li>
+					</allApparels>
+					<hediff>GW40k_SS_InspiringAura</hediff>
+				</apparelSetEffect>
 			</li>
 		</comps>
     </ThingDef>
