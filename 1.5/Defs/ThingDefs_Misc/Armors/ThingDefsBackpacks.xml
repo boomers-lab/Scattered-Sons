@@ -153,6 +153,7 @@
 		<equippedStatOffsets>
 			<MoveSpeed>0.8</MoveSpeed>
 		</equippedStatOffsets>
+		<tickerType>Normal</tickerType> 
 		<costList>
 			<ComponentSpacer>20</ComponentSpacer>
 			<ComponentIndustrial>25</ComponentIndustrial>

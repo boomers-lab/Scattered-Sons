@@ -129,6 +129,7 @@
 			<AimingDelayFactor>-0.3</AimingDelayFactor>
 			<SocialImpact>1.00</SocialImpact>
 		</equippedStatOffsets>
+		<tickerType>Normal</tickerType> 
 		<costList>
 			<ComponentSpacer>20</ComponentSpacer>
 			<ComponentIndustrial>45</ComponentIndustrial>

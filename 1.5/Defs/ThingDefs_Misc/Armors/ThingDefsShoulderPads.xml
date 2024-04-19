@@ -158,6 +158,7 @@
 			<Insulation_Heat>10</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
+		<tickerType>Normal</tickerType> 
 		<equippedStatOffsets>
 			<SocialImpact>2.00</SocialImpact>
 		</equippedStatOffsets>
