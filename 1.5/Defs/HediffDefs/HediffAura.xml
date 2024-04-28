@@ -56,8 +56,8 @@
 	
 	<HediffDef>
 		<defName>GW40k_SS_BattleFrenzy_Melee</defName>
-		<label>battle frenzy(melee)</label>
-		<description>. . .</description>
+		<label>battle frenzy (melee)</label>
+		<description>The "Battle Frenzy" passive ability embodies the relentless and escalating ferocity of a lion in the Warhammer 40,000 universe as the battle rages on. Initially dormant, this ability awakens as the lion becomes increasingly immersed in the heat of combat, tapping into its primal instincts and unleashing its full potential.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<!-- <defaultLabelColor>(0.9, 1.0, 0.35)</defaultLabelColor> -->
 		<initialSeverity>1</initialSeverity>
@@ -228,7 +228,7 @@
 	
 	<HediffDef>
 		<defName>GW40k_SS_BattleFrenzy_Ranged</defName>
-		<label>battle frenzy(ranged)</label>
+		<label>battle frenzy (ranged)</label>
 		<description>. . .</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<!-- <defaultLabelColor>(0.9, 1.0, 0.35)</defaultLabelColor> -->
