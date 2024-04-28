@@ -107,6 +107,7 @@
 			<Insulation_Heat>30</Insulation_Heat>
 			<EquipDelay>15</EquipDelay>
 		</statBases>
+		<tickerType>Normal</tickerType> 
 		<costList>
 			<ComponentSpacer>40</ComponentSpacer>
 			<ComponentIndustrial>70</ComponentIndustrial>
@@ -276,6 +277,7 @@
 			<Insulation_Heat>20</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
+		<tickerType>Normal</tickerType> 
 		<costList>
 			<ComponentSpacer>40</ComponentSpacer>
 			<ComponentIndustrial>70</ComponentIndustrial>
