@@ -2,7 +2,7 @@
 	
 	
 	<ThingDef Abstract="true" Name="GW_ScatteredSons_ArmorBase" ParentName="ArmorMachineableBase">
-        <techLevel>Spacer</techLevel>
+		<techLevel>Spacer</techLevel>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
@@ -29,15 +29,15 @@
 				<dataNorth>
 					<offset>(0.0, 0.2, 0.0)</offset>
 				</dataNorth>
-                <dataWest>
-                    <offset>(0.0, 0.0, -0.1)</offset>
-                </dataWest>
-                <dataEast>
-                    <offset>(0.0, 0.0, -0.1)</offset>
-                </dataEast>
-                <!--<scale>1.5</scale> Uncomment these to increase size while equipped
+				<dataWest>
+					<offset>(0.0, 0.0, -0.1)</offset>
+				</dataWest>
+				<dataEast>
+					<offset>(0.0, 0.0, -0.1)</offset>
+				</dataEast>
+				<!--<scale>1.5</scale> Uncomment these to increase size while equipped
                 <childScale>1.5</childScale>-->
-            </drawData>
+			</drawData>
 			<tags>
 				<li>Spacer</li>
 				<li>EVA</li>
@@ -60,42 +60,42 @@
 			<defaultOutfitTags>
 				<li>Soldier</li>
 			</defaultOutfitTags>
-		</apparel>		
-	    <modExtensions>
+		</apparel>
+		<modExtensions>
 			<li Class="VFECore.ApparelDrawPosExtension">
-                <isUnifiedApparel>true</isUnifiedApparel>
+				<isUnifiedApparel>true</isUnifiedApparel>
 				<hideHead>false</hideHead>
-            </li>
-            <li Class="CombatExtended.PartialArmorExt" MayRequire="ceteam.combatextended">
-                <stats>		  				  
-                    <li>
-                        <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
-                        <parts>
-                            <li>Hand</li>
-                        </parts>
-                    </li>
-                    <li>
-                        <ArmorRating_Blunt>0.8</ArmorRating_Blunt>
-                        <parts>
-                            <li>Hand</li>
-                        </parts>
-                    </li>
-                </stats>
-            </li>
-	    </modExtensions>
-    </ThingDef>
+			</li>
+			<li Class="CombatExtended.PartialArmorExt" MayRequire="ceteam.combatextended">
+				<stats>
+					<li>
+						<ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+						<parts>
+							<li>Hand</li>
+						</parts>
+					</li>
+					<li>
+						<ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+						<parts>
+							<li>Hand</li>
+						</parts>
+					</li>
+				</stats>
+			</li>
+		</modExtensions>
+	</ThingDef>
 	
 	<ThingDef ParentName="GW_ScatteredSons_ArmorBase">
 		<defName>GW_SM_ChapterMasterArmor</defName>
 		<label>Imperial Regent armor</label>
-        <description>The Imperial Regent power armor from Warhammer 40,000 is an advanced exoskeleton designed for elite soldiers in the service of the Imperium. It features a sleek and imposing design, with reinforced plating providing exceptional durability.\n\nThe armor is equipped with a streamlined helmet featuring an advanced heads-up display (HUD) for tactical information and targeting assistance. It also includes a versatile power pack for extended operational endurance. The Imperial Regent Power Armor is crafted with attention to detail, combining functionality with a commanding aesthetic to instill fear in the enemies of the Imperium.</description>
+		<description>The Imperial Regent power armor from Warhammer 40,000 is an advanced exoskeleton designed for elite soldiers in the service of the Imperium. It features a sleek and imposing design, with reinforced plating providing exceptional durability.\n\nThe armor is equipped with a streamlined helmet featuring an advanced heads-up display (HUD) for tactical information and targeting assistance. It also includes a versatile power pack for extended operational endurance. The Imperial Regent Power Armor is crafted with attention to detail, combining functionality with a commanding aesthetic to instill fear in the enemies of the Imperium.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_ChapterMaster/GuillimanW_torso</texPath>
 		</graphicData>
 		<recipeMaker>
-            <researchPrerequisite>GW_SM_Guilliman</researchPrerequisite>
-        </recipeMaker>
-        <statBases>
+			<researchPrerequisite>GW_SM_Guilliman</researchPrerequisite>
+		</recipeMaker>
+		<statBases>
 			<WorkToMake>150000</WorkToMake>
 			<MaxHitPoints>4000</MaxHitPoints>
 			<Mass>11</Mass>
@@ -120,37 +120,44 @@
 		</costList>
 		<apparel>
 			<wornGraphicPath>Things/Apparel/Armor_ChapterMaster/GuillimanW_torso</wornGraphicPath>
-		<tags>
-            <li>GW_ChapterMaster</li>
-		</tags>
+			<tags>
+				<li>GW_ChapterMaster</li>
+			</tags>
 		</apparel>
 		<comps>
-            	<li Class="GW4KArmor.CompProperties_TriColorMask">
-                <maskCount>4</maskCount>
-                <palettePresets>GW_SM_TorsoChapterPalettes</palettePresets>
-                <defaultPalette>
-                    <colorA>(250, 176, 67)</colorA>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+				<maskCount>4</maskCount>
+				<palettePresets>GW_SM_TorsoChapterPalettes</palettePresets>
+				<defaultPalette>
+					<colorA>(250, 176, 67)</colorA>
 					<colorB>(250, 176, 67)</colorB>
 					<colorC>(180, 65, 74)</colorC>
-                </defaultPalette>
-           	 </li>
-		<li Class="GW40kHediffAura.CompProperties_ApparelGiveHediff">
-			<hediffDef>GW40k_SS_InspiringAura</hediffDef>
-		</li>
-        </comps>
-    </ThingDef>		
+				</defaultPalette>
+			</li>
+			<li Class="BM_ApparelSet.CompProperties_ApparelSet">
+				<apparelSetEffect>
+					<allApparels>
+						<li>GW_SM_ChapterMasterBackpack</li>
+						<li>GW_SM_ChapterMasterHelmet</li>
+						<li>GW_SM_ChapterMasterShoulderPads</li>
+					</allApparels>
+					<hediff>GW40k_SS_BattleFrenzy_Ranged</hediff>
+				</apparelSetEffect>
+			</li>
+		</comps>
+	</ThingDef>
 	
 	<ThingDef ParentName="GW_ScatteredSons_ArmorBase">
 		<defName>GW_SM_GuillimanArmor</defName>
 		<label>Armor of Fate</label>
-        	<description>The Guilliman's Armor of Fate in the Warhammer 40,000 universe is an extraordinary piece of technology designed for the Primarch Roboute Guilliman. This power armor is a masterful fusion of advanced materials and arcane technology, providing unparalleled protection and versatility on the battlefield.\n\nThis power armor is a symbol of both martial prowess and strategic genius, befitting the Primarch of the Ultramarines. The Guilliman's Armor of Fate serves as a testament to the Imperium's technological prowess and the indomitable spirit of its greatest leaders.</description>
+		<description>The Guilliman's Armor of Fate in the Warhammer 40,000 universe is an extraordinary piece of technology designed for the Primarch Roboute Guilliman. This power armor is a masterful fusion of advanced materials and arcane technology, providing unparalleled protection and versatility on the battlefield.\n\nThis power armor is a symbol of both martial prowess and strategic genius, befitting the Primarch of the Ultramarines. The Guilliman's Armor of Fate serves as a testament to the Imperium's technological prowess and the indomitable spirit of its greatest leaders.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Guilliman/GuillimanC_torso</texPath>
 		</graphicData>
 		<recipeMaker>
-            <researchPrerequisite>GW_SM_Guilliman</researchPrerequisite>
-        </recipeMaker>
-        <statBases>
+			<researchPrerequisite>GW_SM_Guilliman</researchPrerequisite>
+		</recipeMaker>
+		<statBases>
 			<WorkToMake>150000</WorkToMake>
 			<MaxHitPoints>2500</MaxHitPoints>
 			<Mass>11</Mass>
@@ -175,10 +182,10 @@
 			<HP_Auramite>100</HP_Auramite>
 		</costList>
 		<apparel>
-            	<wornGraphicPath>Things/Apparel/Armor_Guilliman/GuillimanC_torso</wornGraphicPath>
-		<tags>
-			<li>GW_Guilliman</li>
-		</tags>
+			<wornGraphicPath>Things/Apparel/Armor_Guilliman/GuillimanC_torso</wornGraphicPath>
+			<tags>
+				<li>GW_Guilliman</li>
+			</tags>
 		</apparel>
 		<comps>
 			<li Class="BM_ApparelSet.CompProperties_ApparelSet">
@@ -189,22 +196,23 @@
 						<li>GW_SM_GuillimanShoulderPads</li>
 					</allApparels>
 					<hediff>GW40k_SS_InspiringAura</hediff>
+					<!-- <hediff>GW40k_SS_BattleFrenzy_Ranged</hediff> -->
 				</apparelSetEffect>
 			</li>
 		</comps>
-    </ThingDef>
+	</ThingDef>
 	
 	<ThingDef ParentName="GW_ScatteredSons_ArmorBase">
 		<defName>GW_SM_ImperialWardenrArmor</defName>
 		<label>imperial warden power armor</label>
-        <description>. . .</description>
+		<description>. . .</description>
 		<graphicData>
 			<texPath>Things/Apparel/ImperialWardenr/Display/LionW_torso</texPath>
 		</graphicData>
 		<recipeMaker>
-            <researchPrerequisite>GW_SM_LionArmor</researchPrerequisite>
-        </recipeMaker>
-        <statBases>
+			<researchPrerequisite>GW_SM_LionArmor</researchPrerequisite>
+		</recipeMaker>
+		<statBases>
 			<WorkToMake>150000</WorkToMake>
 			<MaxHitPoints>2500</MaxHitPoints>
 			<Mass>11</Mass>
@@ -229,34 +237,34 @@
 		</costList>
 		<apparel>
 			<wornGraphicPath>Things/Apparel/ImperialWardenr/LionW_torso</wornGraphicPath>
-		<tags>
+			<tags>
 				<li>GW_ImperialWardenr</li>
-		</tags>
+			</tags>
 		</apparel>
 		<comps>
-            	<li Class="GW4KArmor.CompProperties_TriColorMask">
-                <maskCount>4</maskCount>
-                <palettePresets>GW_SM_TorsoChapterPalettes</palettePresets>
-                <defaultPalette>
-                    <colorA>(250, 176, 67)</colorA>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+				<maskCount>4</maskCount>
+				<palettePresets>GW_SM_TorsoChapterPalettes</palettePresets>
+				<defaultPalette>
+					<colorA>(250, 176, 67)</colorA>
 					<colorB>(250, 176, 67)</colorB>
 					<colorC>(180, 65, 74)</colorC>
-                </defaultPalette>
-           	 </li>
-        </comps>
-    </ThingDef>
+				</defaultPalette>
+			</li>
+		</comps>
+	</ThingDef>
 	
 	<ThingDef ParentName="GW_ScatteredSons_ArmorBase">
 		<defName>GW_SM_LionArmor</defName>
 		<label>Lion power armor</label>
-        	<description>. . .</description>
+		<description>. . .</description>
 		<graphicData>
 			<texPath>Things/Apparel/LionArmor/LionC_torso</texPath>
 		</graphicData>
 		<recipeMaker>
-            <researchPrerequisite>GW_SM_LionArmor</researchPrerequisite>
-        </recipeMaker>
-        <statBases>
+			<researchPrerequisite>GW_SM_LionArmor</researchPrerequisite>
+		</recipeMaker>
+		<statBases>
 			<WorkToMake>150000</WorkToMake>
 			<MaxHitPoints>2500</MaxHitPoints>
 			<Mass>11</Mass>
@@ -280,14 +288,24 @@
 			<HP_Auramite>100</HP_Auramite>
 		</costList>
 		<apparel>
-            	<wornGraphicPath>Things/Apparel/LionArmor/LionC_torso</wornGraphicPath>
-		<tags>
-			<li>GW_LionArmor</li>
-		</tags>
+			<wornGraphicPath>Things/Apparel/LionArmor/LionC_torso</wornGraphicPath>
+			<tags>
+				<li>GW_LionArmor</li>
+			</tags>
 		</apparel>
 		<comps>
+			<li Class="BM_ApparelSet.CompProperties_ApparelSet">
+				<apparelSetEffect>
+					<allApparels>
+						<li>GW_SM_LionArmorBackpack</li>
+						<li>GW_SM_LionArmorHelmet</li>
+						<li>GW_SM_LionArmorShoulderPads</li>
+					</allApparels>
+					<hediff>GW40k_SS_BattleFrenzy_Melee</hediff>
+				</apparelSetEffect>
+			</li>
 		</comps>
-    </ThingDef>
+	</ThingDef>
 
 
 </Defs>
