@@ -88,6 +88,7 @@
 				<minSeverity>0.1</minSeverity>
 				<statOffsets>
 					<MeleeDamageFactor>1.25</MeleeDamageFactor>
+					<RestFallRateFactor>1.2</RestFallRateFactor>
 				</statOffsets>
 				<hediffGivers>
 					<li Class="HediffGiver_AddSeverity">
