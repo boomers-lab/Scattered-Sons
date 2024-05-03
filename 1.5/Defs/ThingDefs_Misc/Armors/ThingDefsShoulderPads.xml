@@ -43,7 +43,7 @@
                 <!--<scale>1.5</scale> Uncomment these to increase size while equipped
                 <childScale>1.5</childScale>-->
             </drawData>
-			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<countsAsClothingForNudity>true</countsAsClothingForNudity>
 			<bodyPartGroups>
 				<li>Neck</li>
 				<li>Shoulders</li>
@@ -55,6 +55,7 @@
 			</layers>
 			<defaultOutfitTags>
 				<li>Soldier</li>
+				<li>PrestigeCombatGear</li>
 			</defaultOutfitTags>
 		</apparel>			
 	    <modExtensions>
