@@ -317,6 +317,26 @@
 					<hediff>GW40k_SS_BattleFrenzy_Melee</hediff>
 				</apparelSetEffect>
 			</li>
+			<li Class="BM_ApparelSet.CompProperties_ApparelSet">
+				<apparelSetEffect>
+					<allApparels>
+						<li>GW_SM_LionArmorBackpack</li>
+						<li>GW_SM_LionArmorHood</li>
+						<li>GW_SM_LionArmorShoulderPads</li>
+					</allApparels>
+					<hediff>GW40k_SS_BattleFrenzy_MeleeHood</hediff>
+				</apparelSetEffect>
+			</li>
+			<li Class="BM_ApparelSet.CompProperties_ApparelSet">
+				<apparelSetEffect>
+					<allApparels>
+						<li>GW_SM_LionArmorBackpack</li>
+						<li>GW_SM_LionArmorHooded</li>
+						<li>GW_SM_LionArmorShoulderPads</li>
+					</allApparels>
+					<hediff>GW40k_SS_BattleFrenzy_MeleeHooded</hediff>
+				</apparelSetEffect>
+			</li>
 		</comps>
 	</ThingDef>
 
