@@ -201,6 +201,7 @@
 			<Insulation_Heat>10</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
+		<tickerType>Normal</tickerType>
 		<recipeMaker>
 			<researchPrerequisite>GW_SM_LionArmor</researchPrerequisite>
 		</recipeMaker>
@@ -260,6 +261,7 @@
 			<Insulation_Heat>10</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
+		<tickerType>Normal</tickerType>
 		<recipeMaker>
 			<researchPrerequisite>GW_SM_LionArmor</researchPrerequisite>
 		</recipeMaker>
@@ -332,6 +334,7 @@
 			<Insulation_Heat>10</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
+		<tickerType>Normal</tickerType>
 		<recipeMaker>
 			<researchPrerequisite>GW_SM_LionArmor</researchPrerequisite>
 		</recipeMaker>
