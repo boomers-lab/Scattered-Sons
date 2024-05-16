@@ -82,6 +82,13 @@
 			<li>
 				<label>Dormant</label>
 				<minSeverity>0.01</minSeverity>
+				<hediffGivers>
+					<li Class="HediffGiver_AddSeverity">
+						<hediff>GW40k_SS_BattleFrenzy_Melee</hediff>
+						<severityAmount>0.5</severityAmount>
+						<mtbHours>0.25</mtbHours>
+					</li>
+				</hediffGivers>
 			</li>
 			<li>
 				<label>1</label>
@@ -190,6 +197,13 @@
 			<li>
 				<label>Dormant</label>
 				<minSeverity>0.01</minSeverity>
+				<hediffGivers>
+					<li Class="HediffGiver_AddSeverity">
+						<hediff>GW40k_SS_BattleFrenzy_Melee</hediff>
+						<severityAmount>0.5</severityAmount>
+						<mtbHours>0.25</mtbHours>
+					</li>
+				</hediffGivers>
 			</li>
 			<li>
 				<label>1</label>
@@ -298,6 +312,13 @@
 			<li>
 				<label>Dormant</label>
 				<minSeverity>0.01</minSeverity>
+				<hediffGivers>
+					<li Class="HediffGiver_AddSeverity">
+						<hediff>GW40k_SS_BattleFrenzy_Melee</hediff>
+						<severityAmount>0.5</severityAmount>
+						<mtbHours>0.25</mtbHours>
+					</li>
+				</hediffGivers>
 			</li>
 			<li>
 				<label>1</label>
