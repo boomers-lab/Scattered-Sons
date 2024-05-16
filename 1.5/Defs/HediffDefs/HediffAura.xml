@@ -62,7 +62,7 @@
 		<!-- <defaultLabelColor>(0.9, 1.0, 0.35)</defaultLabelColor> -->
 		<initialSeverity>1</initialSeverity>
 		<minSeverity>0.01</minSeverity>
-		<maxSeverity>10.5</maxSeverity>
+		<maxSeverity>5.5</maxSeverity>
 		<isBad>false</isBad>
 		<comps>
 			<li Class="OnAttackHediff.HediffCompProperties_OnAttackHediff">
@@ -72,9 +72,9 @@
 				<isOnlyMelee>true</isOnlyMelee>
 				<showRemainingTime>true</showRemainingTime>
 				<startingSeverity>1.0</startingSeverity>
-				<severityPerhit>0.1</severityPerhit>
+				<severityPerhit>0</severityPerhit>
 				<!-- on used attack verb, regardless if it hit -->
-				<severityOnTakinghit>0.1</severityOnTakinghit>
+				<severityOnTakinghit>0</severityOnTakinghit>
 				<!-- as the name imply -->
 			</li>
 		</comps>
@@ -87,14 +87,13 @@
 				<label>1</label>
 				<minSeverity>0.1</minSeverity>
 				<statOffsets>
-					<MeleeDamageFactor>1.25</MeleeDamageFactor>
-					<RestFallRateFactor>1.2</RestFallRateFactor>
+					<MoveSpeed>0.1</MoveSpeed>
 				</statOffsets>
 				<hediffGivers>
 					<li Class="HediffGiver_AddSeverity">
 						<hediff>GW40k_SS_BattleFrenzy_Melee</hediff>
-						<severityAmount>-1</severityAmount>
-						<mtbHours>0.5</mtbHours>
+						<severityAmount>0.5</severityAmount>
+						<mtbHours>0.25</mtbHours>
 					</li>
 				</hediffGivers>
 			</li>
@@ -102,13 +101,13 @@
 				<label>2</label>
 				<minSeverity>2</minSeverity>
 				<statOffsets>
-					<MeleeDamageFactor>1.25</MeleeDamageFactor>
+					<MoveSpeed>0.3</MoveSpeed>
 				</statOffsets>
 				<hediffGivers>
 					<li Class="HediffGiver_AddSeverity">
 						<hediff>GW40k_SS_BattleFrenzy_Melee</hediff>
-						<severityAmount>-1</severityAmount>
-						<mtbHours>0.5</mtbHours>
+						<severityAmount>0.5</severityAmount>
+						<mtbHours>0.25</mtbHours>
 					</li>
 				</hediffGivers>
 			</li>
@@ -116,13 +115,14 @@
 				<label>3</label>
 				<minSeverity>3</minSeverity>
 				<statOffsets>
-					<MeleeDamageFactor>1.25</MeleeDamageFactor>
+					<MoveSpeed>0.3</MoveSpeed>
+					<PainShockThreshold>0.5</PainShockThreshold>
 				</statOffsets>
 				<hediffGivers>
 					<li Class="HediffGiver_AddSeverity">
 						<hediff>GW40k_SS_BattleFrenzy_Melee</hediff>
-						<severityAmount>-1</severityAmount>
-						<mtbHours>0.5</mtbHours>
+						<severityAmount>0.5</severityAmount>
+						<mtbHours>0.25</mtbHours>
 					</li>
 				</hediffGivers>
 			</li>
@@ -130,13 +130,15 @@
 				<label>4</label>
 				<minSeverity>4</minSeverity>
 				<statOffsets>
-					<MeleeDamageFactor>1.25</MeleeDamageFactor>
+					<MoveSpeed>0.3</MoveSpeed>
+					<PainShockThreshold>0.5</PainShockThreshold>
+					<IncomingDamageFactor>-0.3</IncomingDamageFactor>
 				</statOffsets>
 				<hediffGivers>
 					<li Class="HediffGiver_AddSeverity">
 						<hediff>GW40k_SS_BattleFrenzy_Melee</hediff>
-						<severityAmount>-1</severityAmount>
-						<mtbHours>0.5</mtbHours>
+						<severityAmount>0.5</severityAmount>
+						<mtbHours>0.25</mtbHours>
 					</li>
 				</hediffGivers>
 			</li>
@@ -144,86 +146,19 @@
 				<label>5</label>
 				<minSeverity>5</minSeverity>
 				<statOffsets>
-					<MeleeDamageFactor>1.25</MeleeDamageFactor>
+					<MoveSpeed>0.3</MoveSpeed>
+					<PainShockThreshold>0.5</PainShockThreshold>
+					<IncomingDamageFactor>-0.3</IncomingDamageFactor>
+					<InjuryHealingFactor>0.7</InjuryHealingFactor>
 				</statOffsets>
 				<hediffGivers>
 					<li Class="HediffGiver_AddSeverity">
 						<hediff>GW40k_SS_BattleFrenzy_Melee</hediff>
-						<severityAmount>-1</severityAmount>
-						<mtbHours>0.5</mtbHours>
+						<severityAmount>0.5</severityAmount>
+						<mtbHours>0.25</mtbHours>
 					</li>
 				</hediffGivers>
-			</li>
-			<li>
-				<label>6</label>
-				<minSeverity>6</minSeverity>
-				<statOffsets>
-					<MeleeDamageFactor>1.25</MeleeDamageFactor>
-				</statOffsets>
-				<hediffGivers>
-					<li Class="HediffGiver_AddSeverity">
-						<hediff>GW40k_SS_BattleFrenzy_Melee</hediff>
-						<severityAmount>-1</severityAmount>
-						<mtbHours>0.5</mtbHours>
-					</li>
-				</hediffGivers>
-			</li>
-			<li>
-				<label>7</label>
-				<minSeverity>7</minSeverity>
-				<statOffsets>
-					<MeleeDamageFactor>1.25</MeleeDamageFactor>
-				</statOffsets>
-				<hediffGivers>
-					<li Class="HediffGiver_AddSeverity">
-						<hediff>GW40k_SS_BattleFrenzy_Melee</hediff>
-						<severityAmount>-1</severityAmount>
-						<mtbHours>0.5</mtbHours>
-					</li>
-				</hediffGivers>
-			</li>
-			<li>
-				<label>8</label>
-				<minSeverity>8</minSeverity>
-				<statOffsets>
-					<MeleeDamageFactor>1.25</MeleeDamageFactor>
-				</statOffsets>
-				<hediffGivers>
-					<li Class="HediffGiver_AddSeverity">
-						<hediff>GW40k_SS_BattleFrenzy_Melee</hediff>
-						<severityAmount>-1</severityAmount>
-						<mtbHours>0.5</mtbHours>
-					</li>
-				</hediffGivers>
-			</li>
-			<li>
-				<label>9</label>
-				<minSeverity>9</minSeverity>
-				<statOffsets>
-					<MeleeDamageFactor>1.25</MeleeDamageFactor>
-				</statOffsets>
-				<hediffGivers>
-					<li Class="HediffGiver_AddSeverity">
-						<hediff>GW40k_SS_BattleFrenzy_Melee</hediff>
-						<severityAmount>-1</severityAmount>
-						<mtbHours>0.5</mtbHours>
-					</li>
-				</hediffGivers>
-			</li>
-			<li>
-				<label>10</label>
-				<minSeverity>10</minSeverity>
-				<statOffsets>
-					<MeleeDamageFactor>1.25</MeleeDamageFactor>
-				</statOffsets>
-				<hediffGivers>
-					<li Class="HediffGiver_AddSeverity">
-						<hediff>GW40k_SS_BattleFrenzy_Melee</hediff>
-						<severityAmount>-1</severityAmount>
-						<mtbHours>0.5</mtbHours>
-					</li>
-				</hediffGivers>
-			</li>
+			</li>			
 		</stages>
 	</HediffDef>
 	
@@ -235,7 +170,7 @@
 		<!-- <defaultLabelColor>(0.9, 1.0, 0.35)</defaultLabelColor> -->
 		<initialSeverity>1</initialSeverity>
 		<minSeverity>0.01</minSeverity>
-		<maxSeverity>10.5</maxSeverity>
+		<maxSeverity>5.5</maxSeverity>
 		<isBad>false</isBad>
 		<comps>
 			<li Class="OnAttackHediff.HediffCompProperties_OnAttackHediff">
@@ -245,9 +180,9 @@
 				<isOnlyMelee>true</isOnlyMelee>
 				<showRemainingTime>true</showRemainingTime>
 				<startingSeverity>1.0</startingSeverity>
-				<severityPerhit>0.1</severityPerhit>
+				<severityPerhit>0</severityPerhit>
 				<!-- on used attack verb, regardless if it hit -->
-				<severityOnTakinghit>0.1</severityOnTakinghit>
+				<severityOnTakinghit>0</severityOnTakinghit>
 				<!-- as the name imply -->
 			</li>
 		</comps>
@@ -260,14 +195,13 @@
 				<label>1</label>
 				<minSeverity>0.1</minSeverity>
 				<statOffsets>
-					<MeleeDamageFactor>1.25</MeleeDamageFactor>
-					<RestFallRateFactor>1.2</RestFallRateFactor>
+					<MoveSpeed>0.1</MoveSpeed>
 				</statOffsets>
 				<hediffGivers>
 					<li Class="HediffGiver_AddSeverity">
 						<hediff>GW40k_SS_BattleFrenzy_MeleeHooded</hediff>
-						<severityAmount>-1</severityAmount>
-						<mtbHours>0.5</mtbHours>
+						<severityAmount>0.5</severityAmount>
+						<mtbHours>0.25</mtbHours>
 					</li>
 				</hediffGivers>
 			</li>
@@ -275,13 +209,13 @@
 				<label>2</label>
 				<minSeverity>2</minSeverity>
 				<statOffsets>
-					<MeleeDamageFactor>1.25</MeleeDamageFactor>
+					<MoveSpeed>0.3</MoveSpeed>
 				</statOffsets>
 				<hediffGivers>
 					<li Class="HediffGiver_AddSeverity">
 						<hediff>GW40k_SS_BattleFrenzy_MeleeHooded</hediff>
-						<severityAmount>-1</severityAmount>
-						<mtbHours>0.5</mtbHours>
+						<severityAmount>0.5</severityAmount>
+						<mtbHours>0.25</mtbHours>
 					</li>
 				</hediffGivers>
 			</li>
@@ -289,13 +223,14 @@
 				<label>3</label>
 				<minSeverity>3</minSeverity>
 				<statOffsets>
-					<MeleeDamageFactor>1.25</MeleeDamageFactor>
+					<MoveSpeed>0.3</MoveSpeed>
+					<PainShockThreshold>0.5</PainShockThreshold>
 				</statOffsets>
 				<hediffGivers>
 					<li Class="HediffGiver_AddSeverity">
 						<hediff>GW40k_SS_BattleFrenzy_MeleeHooded</hediff>
-						<severityAmount>-1</severityAmount>
-						<mtbHours>0.5</mtbHours>
+						<severityAmount>0.5</severityAmount>
+						<mtbHours>0.25</mtbHours>
 					</li>
 				</hediffGivers>
 			</li>
@@ -303,13 +238,15 @@
 				<label>4</label>
 				<minSeverity>4</minSeverity>
 				<statOffsets>
-					<MeleeDamageFactor>1.25</MeleeDamageFactor>
+					<MoveSpeed>0.3</MoveSpeed>
+					<PainShockThreshold>0.5</PainShockThreshold>
+					<IncomingDamageFactor>-0.3</IncomingDamageFactor>
 				</statOffsets>
 				<hediffGivers>
 					<li Class="HediffGiver_AddSeverity">
 						<hediff>GW40k_SS_BattleFrenzy_MeleeHooded</hediff>
-						<severityAmount>-1</severityAmount>
-						<mtbHours>0.5</mtbHours>
+						<severityAmount>0.5</severityAmount>
+						<mtbHours>0.25</mtbHours>
 					</li>
 				</hediffGivers>
 			</li>
@@ -317,86 +254,19 @@
 				<label>5</label>
 				<minSeverity>5</minSeverity>
 				<statOffsets>
-					<MeleeDamageFactor>1.25</MeleeDamageFactor>
+					<MoveSpeed>0.3</MoveSpeed>
+					<PainShockThreshold>0.5</PainShockThreshold>
+					<IncomingDamageFactor>-0.3</IncomingDamageFactor>
+					<InjuryHealingFactor>0.7</InjuryHealingFactor>
 				</statOffsets>
 				<hediffGivers>
 					<li Class="HediffGiver_AddSeverity">
 						<hediff>GW40k_SS_BattleFrenzy_MeleeHooded</hediff>
-						<severityAmount>-1</severityAmount>
-						<mtbHours>0.5</mtbHours>
+						<severityAmount>0.5</severityAmount>
+						<mtbHours>0.25</mtbHours>
 					</li>
 				</hediffGivers>
-			</li>
-			<li>
-				<label>6</label>
-				<minSeverity>6</minSeverity>
-				<statOffsets>
-					<MeleeDamageFactor>1.25</MeleeDamageFactor>
-				</statOffsets>
-				<hediffGivers>
-					<li Class="HediffGiver_AddSeverity">
-						<hediff>GW40k_SS_BattleFrenzy_MeleeHooded</hediff>
-						<severityAmount>-1</severityAmount>
-						<mtbHours>0.5</mtbHours>
-					</li>
-				</hediffGivers>
-			</li>
-			<li>
-				<label>7</label>
-				<minSeverity>7</minSeverity>
-				<statOffsets>
-					<MeleeDamageFactor>1.25</MeleeDamageFactor>
-				</statOffsets>
-				<hediffGivers>
-					<li Class="HediffGiver_AddSeverity">
-						<hediff>GW40k_SS_BattleFrenzy_MeleeHooded</hediff>
-						<severityAmount>-1</severityAmount>
-						<mtbHours>0.5</mtbHours>
-					</li>
-				</hediffGivers>
-			</li>
-			<li>
-				<label>8</label>
-				<minSeverity>8</minSeverity>
-				<statOffsets>
-					<MeleeDamageFactor>1.25</MeleeDamageFactor>
-				</statOffsets>
-				<hediffGivers>
-					<li Class="HediffGiver_AddSeverity">
-						<hediff>GW40k_SS_BattleFrenzy_MeleeHooded</hediff>
-						<severityAmount>-1</severityAmount>
-						<mtbHours>0.5</mtbHours>
-					</li>
-				</hediffGivers>
-			</li>
-			<li>
-				<label>9</label>
-				<minSeverity>9</minSeverity>
-				<statOffsets>
-					<MeleeDamageFactor>1.25</MeleeDamageFactor>
-				</statOffsets>
-				<hediffGivers>
-					<li Class="HediffGiver_AddSeverity">
-						<hediff>GW40k_SS_BattleFrenzy_MeleeHooded</hediff>
-						<severityAmount>-1</severityAmount>
-						<mtbHours>0.5</mtbHours>
-					</li>
-				</hediffGivers>
-			</li>
-			<li>
-				<label>10</label>
-				<minSeverity>10</minSeverity>
-				<statOffsets>
-					<MeleeDamageFactor>1.25</MeleeDamageFactor>
-				</statOffsets>
-				<hediffGivers>
-					<li Class="HediffGiver_AddSeverity">
-						<hediff>GW40k_SS_BattleFrenzy_MeleeHooded</hediff>
-						<severityAmount>-1</severityAmount>
-						<mtbHours>0.5</mtbHours>
-					</li>
-				</hediffGivers>
-			</li>
+			</li>			
 		</stages>
 	</HediffDef>
 	
@@ -408,7 +278,7 @@
 		<!-- <defaultLabelColor>(0.9, 1.0, 0.35)</defaultLabelColor> -->
 		<initialSeverity>1</initialSeverity>
 		<minSeverity>0.01</minSeverity>
-		<maxSeverity>10.5</maxSeverity>
+		<maxSeverity>5.5</maxSeverity>
 		<isBad>false</isBad>
 		<comps>
 			<li Class="OnAttackHediff.HediffCompProperties_OnAttackHediff">
@@ -433,14 +303,13 @@
 				<label>1</label>
 				<minSeverity>0.1</minSeverity>
 				<statOffsets>
-					<MeleeDamageFactor>1.25</MeleeDamageFactor>
-					<RestFallRateFactor>1.2</RestFallRateFactor>
+					<MoveSpeed>0.1</MoveSpeed>
 				</statOffsets>
 				<hediffGivers>
 					<li Class="HediffGiver_AddSeverity">
-						<hediff>GW40k_SS_BattleFrenzy_MeleeHood</hediff>
-						<severityAmount>-1</severityAmount>
-						<mtbHours>0.5</mtbHours>
+						<hediff>GW40k_SS_BattleFrenzy_MeleeHooded</hediff>
+						<severityAmount>0.5</severityAmount>
+						<mtbHours>0.25</mtbHours>
 					</li>
 				</hediffGivers>
 			</li>
@@ -448,13 +317,13 @@
 				<label>2</label>
 				<minSeverity>2</minSeverity>
 				<statOffsets>
-					<MeleeDamageFactor>1.25</MeleeDamageFactor>
+					<MoveSpeed>0.3</MoveSpeed>
 				</statOffsets>
 				<hediffGivers>
 					<li Class="HediffGiver_AddSeverity">
-						<hediff>GW40k_SS_BattleFrenzy_MeleeHood</hediff>
-						<severityAmount>-1</severityAmount>
-						<mtbHours>0.5</mtbHours>
+						<hediff>GW40k_SS_BattleFrenzy_MeleeHooded</hediff>
+						<severityAmount>0.5</severityAmount>
+						<mtbHours>0.25</mtbHours>
 					</li>
 				</hediffGivers>
 			</li>
@@ -462,13 +331,14 @@
 				<label>3</label>
 				<minSeverity>3</minSeverity>
 				<statOffsets>
-					<MeleeDamageFactor>1.25</MeleeDamageFactor>
+					<MoveSpeed>0.3</MoveSpeed>
+					<PainShockThreshold>0.5</PainShockThreshold>
 				</statOffsets>
 				<hediffGivers>
 					<li Class="HediffGiver_AddSeverity">
-						<hediff>GW40k_SS_BattleFrenzy_MeleeHood</hediff>
-						<severityAmount>-1</severityAmount>
-						<mtbHours>0.5</mtbHours>
+						<hediff>GW40k_SS_BattleFrenzy_MeleeHooded</hediff>
+						<severityAmount>0.5</severityAmount>
+						<mtbHours>0.25</mtbHours>
 					</li>
 				</hediffGivers>
 			</li>
@@ -476,13 +346,15 @@
 				<label>4</label>
 				<minSeverity>4</minSeverity>
 				<statOffsets>
-					<MeleeDamageFactor>1.25</MeleeDamageFactor>
+					<MoveSpeed>0.3</MoveSpeed>
+					<PainShockThreshold>0.5</PainShockThreshold>
+					<IncomingDamageFactor>-0.3</IncomingDamageFactor>
 				</statOffsets>
 				<hediffGivers>
 					<li Class="HediffGiver_AddSeverity">
-						<hediff>GW40k_SS_BattleFrenzy_MeleeHood</hediff>
-						<severityAmount>-1</severityAmount>
-						<mtbHours>0.5</mtbHours>
+						<hediff>GW40k_SS_BattleFrenzy_MeleeHooded</hediff>
+						<severityAmount>0.5</severityAmount>
+						<mtbHours>0.25</mtbHours>
 					</li>
 				</hediffGivers>
 			</li>
@@ -490,86 +362,19 @@
 				<label>5</label>
 				<minSeverity>5</minSeverity>
 				<statOffsets>
-					<MeleeDamageFactor>1.25</MeleeDamageFactor>
+					<MoveSpeed>0.3</MoveSpeed>
+					<PainShockThreshold>0.5</PainShockThreshold>
+					<IncomingDamageFactor>-0.3</IncomingDamageFactor>
+					<InjuryHealingFactor>0.7</InjuryHealingFactor>
 				</statOffsets>
 				<hediffGivers>
 					<li Class="HediffGiver_AddSeverity">
-						<hediff>GW40k_SS_BattleFrenzy_MeleeHood</hediff>
-						<severityAmount>-1</severityAmount>
-						<mtbHours>0.5</mtbHours>
+						<hediff>GW40k_SS_BattleFrenzy_MeleeHooded</hediff>
+						<severityAmount>0.5</severityAmount>
+						<mtbHours>0.25</mtbHours>
 					</li>
 				</hediffGivers>
-			</li>
-			<li>
-				<label>6</label>
-				<minSeverity>6</minSeverity>
-				<statOffsets>
-					<MeleeDamageFactor>1.25</MeleeDamageFactor>
-				</statOffsets>
-				<hediffGivers>
-					<li Class="HediffGiver_AddSeverity">
-						<hediff>GW40k_SS_BattleFrenzy_MeleeHood</hediff>
-						<severityAmount>-1</severityAmount>
-						<mtbHours>0.5</mtbHours>
-					</li>
-				</hediffGivers>
-			</li>
-			<li>
-				<label>7</label>
-				<minSeverity>7</minSeverity>
-				<statOffsets>
-					<MeleeDamageFactor>1.25</MeleeDamageFactor>
-				</statOffsets>
-				<hediffGivers>
-					<li Class="HediffGiver_AddSeverity">
-						<hediff>GW40k_SS_BattleFrenzy_MeleeHood</hediff>
-						<severityAmount>-1</severityAmount>
-						<mtbHours>0.5</mtbHours>
-					</li>
-				</hediffGivers>
-			</li>
-			<li>
-				<label>8</label>
-				<minSeverity>8</minSeverity>
-				<statOffsets>
-					<MeleeDamageFactor>1.25</MeleeDamageFactor>
-				</statOffsets>
-				<hediffGivers>
-					<li Class="HediffGiver_AddSeverity">
-						<hediff>GW40k_SS_BattleFrenzy_MeleeHood</hediff>
-						<severityAmount>-1</severityAmount>
-						<mtbHours>0.5</mtbHours>
-					</li>
-				</hediffGivers>
-			</li>
-			<li>
-				<label>9</label>
-				<minSeverity>9</minSeverity>
-				<statOffsets>
-					<MeleeDamageFactor>1.25</MeleeDamageFactor>
-				</statOffsets>
-				<hediffGivers>
-					<li Class="HediffGiver_AddSeverity">
-						<hediff>GW40k_SS_BattleFrenzy_MeleeHood</hediff>
-						<severityAmount>-1</severityAmount>
-						<mtbHours>0.5</mtbHours>
-					</li>
-				</hediffGivers>
-			</li>
-			<li>
-				<label>10</label>
-				<minSeverity>10</minSeverity>
-				<statOffsets>
-					<MeleeDamageFactor>1.25</MeleeDamageFactor>
-				</statOffsets>
-				<hediffGivers>
-					<li Class="HediffGiver_AddSeverity">
-						<hediff>GW40k_SS_BattleFrenzy_MeleeHood</hediff>
-						<severityAmount>-1</severityAmount>
-						<mtbHours>0.5</mtbHours>
-					</li>
-				</hediffGivers>
-			</li>
+			</li>	
 		</stages>
 	</HediffDef>
 	
