@@ -366,7 +366,7 @@
 			<wornGraphicPath>Things/Apparel/LionArmor/Helmet/LionC_hood</wornGraphicPath>
 		</apparel>		
 		<equippedStatOffsets>
-			<SocialImpact>1.00</SocialImpact>
+			<SocialImpact>2.00</SocialImpact>
 		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>20</ComponentSpacer>
