@@ -8,7 +8,7 @@
             <texPath>Things/Building/Production/ScatteredSonsArmorWorkbench/PrimarchBench_Armor_north</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
             <drawSize>(7,7)</drawSize>
-			<drawOffset>(0,0,-0.25)</drawOffset>
+			<drawOffset>(0,0.05,-0.25)</drawOffset>
         </graphicData>
         <size>(5,3)</size>
 		<rotatable>false</rotatable>
@@ -35,7 +35,7 @@
             <texPath>Things/Building/Production/ScatteredSonsArmorWorkbench/PrimarchBench_Weapon_north</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(7,7)</drawSize>
-			<drawOffset>(0,0,-0.25)</drawOffset>
+			<drawOffset>(0,0.05,-0.25)</drawOffset>
         </graphicData>
         <size>(5,3)</size>
 		<rotatable>false</rotatable>
