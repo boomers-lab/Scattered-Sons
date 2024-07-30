@@ -7,7 +7,8 @@
 		<graphicData>
             <texPath>Things/Building/Production/ScatteredSonsArmorWorkbench/PrimarchBench_Armor_north</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-            <drawSize>(1,1)</drawSize>
+            <drawSize>(7,7)</drawSize>
+			<drawOffset>(0,0,-0.25)</drawOffset>
         </graphicData>
         <size>(5,3)</size>
 		<rotatable>false</rotatable>
@@ -33,7 +34,10 @@
 		<graphicData>
             <texPath>Things/Building/Production/ScatteredSonsArmorWorkbench/PrimarchBench_Weapon_north</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7,7)</drawSize>
+			<drawOffset>(0,0,-0.25)</drawOffset>
         </graphicData>
+        <size>(5,3)</size>
 		<rotatable>false</rotatable>
 		<costList>
             <Steel>100</Steel>
