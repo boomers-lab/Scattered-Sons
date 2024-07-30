@@ -7,7 +7,9 @@
 		<graphicData>
             <texPath>Things/Building/Production/ScatteredSonsArmorWorkbench/PrimarchBench_Armor_north</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(1,1)</drawSize>
         </graphicData>
+        <size>(5,3)</size>
 		<rotatable>false</rotatable>
 		<costList>
             <Steel>100</Steel>
