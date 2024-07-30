@@ -5,8 +5,34 @@
 		<label>scattered sons armor workbench</label>
 		<description>workbench used to make scattered sons armor set.</description>
 		<graphicData>
-            <texPath>Things/Building/Production/ScatteredSonsArmorWorkbench/40KBenches_Astartes_Armor</texPath>
+            <texPath>Things/Building/Production/ScatteredSonsArmorWorkbench/PrimarchBench_Armor_north</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
         </graphicData>
+		<rotatable>false</rotatable>
+		<costList>
+            <Steel>100</Steel>
+            <Plasteel>50</Plasteel>
+            <ComponentIndustrial>6</ComponentIndustrial>
+            <ComponentSpacer>1</ComponentSpacer>
+            <HP_Ceramite>15</HP_Ceramite>
+        </costList>
+		<recipes>
+		
+        </recipes>
+		<researchPrerequisites>
+            <!-- <li>GW_SM_AstartesFabrication</li> -->
+        </researchPrerequisites>
+	</ThingDef>
+	
+	<ThingDef ParentName="GrimworldFabricationBenchBase">
+		<defName>GW_SM_ScatteredSons_WeaponBench</defName>
+		<label>scattered sons weapon workbench</label>
+		<description>workbench used to make scattered sons weapon set.</description>
+		<graphicData>
+            <texPath>Things/Building/Production/ScatteredSonsArmorWorkbench/PrimarchBench_Weapon_north</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+		<rotatable>false</rotatable>
 		<costList>
             <Steel>100</Steel>
             <Plasteel>50</Plasteel>
@@ -26,6 +52,7 @@
         <defName>DoBillsScatteredSonsArmorBench</defName>
         <fixedBillGiverDefs>
             <li>GW_SM_ScatteredSons_ArmorBench</li>
+            <li>GW_SM_ScatteredSons_WeaponBench</li>
         </fixedBillGiverDefs>
     </WorkGiverDef>
 
