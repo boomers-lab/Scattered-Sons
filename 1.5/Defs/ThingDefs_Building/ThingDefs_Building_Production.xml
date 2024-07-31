@@ -20,8 +20,11 @@
             <ComponentSpacer>1</ComponentSpacer>
             <HP_Ceramite>15</HP_Ceramite>
         </costList>
+        <researchPrerequisites>
+			<li>GW_Primarchfabrication</li>
+		</researchPrerequisites>
 		<recipes>
-		
+
         </recipes>
 		<researchPrerequisites>
             <!-- <li>GW_SM_AstartesFabrication</li> -->
@@ -48,6 +51,9 @@
             <ComponentSpacer>1</ComponentSpacer>
             <HP_Ceramite>15</HP_Ceramite>
         </costList>
+        <researchPrerequisites>
+			<li>GW_Primarchfabrication</li>
+		</researchPrerequisites>
 		<recipes>
 		
         </recipes>
