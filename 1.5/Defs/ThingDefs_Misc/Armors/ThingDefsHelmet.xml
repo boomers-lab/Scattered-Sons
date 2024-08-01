@@ -158,6 +158,12 @@
 		<recipeMaker>
 			<researchPrerequisite>GW_SM_Guilliman</researchPrerequisite>
 		</recipeMaker>
+		<comps>
+			<li Class="CompProperties_Biocodable">
+				<biocodeOnEquip>True</biocodeOnEquip>
+			</li>
+			<li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"></li>
+		</comps>
 	</ThingDef>
 	
 	<!-- Imperial Warden Hood -->
@@ -395,6 +401,12 @@
 		<recipeMaker>
 			<researchPrerequisite>GW_SM_LionArmor</researchPrerequisite>
 		</recipeMaker>
+		<comps>
+			<li Class="CompProperties_Biocodable">
+				<biocodeOnEquip>True</biocodeOnEquip>
+			</li>
+			<li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"></li>
+		</comps>
 	</ThingDef>
 	
 	<ThingDef ParentName="GW_ScatteredSonsHelmetBase">
@@ -443,6 +455,12 @@
 		<recipeMaker>
 			<researchPrerequisite>GW_SM_LionArmor</researchPrerequisite>
 		</recipeMaker>
+		<comps>
+			<li Class="CompProperties_Biocodable">
+				<biocodeOnEquip>True</biocodeOnEquip>
+			</li>
+			<li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"></li>
+		</comps>
 	</ThingDef>
 	
 	<ThingDef ParentName="GW_ScatteredSonsHelmetBase">
@@ -504,6 +522,12 @@
 		<recipeMaker>
 			<researchPrerequisite>GW_SM_LionArmor</researchPrerequisite>
 		</recipeMaker>
+		<comps>
+			<li Class="CompProperties_Biocodable">
+				<biocodeOnEquip>True</biocodeOnEquip>
+			</li>
+			<li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"></li>
+		</comps>
 	</ThingDef>
 
 </Defs>

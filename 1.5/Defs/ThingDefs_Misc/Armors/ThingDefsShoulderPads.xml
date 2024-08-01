@@ -181,6 +181,12 @@
 				<li>GW_Guilliman</li>
 			</tags>
 		</apparel>
+		<comps>
+			<li Class="CompProperties_Biocodable">
+				<biocodeOnEquip>True</biocodeOnEquip>
+			</li>
+			<li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"></li>
+		</comps>
 	</ThingDef>
 	
 	<ThingDef ParentName="GW_SS_ShoulderBase">
@@ -281,6 +287,12 @@
 				<li>LionArmor</li>
 			</tags>
 		</apparel>
+		<comps>
+			<li Class="CompProperties_Biocodable">
+				<biocodeOnEquip>True</biocodeOnEquip>
+			</li>
+			<li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"></li>
+		</comps>
 	</ThingDef>
 
 </Defs>

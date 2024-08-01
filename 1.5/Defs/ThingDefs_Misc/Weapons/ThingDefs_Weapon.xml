@@ -67,6 +67,11 @@
 				<armorPenetration>2.7</armorPenetration>
             </li>
         </tools>
-	    <comps />
+        <comps>
+            <li Class="CompProperties_Biocodable">
+                <biocodeOnEquip>True</biocodeOnEquip>
+            </li>
+            <li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"></li>
+        </comps>
     </ThingDef>
 </Defs>

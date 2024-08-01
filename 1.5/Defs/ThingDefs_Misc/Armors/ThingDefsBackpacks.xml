@@ -195,6 +195,12 @@
 				<hideHead>false</hideHead>
             </li>
         </modExtensions>
+		<comps>
+			<li Class="CompProperties_Biocodable">
+				<biocodeOnEquip>True</biocodeOnEquip>
+			</li>
+			<li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"></li>
+		</comps>
     </ThingDef>
 	
 	<!-- imperial warden -->
@@ -341,5 +347,11 @@
 				<hideHead>false</hideHead>
             </li>
         </modExtensions>
+		<comps>
+			<li Class="CompProperties_Biocodable">
+				<biocodeOnEquip>True</biocodeOnEquip>
+			</li>
+			<li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"></li>
+		</comps>
     </ThingDef>
 </Defs>
