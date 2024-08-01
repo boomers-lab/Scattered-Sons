@@ -26,9 +26,9 @@
 		<recipes>
 
         </recipes>
-		<researchPrerequisites>
+		<!-- <researchPrerequisites> -->
             <!-- <li>GW_SM_AstartesFabrication</li> -->
-        </researchPrerequisites>
+        <!-- </researchPrerequisites> -->
 	</ThingDef>
 	
 	<ThingDef ParentName="GrimworldFabricationBenchBase">
@@ -57,9 +57,9 @@
 		<recipes>
 		
         </recipes>
-		<researchPrerequisites>
+		<!-- <researchPrerequisites> -->
             <!-- <li>GW_SM_AstartesFabrication</li> -->
-        </researchPrerequisites>
+        <!-- </researchPrerequisites> -->
 	</ThingDef>
 	
 	<WorkGiverDef ParentName="GWFabricationWorkGiverBase">

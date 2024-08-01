@@ -59,10 +59,10 @@
         <baseCost>5000</baseCost>
 		<prerequisites>
 			<li>AdvancedFabrication</li>
-			<li MayRequire="happypurging.ageofdarkness">GW_SM_AstartesHeavy</li>
+			<li MayRequire="grimworld.talonoftheemperor">GW_TotE_CustodesFabrication</li>
 		</prerequisites>
-		<researchViewX>11.00</researchViewX>
-		<researchViewY>2.30</researchViewY>
+		<researchViewX>13.00</researchViewX>
+		<researchViewY>0.20</researchViewY>
 		<modExtensions>
             <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
                 <StudyLocation>GW_Cogitator</StudyLocation>
@@ -75,5 +75,8 @@
             </li>
         </modExtensions>
 	</ResearchProjectDef>
+  
+
+
 
 </Defs>
