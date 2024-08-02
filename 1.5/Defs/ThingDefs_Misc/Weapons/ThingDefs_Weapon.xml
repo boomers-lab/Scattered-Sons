@@ -19,13 +19,10 @@
             <li>GW_LionSword</li>
         </weaponTags>
         <generateCommonality>0.01</generateCommonality>
-        <costList>
-            <Plasteel>100</Plasteel>
-        </costList>
         <statBases>
 			<MaxHitPoints>3000</MaxHitPoints>
             <WorkToMake>1000</WorkToMake>
-            <Mass>20</Mass>
+            <Mass>12</Mass>
 			<MarketValue>6000</MarketValue>
         </statBases>
 		<relicChance>1</relicChance>
@@ -36,6 +33,17 @@
         <recipeMaker>
             <recipeUsers Inherit="False" />
         </recipeMaker>
+		<costList>
+			<ComponentSpacer>40</ComponentSpacer>
+			<ComponentIndustrial>70</ComponentIndustrial>
+			<GW_ComponentRelic>5</GW_ComponentRelic>
+			<Plasteel>500</Plasteel>
+			<Steel>900</Steel>
+			<Uranium>190</Uranium>
+			<HP_Ceramite>400</HP_Ceramite>
+			<HP_Adamantium>300</HP_Adamantium>
+			<HP_Auramite>100</HP_Auramite>
+		</costList>
         <tools>
             <li>
                 <label>handle</label>
@@ -100,9 +108,6 @@
         </equippedStatOffsets>
 		<techLevel>Archotech</techLevel>
 		<relicChance>3</relicChance>
-		<thingCategories>
-			<li>WeaponsMelee</li>
-		</thingCategories>
 		<weaponTags>
 			<li>UltratechMelee</li>
 		</weaponTags>
@@ -110,6 +115,17 @@
 			<li>Melee</li>
 			<li>Ultratech</li>
 		</weaponClasses>
+		<costList>
+			<ComponentSpacer>40</ComponentSpacer>
+			<ComponentIndustrial>70</ComponentIndustrial>
+			<GW_ComponentRelic>5</GW_ComponentRelic>
+			<Plasteel>500</Plasteel>
+			<Steel>900</Steel>
+			<Uranium>190</Uranium>
+			<HP_Ceramite>400</HP_Ceramite>
+			<HP_Adamantium>300</HP_Adamantium>
+			<HP_Auramite>100</HP_Auramite>
+		</costList>
 		<tools>
 			<li>
 				<label>pommel</label>
