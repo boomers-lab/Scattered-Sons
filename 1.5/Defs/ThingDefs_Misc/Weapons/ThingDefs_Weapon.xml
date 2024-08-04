@@ -12,27 +12,6 @@
             <drawSize>1.5</drawSize>
 			<onGroundRandomRotateAngle>55</onGroundRandomRotateAngle>
         </graphicData>
-		<recipeMaker>
-            <researchPrerequisite>GW_SM_LionArmor</researchPrerequisite>
-			<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
-			<skillRequirements>
-				<Crafting>20</Crafting>
-			</skillRequirements>
-			<recipeUsers Inherit="False">
-				<li>GW_SM_ScatteredSons_WeaponBench</li>
-			</recipeUsers>
-        </recipeMaker>
-		<costList>
-			<ComponentSpacer>20</ComponentSpacer>
-			<ComponentIndustrial>45</ComponentIndustrial>
-			<GW_ComponentRelic>1</GW_ComponentRelic>
-			<Plasteel>400</Plasteel>
-			<Steel>600</Steel>
-			<Uranium>100</Uranium>
-			<HP_Ceramite>300</HP_Ceramite>
-			<HP_Adamantium>240</HP_Adamantium>
-			<HP_Auramite>110</HP_Auramite>
-		</costList>
 		<uiIconPath>Things/Weapons/GW_LionSword</uiIconPath>
         <techLevel>Spacer</techLevel>
         <tradeability>Sellable</tradeability>
@@ -157,17 +136,6 @@
 			<li>Melee</li>
 			<li>Ultratech</li>
 		</weaponClasses>
-		<costList>
-			<ComponentSpacer>40</ComponentSpacer>
-			<ComponentIndustrial>70</ComponentIndustrial>
-			<GW_ComponentRelic>5</GW_ComponentRelic>
-			<Plasteel>500</Plasteel>
-			<Steel>900</Steel>
-			<Uranium>190</Uranium>
-			<HP_Ceramite>400</HP_Ceramite>
-			<HP_Adamantium>300</HP_Adamantium>
-			<HP_Auramite>100</HP_Auramite>
-		</costList>
 		<tools>
 			<li>
 				<label>pommel</label>
