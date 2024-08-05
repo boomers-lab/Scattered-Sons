@@ -85,9 +85,9 @@
 			</li>
 			<li Class="GWParryShield.CompProperties_GW_Parryable">
 				<parryHediff>GW_LionsParry</parryHediff><!-- the parry hediff-->
-				<parryChance>0.20</parryChance> <!-- 0.20 = 20% -->
+				<parryChance>0.70</parryChance> <!-- 0.20 = 20% -->
 				<parryWindow>30</parryWindow>
-				<parryCooldown>60</parryCooldown>
+				<parryCooldown>180</parryCooldown>
 			</li>
 		</comps>
 		<modExtensions>
@@ -168,9 +168,9 @@
 			<li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit" />
 			<li Class="GWParryShield.CompProperties_GW_Parryable">
 				<parryHediff>GW_LionsParry</parryHediff><!-- the parry hediff-->
-				<parryChance>0.20</parryChance> <!-- 0.20 = 20% -->
+				<parryChance>0.70</parryChance> <!-- 0.20 = 20% -->
 				<parryWindow>30</parryWindow>
-				<parryCooldown>60</parryCooldown>
+				<parryCooldown>180</parryCooldown>
 			</li>
 		</comps>
 		<modExtensions>

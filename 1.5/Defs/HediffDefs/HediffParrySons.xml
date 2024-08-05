@@ -14,18 +14,36 @@
 		</comps>		
 		<modExtensions>
 			<li Class="GWParryShield.HediffExtension_GW_Parryable">			
-				<!-- NOTE : all Bool option are defaulted to False if omiited -->
 				<isStunTarget>true</isStunTarget>
 				<stunDuration>120</stunDuration>
 				
 				<isNullifyDamage>true</isNullifyDamage>
+				<nullifyDamageChance>0.35</nullifyDamageChance>
+				
+				<isReduceDamageTakenWhenParry>true</isReduceDamageTakenWhenParry>
+				<damageReduction>0.50</damageReduction>
 				
 				<isGiveDebuff>true</isGiveDebuff>
+				<isDebuffToSelf>false</isDebuffToSelf>
 				<debuffHediff>GW_Posebreak</debuffHediff>
-				<debuffDuration>120</debuffDuration>						
+				<debuffDuration>120</debuffDuration>				
 				
-				<isReflectDamage>true</isReflectDamage> 
+				<isReflectDamage>true</isReflectDamage>
 				<reflectDamageMultiplier>1.00</reflectDamageMultiplier>
+				<reflectDamageChance>0.50</reflectDamageChance>
+				
+				<isKnockbackAttacker>true</isKnockbackAttacker>
+				<knockbackDistance>2.0</knockbackDistance>
+				
+				<isReflectProjectile>true</isReflectProjectile>
+				<reflectProjectileChance>0.55</reflectProjectileChance>
+				
+				<parrySounds>
+					<li>Deflect_Metal</li>
+				</parrySounds>
+				<parryEffects>
+					<li>Deflect_Metal</li>
+				</parryEffects> 
 			</li>
 		</modExtensions>
 		<stages />
