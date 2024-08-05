@@ -1,0 +1,34 @@
+<Defs>
+
+	<HediffDef ParentName="GW_ParryHediffBase">
+		<defName>GW_LionsParry</defName>
+		<label>Parry window(Lions)</label>
+		<description>a parry window</description>
+		<initialSeverity>1</initialSeverity>
+		<maxSeverity>1</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_Disappears">
+				<showRemainingTime>true</showRemainingTime>
+			</li>
+		</comps>		
+		<modExtensions>
+			<li Class="GWParryShield.HediffExtension_GW_Parryable">			
+				<!-- NOTE : all Bool option are defaulted to False if omiited -->
+				<isStunTarget>true</isStunTarget>
+				<stunDuration>120</stunDuration>
+				
+				<isNullifyDamage>true</isNullifyDamage>
+				
+				<isGiveDebuff>true</isGiveDebuff>
+				<debuffHediff>GW_Posebreak</debuffHediff>
+				<debuffDuration>120</debuffDuration>						
+				
+				<isReflectDamage>true</isReflectDamage> 
+				<reflectDamageMultiplier>1.00</reflectDamageMultiplier>
+			</li>
+		</modExtensions>
+		<stages />
+	</HediffDef>
+
+</Defs>
