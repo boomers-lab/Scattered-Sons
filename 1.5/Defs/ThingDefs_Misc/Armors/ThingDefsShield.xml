@@ -170,7 +170,7 @@
 				<parryHediff>GW_LionsParry</parryHediff><!-- the parry hediff-->
 				<parryChance>0.70</parryChance> <!-- 0.20 = 20% -->
 				<parryWindow>30</parryWindow>
-				<parryCooldown>180</parryCooldown>
+				<parryCooldown>300</parryCooldown>
 			</li>
 		</comps>
 		<modExtensions>
