@@ -55,8 +55,8 @@
 	
 	<ThingDef ParentName="GW_ScatteredSonsHelmetBase">
 		<defName>GW_SM_ChapterMasterHelmet</defName>
-		<label>Imperial Regent helmet</label>
-		<description>The helm of the Imperial Regent armor is adorned with intricate carvings and sculpted details, resembling a fearsome visage. The helmet incorporates a heads-up display (HUD) for tactical information and a reinforced faceplate for added protection.</description>
+		<label>Imperial regent helmet</label>
+		<description>A helmet built for the Armor of Fate. While not commonly worn, as the Lord Commander of the Imperium generally wished to show his face to spur on his armies, it is just as protective as the armor itself is.\n\nBelisarius Cawl survived the fall of the Imperium, and still works for the Imperial remnants. His current goal is to recreate the Primarchs using the best candidates available, giving the remnants the leadership they need to survive.\n\nSo far, he has been disappointed.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_ChapterMaster/Helmet/GuillimanW_helmet</texPath>
 		</graphicData>
@@ -115,7 +115,7 @@
 	<ThingDef ParentName="GW_ScatteredSonsHelmetBase">
 		<defName>GW_SM_GuillimanHelmet</defName>
 		<label>Armor of Fate helmet</label>
-		<description>The helm of the Armor of Fate is adorned with intricate carvings and sculpted details, resembling a fearsome visage. The helmet incorporates a heads-up display (HUD) for tactical information and a reinforced faceplate for added protection.</description>
+		<description>A helmet built for the Armor of Fate. While not commonly worn, as the Lord Commander of the Imperium generally wished to show his face to spur on his armies, it is just as protective as the armor itself is.\n\nBelisarius Cawl survived the fall of the Imperium, and still works for the Imperial remnants. His current goal is to recreate the Primarchs using the best candidates available, giving the remnants the leadership they need to survive.\n\nSo far, he has been disappointed.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Guilliman/Helmet/GuillimanC_helmet</texPath>			
 		</graphicData>
@@ -169,8 +169,8 @@
 	<!-- Imperial Warden Hood -->
 	<ThingDef ParentName="GW_ScatteredSonsHelmetBase">
 		<defName>GW_SM_ImperialWardenHood</defName>
-		<label>Imperial Warden helmet(Hood)</label>
-		<description>The helm of the Imperial Regent armor is adorned with intricate carvings and sculpted details, resembling a fearsome visage. The helmet incorporates a heads-up display (HUD) for tactical information and a reinforced faceplate for added protection.</description>
+		<label>Imperial warden helmet (hood)</label>
+		<description>A magnificent, winged helmet worn with the Lion’s armor. The great wings only add to the Primarch’s towering stature, inspiring awe and terror in enemy ranks.\n\nAfter a Horus Heresy-era civil war within the Dark Angels and the defeat of Luther, the Arch-Betrayer, the Lion was rendered comatose and Caliban destroyed. It was only ten thousand years later that the Lion awoke to a much-decayed Imperium, and set out trying to save it.</description>
 		<graphicData>
 			<texPath>Things/Apparel/ImperialWardenr/Display/LionW_hood</texPath>
 		</graphicData>
@@ -227,8 +227,8 @@
 	<!-- Imperial Warden Hooded -->
 	<ThingDef ParentName="GW_ScatteredSonsHelmetBase">
 		<defName>GW_SM_ImperialWardenHooded</defName>
-		<label>Imperial Warden helmet(Hooded)</label>
-		<description>The helm of the Imperial Regent armor is adorned with intricate carvings and sculpted details, resembling a fearsome visage. The helmet incorporates a heads-up display (HUD) for tactical information and a reinforced faceplate for added protection.</description>
+		<label>Imperial warden helmet (hooded)</label>
+		<description>A magnificent, winged helmet worn with the Lion’s armor. The great wings only add to the Primarch’s towering stature, inspiring awe and terror in enemy ranks.\n\nAfter a Horus Heresy-era civil war within the Dark Angels and the defeat of Luther, the Arch-Betrayer, the Lion was rendered comatose and Caliban destroyed. It was only ten thousand years later that the Lion awoke to a much-decayed Imperium, and set out trying to save it.</description>
 		<graphicData>
 			<texPath>Things/Apparel/ImperialWardenr/Display/LionW_hooded</texPath>
 		</graphicData>
@@ -287,8 +287,8 @@
 	<!-- Imperial Warden Hooded -->
 	<ThingDef ParentName="GW_ScatteredSonsHelmetBase">
 		<defName>GW_SM_ImperialWardenHelmet</defName>
-		<label>Imperial Warden helmet</label>
-		<description>The helm of the Imperial Regent armor is adorned with intricate carvings and sculpted details, resembling a fearsome visage. The helmet incorporates a heads-up display (HUD) for tactical information and a reinforced faceplate for added protection.</description>
+		<label>Imperial warden helmet (winged)</label>
+		<description>A magnificent, winged helmet worn with the Lion’s armor. The great wings only add to the Primarch’s towering stature, inspiring awe and terror in enemy ranks.\n\nAfter a Horus Heresy-era civil war within the Dark Angels and the defeat of Luther, the Arch-Betrayer, the Lion was rendered comatose and Caliban destroyed. It was only ten thousand years later that the Lion awoke to a much-decayed Imperium, and set out trying to save it.</description>
 		<graphicData>
 			<texPath>Things/Apparel/ImperialWardenr/Head_Helmet/LionW_helmet</texPath>
 		</graphicData>
@@ -360,7 +360,7 @@
 	<ThingDef ParentName="GW_ScatteredSonsHelmetBase">
 		<defName>GW_SM_LionArmorHood</defName>
 		<label>Lion Armor Hood</label>
-		<description>The helm of the Armor of Fate is adorned with intricate carvings and sculpted details, resembling a fearsome visage. The helmet incorporates a heads-up display (HUD) for tactical information and a reinforced faceplate for added protection.</description>
+		<description>A magnificent, winged helmet worn with the Lion’s armor. The great wings only add to the Primarch’s towering stature, inspiring awe and terror in enemy ranks.\n\nAfter a Horus Heresy-era civil war within the Dark Angels and the defeat of Luther, the Arch-Betrayer, the Lion was rendered comatose and Caliban destroyed. It was only ten thousand years later that the Lion awoke to a much-decayed Imperium, and set out trying to save it.</description>
 		<graphicData>
 			<texPath>Things/Apparel/LionArmor/Helmet/LionC_hood</texPath>			
 		</graphicData>
@@ -412,7 +412,7 @@
 	<ThingDef ParentName="GW_ScatteredSonsHelmetBase">
 		<defName>GW_SM_LionArmorHooded</defName>
 		<label>Lion Armor Hooded</label>
-		<description>The helm of the Armor of Fate is adorned with intricate carvings and sculpted details, resembling a fearsome visage. The helmet incorporates a heads-up display (HUD) for tactical information and a reinforced faceplate for added protection.</description>
+		<description>A magnificent, winged helmet worn with the Lion’s armor. The great wings only add to the Primarch’s towering stature, inspiring awe and terror in enemy ranks.\n\nAfter a Horus Heresy-era civil war within the Dark Angels and the defeat of Luther, the Arch-Betrayer, the Lion was rendered comatose and Caliban destroyed. It was only ten thousand years later that the Lion awoke to a much-decayed Imperium, and set out trying to save it.</description>
 		<graphicData>
 			<texPath>Things/Apparel/LionArmor/Helmet/LionC_hooded</texPath>			
 		</graphicData>
@@ -465,8 +465,8 @@
 	
 	<ThingDef ParentName="GW_ScatteredSonsHelmetBase">
 		<defName>GW_SM_LionArmorHelmet</defName>
-		<label>Lion Armor Helment</label>
-		<description>The helm of the Armor of Fate is adorned with intricate carvings and sculpted details, resembling a fearsome visage. The helmet incorporates a heads-up display (HUD) for tactical information and a reinforced faceplate for added protection.</description>
+		<label>Lion`s armor helment (winged)</label>
+		<description>A magnificent, winged helmet worn with the Lion’s armor. The great wings only add to the Primarch’s towering stature, inspiring awe and terror in enemy ranks.\n\nAfter a Horus Heresy-era civil war within the Dark Angels and the defeat of Luther, the Arch-Betrayer, the Lion was rendered comatose and Caliban destroyed. It was only ten thousand years later that the Lion awoke to a much-decayed Imperium, and set out trying to save it.</description>
 		<graphicData>
 			<texPath>Things/Apparel/LionArmor/Helmet/LionC_helmet</texPath>			
 		</graphicData>

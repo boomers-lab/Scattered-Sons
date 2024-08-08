@@ -7,7 +7,7 @@
 	<ResearchProjectDef ParentName="GW_SM_SSTechBase">
 		<defName>GW_SM_Guilliman</defName>
 		<label>Armor of Fate</label>
-		<description>. . .</description>
+		<description>Unlock Guilliman and Imperial regent armors</description>
         <baseCost>5000</baseCost>
 		<prerequisites>
 			<li>AdvancedFabrication</li>
@@ -31,7 +31,7 @@
 	<ResearchProjectDef ParentName="GW_SM_SSTechBase">
 		<defName>GW_SM_LionArmor</defName>
 		<label>Lion Armor</label>
-		<description>. . .</description>
+		<description>Unlock Lion and Imperial warden armors</description>
         <baseCost>5000</baseCost>
 		<prerequisites>
 			<li>AdvancedFabrication</li>
@@ -55,7 +55,7 @@
 	<ResearchProjectDef ParentName="GW_SM_SSTechBase">
 		<defName>GW_Primarchfabrication</defName>
 		<label>Primarch fabrication</label>
-		<description>. . .</description>
+		<description>Unlocks the most powerful gear in 40k</description>
         <baseCost>5000</baseCost>
 		<prerequisites>
 			<li>AdvancedFabrication</li>
