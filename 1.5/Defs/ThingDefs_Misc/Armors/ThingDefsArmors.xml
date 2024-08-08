@@ -293,7 +293,7 @@
 	<ThingDef ParentName="GW_ScatteredSons_ArmorBase">
 		<defName>GW_SM_LionArmor</defName>
 		<label>Lion`s power armor</label>
-		<description><description>A replica of the mysterious armor worn by Lion El’Jonson upon his return in the 41st Millennium. It is able to turn away both blade and bullet, and its prodigious size inspires great fear in the enemys hearts.\m\mLion El’Jonson, also known simply as The Lion, is the Primarch of the Dark Angels, a chapter of Space Marines. The Dark Angels were originally a Space Marine Legion, founded on Terra during the Unification Wars - indeed, they were the 1st Legion.</description></description>
+		<description>A replica of the mysterious armor worn by Lion El’Jonson upon his return in the 41st Millennium. It is able to turn away both blade and bullet, and its prodigious size inspires great fear in the enemys hearts.\m\mLion El’Jonson, also known simply as The Lion, is the Primarch of the Dark Angels, a chapter of Space Marines. The Dark Angels were originally a Space Marine Legion, founded on Terra during the Unification Wars - indeed, they were the 1st Legion.</description>
 		<graphicData>
 			<texPath>Things/Apparel/LionArmor/LionC_torso</texPath>
 		</graphicData>
