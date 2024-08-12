@@ -31,7 +31,14 @@
         </thingSetMakerTags>
         <equippedAngleOffset>0</equippedAngleOffset>
         <recipeMaker>
-            <recipeUsers Inherit="False" />
+            <researchPrerequisite>GW_SM_LionArmor</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>20</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>GW_SM_ScatteredSons_WeaponBench</li>
+			</recipeUsers>
         </recipeMaker>
 		<costList>
 			<ComponentSpacer>40</ComponentSpacer>
@@ -44,6 +51,10 @@
 			<HP_Adamantium>300</HP_Adamantium>
 			<HP_Auramite>100</HP_Auramite>
 		</costList>
+		<stuffCategories>
+			<li>Imperial_Metals</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
         <tools>
             <li>
                 <label>handle</label>
@@ -115,6 +126,10 @@
 			<HP_Adamantium>240</HP_Adamantium>
 			<HP_Auramite>110</HP_Auramite>
 		</costList>
+		<stuffCategories>
+			<li>Imperial_Metals</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
 		<tradeability>Sellable</tradeability>
 		<uiIconScale>1.2</uiIconScale>
 		<smeltable>false</smeltable>
