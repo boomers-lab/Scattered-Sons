@@ -56,24 +56,13 @@
 		<defName>GW_Primarchfabrication</defName>
 		<label>Primarch fabrication</label>
 		<description>Unlocks the most powerful gear in 40k</description>
-        <baseCost>5000</baseCost>
+        <baseCost>3000</baseCost>
 		<prerequisites>
 			<li>AdvancedFabrication</li>
 			<li MayRequire="grimworld.talonoftheemperor">GW_TotE_CustodesFabrication</li>
 		</prerequisites>
 		<researchViewX>7.00</researchViewX>
 		<researchViewY>2.40</researchViewY>
-		<modExtensions>
-            <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
-                <StudyLocation>GW_Cogitator</StudyLocation>
-                <ItemStudyRequirements>
-                    <li Class="GW_Frame.StudyRequirement">
-                        <StudyObject>GW_STC_Fragment</StudyObject>
-                        <NumberRequired>4</NumberRequired>
-                    </li>    
-                </ItemStudyRequirements>
-            </li>
-        </modExtensions>
 	</ResearchProjectDef>
   
 
