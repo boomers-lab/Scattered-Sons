@@ -60,6 +60,7 @@
 		<prerequisites>
 			<li>AdvancedFabrication</li>
 			<li MayRequire="grimworld.talonoftheemperor">GW_TotE_CustodesFabrication</li>
+			<li MayRequire="grimworld.talonoftheemperor">GW_SM_CodexAstartes</li>
 		</prerequisites>
 		<researchViewX>7.00</researchViewX>
 		<researchViewY>2.40</researchViewY>
