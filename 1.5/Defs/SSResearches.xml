@@ -11,17 +11,17 @@
         <baseCost>5000</baseCost>
 		<prerequisites>
 			<li>AdvancedFabrication</li>
-			<li MayRequire="happypurging.ageofdarkness">GW_SM_AstartesHeavy</li>
+			<li MayRequire="happypurging.ageofdarkness">GW_Primarchfabrication</li>
 		</prerequisites>
-		<researchViewX>11.00</researchViewX>
-		<researchViewY>2.30</researchViewY>
+		<researchViewX>8.00</researchViewX>
+		<researchViewY>2.10</researchViewY>
 		<modExtensions>
             <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
                 <StudyLocation>GW_Cogitator</StudyLocation>
                 <ItemStudyRequirements>
                     <li Class="GW_Frame.StudyRequirement">
                         <StudyObject>GW_STC_Fragment</StudyObject>
-                        <NumberRequired>5</NumberRequired>
+                        <NumberRequired>9</NumberRequired>
                     </li>    
                 </ItemStudyRequirements>
             </li>
@@ -35,17 +35,17 @@
         <baseCost>5000</baseCost>
 		<prerequisites>
 			<li>AdvancedFabrication</li>
-			<li MayRequire="happypurging.ageofdarkness">GW_SM_AstartesHeavy</li>
+			<li MayRequire="happypurging.ageofdarkness">GW_Primarchfabrication</li>
 		</prerequisites>
-		<researchViewX>11.00</researchViewX>
-		<researchViewY>3.30</researchViewY>
+		<researchViewX>8.00</researchViewX>
+		<researchViewY>2.60</researchViewY>
 		<modExtensions>
             <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
                 <StudyLocation>GW_Cogitator</StudyLocation>
                 <ItemStudyRequirements>
                     <li Class="GW_Frame.StudyRequirement">
                         <StudyObject>GW_STC_Fragment</StudyObject>
-                        <NumberRequired>5</NumberRequired>
+                        <NumberRequired>9</NumberRequired>
                     </li>    
                 </ItemStudyRequirements>
             </li>
@@ -61,15 +61,15 @@
 			<li>AdvancedFabrication</li>
 			<li MayRequire="grimworld.talonoftheemperor">GW_TotE_CustodesFabrication</li>
 		</prerequisites>
-		<researchViewX>13.00</researchViewX>
-		<researchViewY>0.20</researchViewY>
+		<researchViewX>7.00</researchViewX>
+		<researchViewY>2.40</researchViewY>
 		<modExtensions>
             <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
                 <StudyLocation>GW_Cogitator</StudyLocation>
                 <ItemStudyRequirements>
                     <li Class="GW_Frame.StudyRequirement">
                         <StudyObject>GW_STC_Fragment</StudyObject>
-                        <NumberRequired>5</NumberRequired>
+                        <NumberRequired>4</NumberRequired>
                     </li>    
                 </ItemStudyRequirements>
             </li>
