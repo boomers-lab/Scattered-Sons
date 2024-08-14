@@ -106,7 +106,7 @@
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<recipeMaker>
-            <researchPrerequisite>GW_SM_LionArmor</researchPrerequisite>
+            <researchPrerequisite>GW_SM_Guilliman</researchPrerequisite>
 			<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
 			<skillRequirements>
 				<Crafting>20</Crafting>
