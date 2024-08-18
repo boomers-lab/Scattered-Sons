@@ -1,0 +1,13 @@
+{
+  "TextureModID": "grimworld.scatteredsons",
+  "ItemDefName": "GW_SM_Melee_FlameSword",
+  "ItemType": "ThingDef",
+  "ItemTypeNamespace": "Verse",
+  "OffX": 0.577778,
+  "OffY": 0.464,
+  "Rotation": 10.0,
+  "ScaleX": 1.5,
+  "ScaleY": 1.5,
+  "BladeEnd": 1.34222269,
+  "MeleeWeaponType": 6
+}

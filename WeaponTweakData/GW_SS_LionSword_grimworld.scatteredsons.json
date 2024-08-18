@@ -1,0 +1,14 @@
+{
+  "TextureModID": "grimworld.scatteredsons",
+  "ItemDefName": "GW_SS_LionSword",
+  "ItemType": "ThingDef",
+  "ItemTypeNamespace": "Verse",
+  "OffX": 0.435556,
+  "OffY": 0.3288893,
+  "Rotation": 15.0,
+  "ScaleX": 1.5,
+  "ScaleY": 1.5,
+  "BladeStart": 0.161777988,
+  "BladeEnd": 1.21422267,
+  "MeleeWeaponType": 6
+}
