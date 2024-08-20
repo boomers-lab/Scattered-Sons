@@ -18,7 +18,7 @@
 				<stunDuration>120</stunDuration>
 				
 				<isNullifyDamage>true</isNullifyDamage>
-				<nullifyDamageChance>0.35</nullifyDamageChance>
+				<nullifyDamageChance>0.30</nullifyDamageChance>
 				
 				<isReduceDamageTakenWhenParry>true</isReduceDamageTakenWhenParry>
 				<damageReduction>0.50</damageReduction>
@@ -36,7 +36,7 @@
 				<knockbackDistance>2.0</knockbackDistance>
 				
 				<isReflectProjectile>true</isReflectProjectile>
-				<reflectProjectileChance>0.55</reflectProjectileChance>
+				<reflectProjectileChance>0.40</reflectProjectileChance>
 				
 				<parrySounds>
 					<li>Deflect_Metal</li>
