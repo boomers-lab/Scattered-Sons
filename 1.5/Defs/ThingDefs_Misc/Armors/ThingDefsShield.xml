@@ -1,0 +1,194 @@
+<Defs>
+
+	<ThingDef ParentName="GWShieldBase" Name="GWSSShieldBase" Abstract="true">
+		<apparel>
+		</apparel>
+		<statBases>
+			<WorkToMake>15000</WorkToMake>
+			<MaxHitPoints>1200</MaxHitPoints>
+		</statBases>
+		<recipeMaker>
+			<recipeUsers>
+				<li>GW_SM_ScatteredSons_ArmorBench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+	
+	<ThingDef ParentName="GWSSShieldBase">
+		<defName>GM_SS_ShieldLionsW</defName>
+		<label>Lion shield</label>
+		<description>A master-crafted copy of the personal shield of the Emperor. Just as the true Lion came across the Emperors Shield in Mirror-Caliban and used it to great effect in battle, so do the copies of the Lion wield these shields to defeat the enemes attacks.\n\nThe Imperial remnants are greatly troubled with Cawls work - to some, it approaches blasphemy and heresy to attempt to replicate the Master of Mankinds greatness. Others believe it disrespects the memory of the Primarchs name - akin to raising the dead and bidding them dance like marionettes.</description>
+		<graphicData>
+			<texPath>Things/Apparel/LionArmor/LionShield/Preview/LionW_shield</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<costStuffCount>60</costStuffCount>
+		<statBases>
+			<StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
+			<Mass>7</Mass>
+			<Bulk MayRequire="CETeam.CombatExtended">8</Bulk>
+			<WornBulk MayRequire="CETeam.CombatExtended">5</WornBulk>
+		</statBases>
+		<equippedStatOffsets>
+			<ReloadSpeed MayRequire="CETeam.CombatExtended">-0.2</ReloadSpeed>
+			<MeleeHitChance>-1</MeleeHitChance>
+			<ShootingAccuracyPawn>-0.15</ShootingAccuracyPawn>
+			<AimingAccuracy MayRequire="CETeam.CombatExtended">-0.08</AimingAccuracy>
+			<Suppressability MayRequire="CETeam.CombatExtended">-0.25</Suppressability>
+			<MeleeCritChance MayRequire="CETeam.CombatExtended">-0.05</MeleeCritChance>
+			<MeleeParryChance MayRequire="CETeam.CombatExtended">1.0</MeleeParryChance>
+		</equippedStatOffsets>
+		<apparel>
+			<drawData>
+				<defaultData>
+					<layer>75</layer> <!--70-77 is over helmet and under gun-->
+				</defaultData>
+				<dataNorth>
+					<offset>(0.0, -0.4, 0.0)</offset>
+				</dataNorth>
+				<!-- 0.2 the height is just enough that pawn's eyes visible through the port -->
+				<dataSouth>
+					<offset>(0.25, 0.0, -0.2)</offset>
+				</dataSouth>
+                <!-- <dataWest> -->
+                    <!-- <offset>(-0.25, 0.0, 0.0)</offset> -->
+                <!-- </dataWest> -->
+                <dataEast>
+                    <offset>(0.50, 0.0, -0.2)</offset>
+                </dataEast>
+                <scale>1.00</scale>
+                <childScale>1.0</childScale>
+            </drawData>
+			<wornGraphicPath>Things/Apparel/LionArmor/LionShield/LionW_shield</wornGraphicPath>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<tags>
+				<li>GW_SS_CombatShield</li>
+			</tags>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>GW_SM_LionArmor</researchPrerequisite>
+		</recipeMaker>
+		<comps>
+			<li Class="CompProperties_Biocodable">
+				<biocodeOnEquip>True</biocodeOnEquip>
+			</li>
+			<li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit" />
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+				<maskCount>3</maskCount>
+				<palettePresets>GW_CS_BodyChapterPalettesCustodes</palettePresets>
+				<defaultPalette>
+					<colorA>(199, 160, 82)</colorA>
+					<colorB>(149, 38, 34)</colorB>
+					<colorC>(85, 194, 206)</colorC>
+				</defaultPalette>
+			</li>
+			<li Class="GWParryShield.CompProperties_GW_Parryable">
+				<parryHediff>GW_LionsParry</parryHediff><!-- the parry hediff-->
+				<parryChance>0.50</parryChance> <!-- 0.20 = 20% -->
+				<parryWindow>30</parryWindow>
+				<parryCooldown>180</parryCooldown>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="VFECore.ApparelDrawPosExtension">
+				<isUnifiedApparel>true</isUnifiedApparel>
+				<hideHead>false</hideHead>
+			</li>
+			<li Class="CombatExtended.ShieldDefExtension" MayRequire="CETeam.CombatExtended">
+				<shieldCoverage>
+					<li>Hands</li>
+					<li>Arms</li>
+					<li>Shoulders</li>
+					<li>Torso</li>
+					<li>Neck</li>
+				</shieldCoverage>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	
+	<ThingDef ParentName="GWSSShieldBase">
+		<defName>GM_SS_ShieldLionsC</defName>
+		<label>Imperial warden shield</label>
+		<description>A master-crafted copy of the personal shield of the Emperor. Just as the true Lion came across the Emperors Shield in Mirror-Caliban and used it to great effect in battle, so do the copies of the Lion wield these shields to defeat the enemes attacks.\n\nThe Imperial remnants are greatly troubled with Cawls work - to some, it approaches blasphemy and heresy to attempt to replicate the Master of Mankinds greatness. Others believe it disrespects the memory of the Primarchs name - akin to raising the dead and bidding them dance like marionettes.</description>
+		<graphicData>
+			<texPath>Things/Apparel/LionArmor/LionShield/Preview/LionC_shield</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<costStuffCount>60</costStuffCount>
+		<statBases>
+			<StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
+			<Mass>7</Mass>
+			<Bulk MayRequire="CETeam.CombatExtended">8</Bulk>
+			<WornBulk MayRequire="CETeam.CombatExtended">5</WornBulk>
+		</statBases>
+		<equippedStatOffsets>
+			<ReloadSpeed MayRequire="CETeam.CombatExtended">-0.2</ReloadSpeed>
+			<MeleeHitChance>-1</MeleeHitChance>
+			<ShootingAccuracyPawn>-0.15</ShootingAccuracyPawn>
+			<AimingAccuracy MayRequire="CETeam.CombatExtended">-0.08</AimingAccuracy>
+			<Suppressability MayRequire="CETeam.CombatExtended">-0.25</Suppressability>
+			<MeleeCritChance MayRequire="CETeam.CombatExtended">-0.05</MeleeCritChance>
+			<MeleeParryChance MayRequire="CETeam.CombatExtended">1.0</MeleeParryChance>
+		</equippedStatOffsets>
+		<apparel>
+			<drawData>
+				<defaultData>
+					<layer>75</layer> <!--70-77 is over helmet and under gun-->
+				</defaultData>
+				<dataNorth>
+					<offset>(0.0, -0.4, 0.0)</offset>
+				</dataNorth>
+				<!-- 0.2 the height is just enough that pawn's eyes visible through the port -->
+				<dataSouth>
+					<offset>(0.25, 0.0, -0.2)</offset>
+				</dataSouth>
+                <!-- <dataWest> -->
+                    <!-- <offset>(-0.25, 0.0, 0.0)</offset> -->
+                <!-- </dataWest> -->
+                <dataEast>
+                    <offset>(0.50, 0.0, -0.2)</offset>
+                </dataEast>
+                <scale>1.00</scale>
+                <childScale>1.0</childScale>
+            </drawData>
+			<wornGraphicPath>Things/Apparel/LionArmor/LionShield/LionC_shield</wornGraphicPath>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<tags>
+				<li>GW_SS_CombatShield</li>
+			</tags>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>GW_SM_LionArmor</researchPrerequisite>
+		</recipeMaker>
+		<comps>
+			<li Class="CompProperties_Biocodable">
+				<biocodeOnEquip>True</biocodeOnEquip>
+			</li>
+			<li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit" />
+			<li Class="GWParryShield.CompProperties_GW_Parryable">
+				<parryHediff>GW_LionsParry</parryHediff><!-- the parry hediff-->
+				<parryChance>0.50</parryChance> <!-- 0.20 = 20% -->
+				<parryWindow>30</parryWindow>
+				<parryCooldown>180</parryCooldown>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="VFECore.ApparelDrawPosExtension">
+				<isUnifiedApparel>true</isUnifiedApparel>
+				<hideHead>false</hideHead>
+			</li>
+			<li Class="CombatExtended.ShieldDefExtension" MayRequire="CETeam.CombatExtended">
+				<shieldCoverage>
+					<li>Hands</li>
+					<li>Arms</li>
+					<li>Shoulders</li>
+					<li>Torso</li>
+					<li>Neck</li>
+				</shieldCoverage>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+</Defs>

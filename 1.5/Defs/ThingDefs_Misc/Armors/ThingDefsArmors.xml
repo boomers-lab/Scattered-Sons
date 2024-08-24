@@ -88,8 +88,8 @@
 	
 	<ThingDef ParentName="GW_ScatteredSons_ArmorBase">
 		<defName>GW_SM_ChapterMasterArmor</defName>
-		<label>Imperial Regent armor</label>
-		<description>The Imperial Regent power armor from Warhammer 40,000 is an advanced exoskeleton designed for elite soldiers in the service of the Imperium. It features a sleek and imposing design, with reinforced plating providing exceptional durability.\n\nThe armor is equipped with a streamlined helmet featuring an advanced heads-up display (HUD) for tactical information and targeting assistance. It also includes a versatile power pack for extended operational endurance. The Imperial Regent Power Armor is crafted with attention to detail, combining functionality with a commanding aesthetic to instill fear in the enemies of the Imperium.</description>
+		<label>Imperial regent armor</label>
+		<description>A carefully-crafted replica of the Armor of Fate, the Power Armor worn by the Imperial Regent Roboute Guilliman. It would be safe to consider this design to be the pinnacle of Power Armor technology - an opponent would need a large volume of anti-armor fire to even faze the wearer.\n\nThe original Armor of Fate was even further enhanced by the power of Ynnead, the then-new Eldar god of the dead. Combined with the advanced life-preserving technology built into the armor by the Adeptus Mechanicus, the Armor of Fate healed the grievously-wounded Primarch and restored him to full strength.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_ChapterMaster/GuillimanW_torso</texPath>
 		</graphicData>
@@ -152,7 +152,7 @@
 	<ThingDef ParentName="GW_ScatteredSons_ArmorBase">
 		<defName>GW_SM_GuillimanArmor</defName>
 		<label>Armor of Fate</label>
-		<description>The Guilliman's Armor of Fate in the Warhammer 40,000 universe is an extraordinary piece of technology designed for the Primarch Roboute Guilliman. This power armor is a masterful fusion of advanced materials and arcane technology, providing unparalleled protection and versatility on the battlefield.\n\nThis power armor is a symbol of both martial prowess and strategic genius, befitting the Primarch of the Ultramarines. The Guilliman's Armor of Fate serves as a testament to the Imperium's technological prowess and the indomitable spirit of its greatest leaders.</description>
+		<description>A carefully-crafted replica of the Armor of Fate, the Power Armor worn by the Imperial Regent Roboute Guilliman. It would be safe to consider this design to be the pinnacle of Power Armor technology - an opponent would need a large volume of anti-armor fire to even faze the wearer.\n\nThe original Armor of Fate was even further enhanced by the power of Ynnead, the then-new Eldar god of the dead. Combined with the advanced life-preserving technology built into the armor by the Adeptus Mechanicus, the Armor of Fate healed the grievously-wounded Primarch and restored him to full strength.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Guilliman/GuillimanC_torso</texPath>
 		</graphicData>
@@ -211,7 +211,7 @@
 	<ThingDef ParentName="GW_ScatteredSons_ArmorBase">
 		<defName>GW_SM_ImperialWardenrArmor</defName>
 		<label>imperial warden power armor</label>
-		<description>. . .</description>
+		<description>A replica of the mysterious armor worn by Lion El’Jonson upon his return in the 41st Millennium. It is able to turn away both blade and bullet, and its prodigious size inspires great fear in the enemys hearts.\m\mLion El’Jonson, also known simply as The Lion, is the Primarch of the Dark Angels, a chapter of Space Marines. The Dark Angels were originally a Space Marine Legion, founded on Terra during the Unification Wars - indeed, they were the 1st Legion.</description>
 		<graphicData>
 			<texPath>Things/Apparel/ImperialWardenr/Display/LionW_torso</texPath>
 		</graphicData>
@@ -292,8 +292,8 @@
 	
 	<ThingDef ParentName="GW_ScatteredSons_ArmorBase">
 		<defName>GW_SM_LionArmor</defName>
-		<label>Lion power armor</label>
-		<description>. . .</description>
+		<label>Lion`s power armor</label>
+		<description>A replica of the mysterious armor worn by Lion El’Jonson upon his return in the 41st Millennium. It is able to turn away both blade and bullet, and its prodigious size inspires great fear in the enemys hearts.\m\mLion El’Jonson, also known simply as The Lion, is the Primarch of the Dark Angels, a chapter of Space Marines. The Dark Angels were originally a Space Marine Legion, founded on Terra during the Unification Wars - indeed, they were the 1st Legion.</description>
 		<graphicData>
 			<texPath>Things/Apparel/LionArmor/LionC_torso</texPath>
 		</graphicData>

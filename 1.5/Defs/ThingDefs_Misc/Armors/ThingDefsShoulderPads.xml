@@ -84,8 +84,8 @@
 	
 	<ThingDef ParentName="GW_SS_ShoulderBase">
 		<defName>GW_SM_ChapterMasterShoulderPads</defName>
-		<label>Imperial Regent shoulder pads</label>
-		<description>The Imperial Regent Shoulderpads in Warhammer 40,000 are iconic components of the power armor worn by elite soldiers in the service of the Imperium. Crafted with a combination of durable materials and intricate design, these shoulderpads serve both functional and symbolic purposes on the battlefield.\n\nThe left shoulderpad often bears the chapter's symbol, while the right may display personal or campaign-specific markings.</description>
+		<label>Imperial regent shoulder pads</label>
+		<description>The shoulder plates of the Armor of Fate. On the right shoulder is a golden depiction of the Aquila, the symbol that represents the entire Imperium of Man. On the left is a more decorated version of the Ultramarines insignia - the Greek letter Omega - which symbolizes the chapter he was Primarch of.\n\nThe copies of Guilliman all look like him, talk like him, and fight like him. But despite Belisarius Cawl’s best efforts, they are not him, and never can be.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_ChapterMaster/Shoulderpads/GuillimanW_shoulders</texPath>
 		</graphicData>
@@ -141,7 +141,7 @@
 	<ThingDef ParentName="GW_SS_ShoulderBase">
 		<defName>GW_SM_GuillimanShoulderPads</defName>
 		<label>Armor of Fate shoulder pads</label>
-		<description>The shoulderpads accompanying Guilliman's Armor of Fate in Warhammer 40,000 are masterfully crafted components, both ornate and functional. Specifically designed for the Primarch Roboute Guilliman, these shoulderpads serve as a symbol of his status and the might of the Ultramarines.\n\nThe left shoulderpad often bears the chapter's symbol, while the right may display personal or campaign-specific markings.</description>
+		<description>The shoulder plates of the Armor of Fate. On the right shoulder is a golden depiction of the Aquila, the symbol that represents the entire Imperium of Man. On the left is a more decorated version of the Ultramarines insignia - the Greek letter Omega - which symbolizes the chapter he was Primarch of.\n\nThe copies of Guilliman all look like him, talk like him, and fight like him. But despite Belisarius Cawl’s best efforts, they are not him, and never can be.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Guilliman/Shoulderpads/GuillimanC_shoulders</texPath>
 		</graphicData>
@@ -191,8 +191,8 @@
 	
 	<ThingDef ParentName="GW_SS_ShoulderBase">
 		<defName>GW_SM_ImperialWardenrShoulderPads</defName>
-		<label>Imperial Warden shoulder pads</label>
-		<description>The Imperial Regent Shoulderpads in Warhammer 40,000 are iconic components of the power armor worn by elite soldiers in the service of the Imperium. Crafted with a combination of durable materials and intricate design, these shoulderpads serve both functional and symbolic purposes on the battlefield.\n\nThe left shoulderpad often bears the chapter's symbol, while the right may display personal or campaign-specific markings.</description>
+		<label>Imperial warden shoulder pads</label>
+		<description>The shoulder pads of Lion El’Jonson, also known as The Lion. Sure enough, the right shoulder bears an ornate depiction of a lion’s head, while the left shoulder has a more ornate version of the Dark Angels insignia - a sword with wings.\n\nThe Lion was raised on the planet of Caliban, a beautiful yet Warp-tainted world due to its proximity to the Eye of Terror, a giant Chaos rift. Orders of noble knights ruled the world and did battle with the Great Beasts of the forest, until Lion El’Jonson united the various knightly orders and wiped out the Great Beasts for good.</description>
 		<graphicData>
 			<texPath>Things/Apparel/ImperialWardenr/Display/LionW_shoulders</texPath>
 		</graphicData>
@@ -246,8 +246,8 @@
 	
 	<ThingDef ParentName="GW_SS_ShoulderBase">
 		<defName>GW_SM_LionArmorShoulderPads</defName>
-		<label>Lion Armor shoulder pads</label>
-		<description>The shoulderpads accompanying Guilliman's Armor of Fate in Warhammer 40,000 are masterfully crafted components, both ornate and functional. Specifically designed for the Primarch Roboute Guilliman, these shoulderpads serve as a symbol of his status and the might of the Ultramarines.\n\nThe left shoulderpad often bears the chapter's symbol, while the right may display personal or campaign-specific markings.</description>
+		<label>Lion`s Armor shoulder pads</label>
+		<description>The shoulder pads of Lion El’Jonson, also known as The Lion. Sure enough, the right shoulder bears an ornate depiction of a lion’s head, while the left shoulder has a more ornate version of the Dark Angels insignia - a sword with wings.\n\nThe Lion was raised on the planet of Caliban, a beautiful yet Warp-tainted world due to its proximity to the Eye of Terror, a giant Chaos rift. Orders of noble knights ruled the world and did battle with the Great Beasts of the forest, until Lion El’Jonson united the various knightly orders and wiped out the Great Beasts for good.</description>
 		<graphicData>
 			<texPath>Things/Apparel/LionArmor/Shoulderpads/LionC_shoulders</texPath>
 		</graphicData>

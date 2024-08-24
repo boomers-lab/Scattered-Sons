@@ -206,7 +206,7 @@
 	<!-- imperial warden -->
 	<ThingDef ParentName="GW_SM_ScatteredSonsBackpackBase">
         <defName>GW_SM_ImperialWardenrBackpack</defName>
-		<label>Imperial Warden backpack</label>
+		<label>Imperial warden backpack</label>
 		<description>The Imperial Regent backpack in the Warhammer 40,000 universe is a highly sophisticated piece of equipment, tailored for elite soldiers within the Imperium. Designed for maximum efficiency, it serves as a power source and support system for the Imperial Regent Power Armor.\n\nCrafted with a blend of advanced alloys and arcane technology, the backpack houses a compact yet powerful energy generator. This generator fuels the energy field of the power armor, providing an additional layer of protection to the wearer. The design is streamlined, minimizing bulk while maximizing energy output.</description>
 		<graphicData>
 			<texPath>Things/Apparel/ImperialWardenr/Display/LionW_backpack</texPath>
