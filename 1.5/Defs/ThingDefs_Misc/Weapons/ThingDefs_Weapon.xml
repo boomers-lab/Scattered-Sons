@@ -145,6 +145,7 @@
 		<techLevel>Archotech</techLevel>
 		<relicChance>3</relicChance>
 		<weaponTags>
+			<li>GW_GuillimanSword</li>
 			<li>UltratechMelee</li>
 		</weaponTags>
 		<weaponClasses>
