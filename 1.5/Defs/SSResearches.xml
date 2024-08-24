@@ -20,8 +20,8 @@
                 <StudyLocation>GW_Cogitator</StudyLocation>
                 <ItemStudyRequirements>
                     <li Class="GW_Frame.StudyRequirement">
-                        <StudyObject>PASS_GuillimanSTC</StudyObject>
-                        <NumberRequired>1</NumberRequired>
+                        <StudyObject>GW_STC_Fragment</StudyObject>
+                        <NumberRequired>9</NumberRequired>
                     </li>    
                 </ItemStudyRequirements>
             </li>
@@ -44,8 +44,8 @@
                 <StudyLocation>GW_Cogitator</StudyLocation>
                 <ItemStudyRequirements>
                     <li Class="GW_Frame.StudyRequirement">
-                        <StudyObject>PASS_LionSTC</StudyObject>
-                        <NumberRequired>1</NumberRequired>
+                        <StudyObject>GW_STC_Fragment</StudyObject>
+                        <NumberRequired>9</NumberRequired>
                     </li>    
                 </ItemStudyRequirements>
             </li>
