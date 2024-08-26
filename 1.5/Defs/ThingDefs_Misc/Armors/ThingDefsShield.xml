@@ -7,6 +7,9 @@
 			<WorkToMake>15000</WorkToMake>
 			<MaxHitPoints>1200</MaxHitPoints>
 		</statBases>
+		<stuffCategories Inherit="False">
+			<li>Imperial_Metals</li>
+		</stuffCategories>
 		<recipeMaker>
 			<recipeUsers>
 				<li>GW_SM_ScatteredSons_ArmorBench</li>
