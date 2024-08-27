@@ -5,12 +5,16 @@
 		</apparel>
 		<statBases>
 			<WorkToMake>15000</WorkToMake>
-			<MaxHitPoints>1200</MaxHitPoints>
+			<MaxHitPoints>3000</MaxHitPoints>
 		</statBases>
 		<stuffCategories Inherit="False">
 			<li>Imperial_Metals</li>
 		</stuffCategories>
 		<recipeMaker>
+			<skillRequirements>
+				<Crafting>20</Crafting>
+				<Intellectual>15</Intellectual>
+			</skillRequirements>
 			<recipeUsers>
 				<li>GW_SM_ScatteredSons_ArmorBench</li>
 			</recipeUsers>
@@ -26,7 +30,18 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
-		<costStuffCount>60</costStuffCount>
+		<costStuffCount>400</costStuffCount>
+		<costList>
+			<ComponentSpacer>10</ComponentSpacer>
+			<ComponentIndustrial>25</ComponentIndustrial>
+			<GW_ComponentRelic>1</GW_ComponentRelic>
+			<Plasteel>400</Plasteel>
+			<Steel>600</Steel>
+			<Uranium>100</Uranium>
+			<HP_Ceramite>300</HP_Ceramite>
+			<HP_Adamantium>240</HP_Adamantium>
+			<HP_Auramite>110</HP_Auramite>
+		</costList>
 		<statBases>
 			<StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
 			<Mass>7</Mass>
@@ -119,7 +134,18 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
-		<costStuffCount>60</costStuffCount>
+		<costStuffCount>400</costStuffCount>
+		<costList>
+			<ComponentSpacer>10</ComponentSpacer>
+			<ComponentIndustrial>25</ComponentIndustrial>
+			<GW_ComponentRelic>1</GW_ComponentRelic>
+			<Plasteel>400</Plasteel>
+			<Steel>600</Steel>
+			<Uranium>100</Uranium>
+			<HP_Ceramite>300</HP_Ceramite>
+			<HP_Adamantium>240</HP_Adamantium>
+			<HP_Auramite>110</HP_Auramite>
+		</costList>
 		<statBases>
 			<StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
 			<Mass>7</Mass>

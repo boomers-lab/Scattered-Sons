@@ -11,6 +11,7 @@
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
 				<Crafting>20</Crafting>
+				<Intellectual>15</Intellectual>
 			</skillRequirements>
 			<recipeUsers Inherit="False">
 				<li>GW_SM_ScatteredSons_ArmorBench</li>
