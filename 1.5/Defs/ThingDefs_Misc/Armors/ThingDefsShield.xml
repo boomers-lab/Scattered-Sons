@@ -63,7 +63,7 @@
 					<layer>75</layer> <!--70-77 is over helmet and under gun-->
 				</defaultData>
 				<dataNorth>
-					<offset>(0.0, -0.4, 0.0)</offset>
+					<offset>(-0.15, -0.4, 0.0)</offset>
 				</dataNorth>
 				<!-- 0.2 the height is just enough that pawn's eyes visible through the port -->
 				<dataSouth>
@@ -73,7 +73,7 @@
                     <!-- <offset>(-0.25, 0.0, 0.0)</offset> -->
                 <!-- </dataWest> -->
                 <dataEast>
-                    <offset>(0.50, 0.0, -0.2)</offset>
+                    <offset>(0.25, 0.0, -0.2)</offset>
                 </dataEast>
                 <scale>1.00</scale>
                 <childScale>1.0</childScale>
@@ -132,7 +132,7 @@
 		<graphicData>
 			<texPath>Things/Apparel/LionArmor/LionShield/Preview/LionC_shield</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>CutoutComplex</shaderType>
+			<shaderType>Cutout</shaderType>
 		</graphicData>
 		<costStuffCount>400</costStuffCount>
 		<costList>
@@ -167,7 +167,7 @@
 					<layer>75</layer> <!--70-77 is over helmet and under gun-->
 				</defaultData>
 				<dataNorth>
-					<offset>(0.0, -0.4, 0.0)</offset>
+					<offset>(-0.15, -0.4, 0.0)</offset>
 				</dataNorth>
 				<!-- 0.2 the height is just enough that pawn's eyes visible through the port -->
 				<dataSouth>
@@ -177,7 +177,7 @@
                     <!-- <offset>(-0.25, 0.0, 0.0)</offset> -->
                 <!-- </dataWest> -->
                 <dataEast>
-                    <offset>(0.50, 0.0, -0.2)</offset>
+                    <offset>(0.25, 0.0, -0.2)</offset>
                 </dataEast>
                 <scale>1.00</scale>
                 <childScale>1.0</childScale>
