@@ -7,6 +7,7 @@
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
 				<Crafting>20</Crafting>
+				<Intellectual>15</Intellectual>
 			</skillRequirements>
 			<recipeUsers Inherit="false">
 				<li>GW_SM_ScatteredSons_ArmorBench</li>
@@ -112,7 +113,7 @@
 		<costList>
 			<ComponentSpacer>40</ComponentSpacer>
 			<ComponentIndustrial>70</ComponentIndustrial>
-			<GW_ComponentRelic>5</GW_ComponentRelic>
+			<GW_ComponentRelic>8</GW_ComponentRelic>
 			<Plasteel>500</Plasteel>
 			<Steel>900</Steel>
 			<Uranium>190</Uranium>
@@ -175,7 +176,7 @@
 		<costList>
 			<ComponentSpacer>40</ComponentSpacer>
 			<ComponentIndustrial>70</ComponentIndustrial>
-			<GW_ComponentRelic>5</GW_ComponentRelic>
+			<GW_ComponentRelic>8</GW_ComponentRelic>
 			<Plasteel>500</Plasteel>
 			<Steel>900</Steel>
 			<Uranium>190</Uranium>
@@ -233,7 +234,7 @@
 		<costList>
 			<ComponentSpacer>40</ComponentSpacer>
 			<ComponentIndustrial>70</ComponentIndustrial>
-			<GW_ComponentRelic>5</GW_ComponentRelic>
+			<GW_ComponentRelic>8</GW_ComponentRelic>
 			<Plasteel>500</Plasteel>
 			<Steel>900</Steel>
 			<Uranium>190</Uranium>
@@ -316,7 +317,7 @@
 		<costList>
 			<ComponentSpacer>40</ComponentSpacer>
 			<ComponentIndustrial>70</ComponentIndustrial>
-			<GW_ComponentRelic>5</GW_ComponentRelic>
+			<GW_ComponentRelic>8</GW_ComponentRelic>
 			<Plasteel>500</Plasteel>
 			<Steel>900</Steel>
 			<Uranium>190</Uranium>
