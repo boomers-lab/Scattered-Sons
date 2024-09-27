@@ -56,8 +56,8 @@
 	
 	<ThingDef ParentName="GW_ScatteredSonsHelmetBase">
 		<defName>GW_SM_ChapterMasterHelmet</defName>
-		<label>Imperial regent helmet</label>
-		<description>A helmet built for the Armor of Fate. While not commonly worn, as the Lord Commander of the Imperium generally wished to show his face to spur on his armies, it is just as protective as the armor itself is.\n\nBelisarius Cawl survived the fall of the Imperium, and still works for the Imperial remnants. His current goal is to recreate the Primarchs using the best candidates available, giving the remnants the leadership they need to survive.\n\nSo far, he has been disappointed.</description>
+		<label>Imperial Regent helmet</label>
+		<description>A helmet built for the Armor of Fate. While not commonly worn, as the Lord Commander of the Imperium generally wished to show his face to spur on his armies, it is just as protective as the armor itself is. \n\nAt first unknown to the fleet, the tech-priests here are also field-testing a project created by Belisarius Cawl. The goal of this project is to recreate the Primarchs using the best candidates available, giving the Imperium the leadership it needs to survive. \n\nSo far, he has been disappointed.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_ChapterMaster/Helmet/GuillimanW_helmet</texPath>
 		</graphicData>
@@ -115,8 +115,8 @@
 	
 	<ThingDef ParentName="GW_ScatteredSonsHelmetBase">
 		<defName>GW_SM_GuillimanHelmet</defName>
-		<label>Armor of Fate helmet</label>
-		<description>A helmet built for the Armor of Fate. While not commonly worn, as the Lord Commander of the Imperium generally wished to show his face to spur on his armies, it is just as protective as the armor itself is.\n\nBelisarius Cawl survived the fall of the Imperium, and still works for the Imperial remnants. His current goal is to recreate the Primarchs using the best candidates available, giving the remnants the leadership they need to survive.\n\nSo far, he has been disappointed.</description>
+		<label>Armor of Fate's helmet</label>
+		<description>A helmet built for the Armor of Fate. While not commonly worn, as the Lord Commander of the Imperium generally wished to show his face to spur on his armies, it is just as protective as the armor itself is. \n\nAt first unknown to the fleet, the tech-priests here are also field-testing a project created by Belisarius Cawl. The goal of this project is to recreate the Primarchs using the best candidates available, giving the Imperium the leadership it needs to survive. \n\nSo far, he has been disappointed.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Guilliman/Helmet/GuillimanC_helmet</texPath>			
 		</graphicData>
@@ -170,8 +170,8 @@
 	<!-- Imperial Warden Hood -->
 	<ThingDef ParentName="GW_ScatteredSonsHelmetBase">
 		<defName>GW_SM_ImperialWardenHood</defName>
-		<label>Imperial warden helmet (hood)</label>
-		<description>A magnificent, winged helmet worn with the Lion’s armor. The great wings only add to the Primarch’s towering stature, inspiring awe and terror in enemy ranks.\n\nAfter a Horus Heresy-era civil war within the Dark Angels and the defeat of Luther, the Arch-Betrayer, the Lion was rendered comatose and Caliban destroyed. It was only ten thousand years later that the Lion awoke to a much-decayed Imperium, and set out trying to save it.</description>
+		<label>Imperial Warden hood</label>
+		<description>A non-standard hood worn by some copies of the Lion. Though not as protective as the helmet the armor is supposed to be worn with, some of the Primarchs insist on wearing them instead. \n\nThe false Primarchs are selected only from the best Space Marines, and receive the best possible treatment and equipment. However, they also undergo a death of personality, their minds obliterated and replaced by that of the Primarch they imitate.</description>
 		<graphicData>
 			<texPath>Things/Apparel/ImperialWardenr/Display/LionW_hood</texPath>
 		</graphicData>
@@ -228,8 +228,8 @@
 	<!-- Imperial Warden Hooded -->
 	<ThingDef ParentName="GW_ScatteredSonsHelmetBase">
 		<defName>GW_SM_ImperialWardenHooded</defName>
-		<label>Imperial warden helmet (hooded)</label>
-		<description>A magnificent, winged helmet worn with the Lion’s armor. The great wings only add to the Primarch’s towering stature, inspiring awe and terror in enemy ranks.\n\nAfter a Horus Heresy-era civil war within the Dark Angels and the defeat of Luther, the Arch-Betrayer, the Lion was rendered comatose and Caliban destroyed. It was only ten thousand years later that the Lion awoke to a much-decayed Imperium, and set out trying to save it.</description>
+		<label>Imperial Warden Hooded Helmet</label>
+		<description>A modified helmet worn with a hood. A sort of compromise, this helmet strikes a balance between protection and the wearer’s wishes for a hood. \n\nEvery Primarch slain on the rimworlds is another crippling blow to the isolated Imperial fleet. It only serves to remind them that the real Primarchs are either dead or far away - their true gene-fathers would not have fallen to mere techno-barbarians.</description>
 		<graphicData>
 			<texPath>Things/Apparel/ImperialWardenr/Display/LionW_hooded</texPath>
 		</graphicData>
@@ -288,7 +288,7 @@
 	<!-- Imperial Warden Hooded -->
 	<ThingDef ParentName="GW_ScatteredSonsHelmetBase">
 		<defName>GW_SM_ImperialWardenHelmet</defName>
-		<label>Imperial warden helmet (winged)</label>
+		<label>Imperial Warden helmet</label>
 		<description>A magnificent, winged helmet worn with the Lion’s armor. The great wings only add to the Primarch’s towering stature, inspiring awe and terror in enemy ranks.\n\nAfter a Horus Heresy-era civil war within the Dark Angels and the defeat of Luther, the Arch-Betrayer, the Lion was rendered comatose and Caliban destroyed. It was only ten thousand years later that the Lion awoke to a much-decayed Imperium, and set out trying to save it.</description>
 		<graphicData>
 			<texPath>Things/Apparel/ImperialWardenr/Head_Helmet/LionW_helmet</texPath>
@@ -361,7 +361,7 @@
 	<ThingDef ParentName="GW_ScatteredSonsHelmetBase">
 		<defName>GW_SM_LionArmorHood</defName>
 		<label>Lion Armor Hood</label>
-		<description>A magnificent, winged helmet worn with the Lion’s armor. The great wings only add to the Primarch’s towering stature, inspiring awe and terror in enemy ranks.\n\nAfter a Horus Heresy-era civil war within the Dark Angels and the defeat of Luther, the Arch-Betrayer, the Lion was rendered comatose and Caliban destroyed. It was only ten thousand years later that the Lion awoke to a much-decayed Imperium, and set out trying to save it.</description>
+		<description>A non-standard hood worn by some copies of the Lion. Though not as protective as the helmet the armor is supposed to be worn with, some of the Primarchs insist on wearing them instead. \n\nThe false Primarchs are selected only from the best Space Marines, and receive the best possible treatment and equipment. However, they also undergo a death of personality, their minds obliterated and replaced by that of the Primarch they imitate.</description>
 		<graphicData>
 			<texPath>Things/Apparel/LionArmor/Helmet/LionC_hood</texPath>			
 		</graphicData>
@@ -412,8 +412,8 @@
 	
 	<ThingDef ParentName="GW_ScatteredSonsHelmetBase">
 		<defName>GW_SM_LionArmorHooded</defName>
-		<label>Lion Armor Hooded</label>
-		<description>A magnificent, winged helmet worn with the Lion’s armor. The great wings only add to the Primarch’s towering stature, inspiring awe and terror in enemy ranks.\n\nAfter a Horus Heresy-era civil war within the Dark Angels and the defeat of Luther, the Arch-Betrayer, the Lion was rendered comatose and Caliban destroyed. It was only ten thousand years later that the Lion awoke to a much-decayed Imperium, and set out trying to save it.</description>
+		<label>Lion's Hooded Helmet</label>
+		<description>A modified helmet worn with a hood. A sort of compromise, this helmet strikes a balance between protection and the wearer’s wishes for a hood. \n\nEvery Primarch slain on the rimworlds is another crippling blow to the isolated Imperial fleet. It only serves to remind them that the real Primarchs are either dead or far away - their true gene-fathers would not have fallen to mere techno-barbarians.</description>
 		<graphicData>
 			<texPath>Things/Apparel/LionArmor/Helmet/LionC_hooded</texPath>			
 		</graphicData>
@@ -466,7 +466,7 @@
 	
 	<ThingDef ParentName="GW_ScatteredSonsHelmetBase">
 		<defName>GW_SM_LionArmorHelmet</defName>
-		<label>Lion`s armor helment (winged)</label>
+		<label>Lion's Helmet</label>
 		<description>A magnificent, winged helmet worn with the Lion’s armor. The great wings only add to the Primarch’s towering stature, inspiring awe and terror in enemy ranks.\n\nAfter a Horus Heresy-era civil war within the Dark Angels and the defeat of Luther, the Arch-Betrayer, the Lion was rendered comatose and Caliban destroyed. It was only ten thousand years later that the Lion awoke to a much-decayed Imperium, and set out trying to save it.</description>
 		<graphicData>
 			<texPath>Things/Apparel/LionArmor/Helmet/LionC_helmet</texPath>			
