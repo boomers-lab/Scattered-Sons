@@ -293,7 +293,7 @@
 	
 	<ThingDef ParentName="GW_ScatteredSons_ArmorBase">
 		<defName>GW_SM_LionArmor</defName>
-		<label>Lion`s power armor</label>
+		<label>Lion's Armor</label>
 		<description>A replica of the mysterious armor worn by Lion El’Jonson upon his return in the 41st Millennium. It is able to turn away both blade and bullet, and its prodigious size inspires great fear in the enemys hearts. \n\nSpecial security measures are interlaced within the armor’s systems - it cannot be reproduced without them. First, the armor can only be worn by the first person to wear it. Second, the armor will cease functioning if another, identical suit is detected in its vicinity under the same faction - this is an attempt to stop “techno-barbarians” from becoming too powerful. \n\nLion El’Jonson, also known simply as The Lion, is the Primarch of the Dark Angels, a chapter of Space Marines. The Dark Angels were originally a Space Marine Legion, founded on Terra during the Unification Wars - indeed, they were the 1st Legion.</description>
 		<graphicData>
 			<texPath>Things/Apparel/LionArmor/LionC_torso</texPath>
