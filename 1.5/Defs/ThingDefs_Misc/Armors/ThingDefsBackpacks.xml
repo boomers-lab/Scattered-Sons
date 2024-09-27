@@ -55,7 +55,7 @@
 	<ThingDef ParentName="GW_SM_ScatteredSonsBackpackBase">
         <defName>GW_SM_ChapterMasterBackpack</defName>
 		<label>Imperial Regent backpack</label>
-		<description>The Imperial Regent backpack in the Warhammer 40,000 universe is a highly sophisticated piece of equipment, tailored for elite soldiers within the Imperium. Designed for maximum efficiency, it serves as a power source and support system for the Imperial Regent Power Armor.\n\nCrafted with a blend of advanced alloys and arcane technology, the backpack houses a compact yet powerful energy generator. This generator fuels the energy field of the power armor, providing an additional layer of protection to the wearer. The design is streamlined, minimizing bulk while maximizing energy output.</description>
+		<description>The backpack of the Armor of Fate. Even a Primarch’s armor needs a power supply to work optimally. \n\nThe suits of armor worn by the replica Primarchs are practically works of art - not merely protection for their wearer, but as a tribute to the Imperium’s greatest heroes. A tech-priest who was strident enough to suggest trying to improve them narrowly avoided execution as a tech-heretic.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_ChapterMaster/GuillimanW_backpack</texPath>
 		</graphicData>
@@ -134,7 +134,7 @@
 	<ThingDef ParentName="GW_SM_ScatteredSonsBackpackBase">
         <defName>GW_SM_GuillimanBackpack</defName>
 		<label>Armor of Fate backpack</label>
-		<description>The backpack accompanying Guilliman's Armor of Fate in Warhammer 40,000 is a marvel of technological ingenuity and arcane craftsmanship. Designed exclusively for the Primarch Roboute Guilliman, this backpack serves as a vital component in the overall functionality of the armor.\n\nConstructed with a combination of rare materials and advanced mechanisms, the backpack houses a potent energy generator that fuels the intricate systems of Guilliman's power armor. This generator is finely tuned to provide sustained power for the armor's energy field and various auxiliary functions.</description>
+		<description>The backpack of the Armor of Fate. Even a Primarch’s armor needs a power supply to work optimally. \n\nThe suits of armor worn by the replica Primarchs are practically works of art - not merely protection for their wearer, but as a tribute to the Imperium’s greatest heroes. A tech-priest who was strident enough to suggest trying to improve them narrowly avoided execution as a tech-heretic.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Guilliman/GuillimanC_backpack</texPath>
 		</graphicData>
@@ -207,8 +207,8 @@
 	<!-- imperial warden -->
 	<ThingDef ParentName="GW_SM_ScatteredSonsBackpackBase">
         <defName>GW_SM_ImperialWardenrBackpack</defName>
-		<label>Imperial warden backpack</label>
-		<description>The Imperial Regent backpack in the Warhammer 40,000 universe is a highly sophisticated piece of equipment, tailored for elite soldiers within the Imperium. Designed for maximum efficiency, it serves as a power source and support system for the Imperial Regent Power Armor.\n\nCrafted with a blend of advanced alloys and arcane technology, the backpack houses a compact yet powerful energy generator. This generator fuels the energy field of the power armor, providing an additional layer of protection to the wearer. The design is streamlined, minimizing bulk while maximizing energy output.</description>
+		<label>Imperial Warden backpack</label>
+		<description>A heavy backpack worn by the copies of Lion El’Jonson. It is meticulously replicated from the mysterious armor that the Lion wore upon his return to the Imperium. \n\nThe Lion’s legion, the Dark Angels, suffered a great schism during the Horus Heresy. The heretic Dark Angels, who became known as Fallen Angels, were defeated in such a titanic battle that Caliban itself was destroyed - torn apart by a Warp rift. \n\nThe Fallen Angels were scattered across time and space. The loyalist Dark Angels, calling themselves the Unforgiven, hunted them across the galaxy in their fortress-monastery, which was converted into a great starship - “the Rock”.</description>
 		<graphicData>
 			<texPath>Things/Apparel/ImperialWardenr/Display/LionW_backpack</texPath>
 		</graphicData>
@@ -286,7 +286,7 @@
 	<ThingDef ParentName="GW_SM_ScatteredSonsBackpackBase">
         <defName>GW_SM_LionArmorBackpack</defName>
 		<label>Lion Armor backpack</label>
-		<description>The backpack accompanying Guilliman's Armor of Fate in Warhammer 40,000 is a marvel of technological ingenuity and arcane craftsmanship. Designed exclusively for the Primarch Roboute Guilliman, this backpack serves as a vital component in the overall functionality of the armor.\n\nConstructed with a combination of rare materials and advanced mechanisms, the backpack houses a potent energy generator that fuels the intricate systems of Guilliman's power armor. This generator is finely tuned to provide sustained power for the armor's energy field and various auxiliary functions.</description>
+		<description>A heavy backpack worn by the copies of Lion El’Jonson. It is meticulously replicated from the mysterious armor that the Lion wore upon his return to the Imperium. \n\nThe Lion’s legion, the Dark Angels, suffered a great schism during the Horus Heresy. The heretic Dark Angels, who became known as Fallen Angels, were defeated in such a titanic battle that Caliban itself was destroyed - torn apart by a Warp rift. \n\nThe Fallen Angels were scattered across time and space. The loyalist Dark Angels, calling themselves the Unforgiven, hunted them across the galaxy in their fortress-monastery, which was converted into a great starship - “the Rock”.</description>
 		<graphicData>
 			<texPath>Things/Apparel/LionArmor/LionC_backpack</texPath>
 		</graphicData>
