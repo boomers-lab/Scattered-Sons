@@ -23,8 +23,8 @@
 	
 	<ThingDef ParentName="GWSSShieldBase">
 		<defName>GM_SS_ShieldLionsW</defName>
-		<label>Lion shield</label>
-		<description>A master-crafted copy of the personal shield of the Emperor. Just as the true Lion came across the Emperors Shield in Mirror-Caliban and used it to great effect in battle, so do the copies of the Lion wield these shields to defeat the enemes attacks.\n\nThe Imperial remnants are greatly troubled with Cawls work - to some, it approaches blasphemy and heresy to attempt to replicate the Master of Mankinds greatness. Others believe it disrespects the memory of the Primarchs name - akin to raising the dead and bidding them dance like marionettes.</description>
+		<label>Emperor's Shield</label>
+		<description>A master-crafted copy of the personal shield of the Emperor. Just as the true Lion came across the Emperor's Shield in Mirror-Caliban and used it to great effect in battle, so do the copies of the Lion wield these shields to defeat the enemes attacks. \n\nThe Imperial remnants are greatly troubled with Cawl's work - to some, it approaches blasphemy and heresy to attempt to replicate the Master of Mankind's greatness. Others believe it disrespects the memory of the Primarch's name - akin to raising the dead and bidding them dance like marionettes.</description>
 		<graphicData>
 			<texPath>Things/Apparel/LionArmor/LionShield/Preview/LionW_shield</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -127,8 +127,8 @@
 	
 	<ThingDef ParentName="GWSSShieldBase">
 		<defName>GM_SS_ShieldLionsC</defName>
-		<label>Imperial warden shield</label>
-		<description>A master-crafted copy of the personal shield of the Emperor. Just as the true Lion came across the Emperors Shield in Mirror-Caliban and used it to great effect in battle, so do the copies of the Lion wield these shields to defeat the enemes attacks.\n\nThe Imperial remnants are greatly troubled with Cawls work - to some, it approaches blasphemy and heresy to attempt to replicate the Master of Mankinds greatness. Others believe it disrespects the memory of the Primarchs name - akin to raising the dead and bidding them dance like marionettes.</description>
+		<label>Imperial Warden shield</label>
+		<description>A master-crafted copy of the personal shield of the Emperor. Just as the true Lion came across the Emperor's Shield in Mirror-Caliban and used it to great effect in battle, so do the copies of the Lion wield these shields to defeat the enemes attacks. \n\nThe Imperial remnants are greatly troubled with Cawl's work - to some, it approaches blasphemy and heresy to attempt to replicate the Master of Mankind's greatness. Others believe it disrespects the memory of the Primarch's name - akin to raising the dead and bidding them dance like marionettes.</description>
 		<graphicData>
 			<texPath>Things/Apparel/LionArmor/LionShield/Preview/LionC_shield</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
