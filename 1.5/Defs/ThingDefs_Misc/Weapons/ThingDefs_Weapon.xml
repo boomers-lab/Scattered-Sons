@@ -4,7 +4,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>GW_SS_LionSword</defName>
 		<label>Fealty</label>
-        <description>A mysterious power sword wielded by Lion El Jonson upon his return in the 41st Millennium. Drawn from the stones of Mirror-Caliban, this blade stops for no opponent - no traitor, no xenos, and no daemon.\n\nMirror-Caliban appears as a forest without end, inhabited by Watchers in the Dark (the diminutive servants of the Dark Angels) and Great Beasts of Caliban. The Lion discovered Fealty and the Emperors Shield within the realm, and was able to use it as a passageway through space.\n\nLike its wielder, however, the true Fealty is gone, and this blade is a replica, well-crafted as it is.</description>
+        <description>A mysterious power sword wielded by Lion El'Jonson upon his return in the 41st Millennium. Drawn from the stones of Mirror-Caliban, this blade stops for no opponent - no traitor, no xenos, and no daemon.\n\nMirror-Caliban appears as a forest without end, inhabited by Watchers in the Dark (the diminutive servants of the Dark Angels) and Great Beasts of Caliban. The Lion discovered Fealty and the Emperor's Shield within the realm, and was able to use it as a passageway through space.\n\nLike its wielder, however, this Fealty is a replica, well-crafted as it is.</description>
         <graphicData>
             <texPath>Things/Weapons/GW_LionSword</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -101,8 +101,8 @@
 
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>GW_SM_Melee_FlameSword</defName>
-		<label>Emperor`s sword</label>
-		<description>The Emperors Sword is a giant, flaming sword that was created and wielded by the God-Emperor of Mankind Himself. Not only can no armor withstand its sundering stroke, but His blade can also destroy daemons permanently, instead of merely banishing them back to the Warp.\n\nThousands of daemons were felled by this blade, and thousands more were felled by Roboute Guilliman, the Imperial Regent, who wielded the Emperors Sword during the Thirteenth Black Crusade of the 41st Millennium.\n\nOf course, this blade is a mere replica. As finely crafted as it is, and as magnificent as it looks, the true Emperors Sword, along with both of its former wielders, are gone for good.</description>
+		<label>Emperor's sword</label>
+		<description>The Emperor's Sword is a giant, flaming sword that was created and wielded by the God-Emperor of Mankind Himself. Not only can no armor withstand its sundering stroke, but His blade can also destroy daemons permanently, instead of merely banishing them back to the Warp.\n\nThousands of daemons were felled by this blade, and thousands more were felled by Roboute Guilliman, the Imperial Regent, who wielded the Emperor's Sword during the Thirteenth Black Crusade of the 41st Millennium.\n\nOf course, this blade is a mere replica - a fine one it is, but the true Emperor's Sword and its wielder are too important to leave Terra except for the most imperative tasks.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
 			<texPath>Things/Weapons/FlameSword</texPath>
