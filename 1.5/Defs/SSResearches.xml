@@ -6,8 +6,8 @@
 	
 	<ResearchProjectDef ParentName="GW_SM_SSTechBase">
 		<defName>GW_SM_Guilliman</defName>
-		<label>Armor of Fate</label>
-		<description>Unlock Guilliman and Imperial regent armors</description>
+		<label>Imperial Regent</label>
+		<description>Replicate the armor and weapons of the revived Imperial Regent, Roboute Guilliman.</description>
         <baseCost>5000</baseCost>
 		<prerequisites>
 			<li>AdvancedFabrication</li>
@@ -30,8 +30,8 @@
 	
 	<ResearchProjectDef ParentName="GW_SM_SSTechBase">
 		<defName>GW_SM_LionArmor</defName>
-		<label>Lion Armor</label>
-		<description>Unlock Lion and Imperial warden armors</description>
+		<label>Imperial Warden</label>
+		<description>Replicate the armor and weapons of Lion El’Jonson, the Primarch of the Dark Angels.</description>
         <baseCost>5000</baseCost>
 		<prerequisites>
 			<li>AdvancedFabrication</li>
@@ -55,7 +55,7 @@
 	<ResearchProjectDef ParentName="GW_SM_SSTechBase">
 		<defName>GW_Primarchfabrication</defName>
 		<label>Primarch fabrication</label>
-		<description>Unlocks the most powerful gear in 40k</description>
+		<description>Set up workbenches to prepare for constructing the equipment of the legendary Primarchs - the gene-fathers of the Space Marines.</description>
         <baseCost>3000</baseCost>
 		<prerequisites>
 			<li>AdvancedFabrication</li>
