@@ -89,8 +89,8 @@
 	
 	<ThingDef ParentName="GW_ScatteredSons_ArmorBase">
 		<defName>GW_SM_ChapterMasterArmor</defName>
-		<label>Imperial regent armor</label>
-		<description>A carefully-crafted replica of the Armor of Fate, the Power Armor worn by the Imperial Regent Roboute Guilliman. It would be safe to consider this design to be the pinnacle of Power Armor technology - an opponent would need a large volume of anti-armor fire to even faze the wearer.\n\nThe original Armor of Fate was even further enhanced by the power of Ynnead, the then-new Eldar god of the dead. Combined with the advanced life-preserving technology built into the armor by the Adeptus Mechanicus, the Armor of Fate healed the grievously-wounded Primarch and restored him to full strength.</description>
+		<label>Imperial Regent armor</label>
+		<description>A carefully-crafted replica of the Armor of Fate, the Power Armor worn by the Imperial Regent Roboute Guilliman. It would be safe to consider this design to be the pinnacle of Power Armor technology - an opponent would need a large volume of anti-armor fire to even faze the wearer. \n\nSpecial security measures are interlaced within the armor’s systems - it cannot be reproduced without them. First, the armor can only be worn by the first person to wear it. Second, the armor will cease functioning if another, identical suit is detected in its vicinity under the same faction - this is an attempt to stop “techno-barbarians” from becoming too powerful. \n\nThe original Armor of Fate was even further enhanced by the power of Ynnead, the nascent Eldar god of the dead. Combined with the advanced life-preserving technology built into the armor by the Adeptus Mechanicus, the Armor of Fate healed the grievously-wounded Primarch and restored him to full strength.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_ChapterMaster/GuillimanW_torso</texPath>
 		</graphicData>
@@ -153,7 +153,7 @@
 	<ThingDef ParentName="GW_ScatteredSons_ArmorBase">
 		<defName>GW_SM_GuillimanArmor</defName>
 		<label>Armor of Fate</label>
-		<description>A carefully-crafted replica of the Armor of Fate, the Power Armor worn by the Imperial Regent Roboute Guilliman. It would be safe to consider this design to be the pinnacle of Power Armor technology - an opponent would need a large volume of anti-armor fire to even faze the wearer.\n\nThe original Armor of Fate was even further enhanced by the power of Ynnead, the then-new Eldar god of the dead. Combined with the advanced life-preserving technology built into the armor by the Adeptus Mechanicus, the Armor of Fate healed the grievously-wounded Primarch and restored him to full strength.</description>
+		<description>A carefully-crafted replica of the Armor of Fate, the Power Armor worn by the Imperial Regent Roboute Guilliman. It would be safe to consider this design to be the pinnacle of Power Armor technology - an opponent would need a large volume of anti-armor fire to even faze the wearer. \n\nSpecial security measures are interlaced within the armor’s systems - it cannot be reproduced without them. First, the armor can only be worn by the first person to wear it. Second, the armor will cease functioning if another, identical suit is detected in its vicinity under the same faction - this is an attempt to stop “techno-barbarians” from becoming too powerful. \n\nThe original Armor of Fate was even further enhanced by the power of Ynnead, the nascent Eldar god of the dead. Combined with the advanced life-preserving technology built into the armor by the Adeptus Mechanicus, the Armor of Fate healed the grievously-wounded Primarch and restored him to full strength.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Guilliman/GuillimanC_torso</texPath>
 		</graphicData>
@@ -211,8 +211,8 @@
 	
 	<ThingDef ParentName="GW_ScatteredSons_ArmorBase">
 		<defName>GW_SM_ImperialWardenrArmor</defName>
-		<label>imperial warden power armor</label>
-		<description>A replica of the mysterious armor worn by Lion El’Jonson upon his return in the 41st Millennium. It is able to turn away both blade and bullet, and its prodigious size inspires great fear in the enemys hearts.\m\mLion El’Jonson, also known simply as The Lion, is the Primarch of the Dark Angels, a chapter of Space Marines. The Dark Angels were originally a Space Marine Legion, founded on Terra during the Unification Wars - indeed, they were the 1st Legion.</description>
+		<label>imperial Warden armor</label>
+		<description>A replica of the mysterious armor worn by Lion El’Jonson upon his return in the 41st Millennium. It is able to turn away both blade and bullet, and its prodigious size inspires great fear in the enemys hearts. \n\nSpecial security measures are interlaced within the armor’s systems - it cannot be reproduced without them. First, the armor can only be worn by the first person to wear it. Second, the armor will cease functioning if another, identical suit is detected in its vicinity under the same faction - this is an attempt to stop “techno-barbarians” from becoming too powerful. \n\nLion El’Jonson, also known simply as The Lion, is the Primarch of the Dark Angels, a chapter of Space Marines. The Dark Angels were originally a Space Marine Legion, founded on Terra during the Unification Wars - indeed, they were the 1st Legion.</description>
 		<graphicData>
 			<texPath>Things/Apparel/ImperialWardenr/Display/LionW_torso</texPath>
 		</graphicData>
@@ -294,7 +294,7 @@
 	<ThingDef ParentName="GW_ScatteredSons_ArmorBase">
 		<defName>GW_SM_LionArmor</defName>
 		<label>Lion`s power armor</label>
-		<description>A replica of the mysterious armor worn by Lion El’Jonson upon his return in the 41st Millennium. It is able to turn away both blade and bullet, and its prodigious size inspires great fear in the enemys hearts.\m\mLion El’Jonson, also known simply as The Lion, is the Primarch of the Dark Angels, a chapter of Space Marines. The Dark Angels were originally a Space Marine Legion, founded on Terra during the Unification Wars - indeed, they were the 1st Legion.</description>
+		<description>A replica of the mysterious armor worn by Lion El’Jonson upon his return in the 41st Millennium. It is able to turn away both blade and bullet, and its prodigious size inspires great fear in the enemys hearts. \n\nSpecial security measures are interlaced within the armor’s systems - it cannot be reproduced without them. First, the armor can only be worn by the first person to wear it. Second, the armor will cease functioning if another, identical suit is detected in its vicinity under the same faction - this is an attempt to stop “techno-barbarians” from becoming too powerful. \n\nLion El’Jonson, also known simply as The Lion, is the Primarch of the Dark Angels, a chapter of Space Marines. The Dark Angels were originally a Space Marine Legion, founded on Terra during the Unification Wars - indeed, they were the 1st Legion.</description>
 		<graphicData>
 			<texPath>Things/Apparel/LionArmor/LionC_torso</texPath>
 		</graphicData>
