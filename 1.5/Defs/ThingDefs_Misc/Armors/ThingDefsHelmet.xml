@@ -228,7 +228,7 @@
 	<!-- Imperial Warden Hooded -->
 	<ThingDef ParentName="GW_ScatteredSonsHelmetBase">
 		<defName>GW_SM_ImperialWardenHooded</defName>
-		<label>Imperial Warden Hooded Helmet</label>
+		<label>Imperial Warden hooded helmet</label>
 		<description>A modified helmet worn with a hood. A sort of compromise, this helmet strikes a balance between protection and the wearer’s wishes for a hood. \n\nEvery Primarch slain on the rimworlds is another crippling blow to the isolated Imperial fleet. It only serves to remind them that the real Primarchs are either dead or far away - their true gene-fathers would not have fallen to mere techno-barbarians.</description>
 		<graphicData>
 			<texPath>Things/Apparel/ImperialWardenr/Display/LionW_hooded</texPath>
@@ -360,7 +360,7 @@
 	
 	<ThingDef ParentName="GW_ScatteredSonsHelmetBase">
 		<defName>GW_SM_LionArmorHood</defName>
-		<label>Lion Armor Hood</label>
+		<label>Lion's Hood</label>
 		<description>A non-standard hood worn by some copies of the Lion. Though not as protective as the helmet the armor is supposed to be worn with, some of the Primarchs insist on wearing them instead. \n\nThe false Primarchs are selected only from the best Space Marines, and receive the best possible treatment and equipment. However, they also undergo a death of personality, their minds obliterated and replaced by that of the Primarch they imitate.</description>
 		<graphicData>
 			<texPath>Things/Apparel/LionArmor/Helmet/LionC_hood</texPath>			
