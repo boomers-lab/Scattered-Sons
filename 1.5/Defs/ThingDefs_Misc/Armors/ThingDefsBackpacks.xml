@@ -285,7 +285,7 @@
 	<!-- Lion Armor -->
 	<ThingDef ParentName="GW_SM_ScatteredSonsBackpackBase">
         <defName>GW_SM_LionArmorBackpack</defName>
-		<label>Lion Armor backpack</label>
+		<label>Lion's Backpack</label>
 		<description>A heavy backpack worn by the copies of Lion El’Jonson. It is meticulously replicated from the mysterious armor that the Lion wore upon his return to the Imperium. \n\nThe Lion’s legion, the Dark Angels, suffered a great schism during the Horus Heresy. The heretic Dark Angels, who became known as Fallen Angels, were defeated in such a titanic battle that Caliban itself was destroyed - torn apart by a Warp rift. \n\nThe Fallen Angels were scattered across time and space. The loyalist Dark Angels, calling themselves the Unforgiven, hunted them across the galaxy in their fortress-monastery, which was converted into a great starship - “the Rock”.</description>
 		<graphicData>
 			<texPath>Things/Apparel/LionArmor/LionC_backpack</texPath>
