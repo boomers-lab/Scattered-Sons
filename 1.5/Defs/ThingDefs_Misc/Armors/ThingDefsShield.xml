@@ -81,6 +81,7 @@
 			<wornGraphicPath>Things/Apparel/LionArmor/LionShield/LionW_shield</wornGraphicPath>
 			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 			<tags>
+				<li>RoyalTier7</li>
 				<li>GW_SS_CombatShield</li>
 			</tags>
 		</apparel>

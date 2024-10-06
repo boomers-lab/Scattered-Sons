@@ -37,6 +37,9 @@
 			<li>GW_ArmorShoulderPad</li>
 		</thingCategories>
 		<apparel>
+			<tags>
+				<li>RoyalTier7</li>
+			</tags>
 			<drawData>
 				<defaultData>
 					<layer>75</layer> <!--70-77 is over helmet and under gun-->
