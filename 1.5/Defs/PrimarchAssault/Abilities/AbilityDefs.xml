@@ -91,7 +91,7 @@
         </verbProperties>
     </AbilityDef>
     
-    <AbilityDef ParentName="GWPA_SummonReinforcementsBase" MayRequireAnyOf="HappyPurging.AgeofDarkness, HappyPurging.AgeofDarknessLite">
+    <AbilityDef ParentName="GWPA_SummonReinforcementsBase" MayRequireAnyOf="HappyPurging.AgeofDarkness,HappyPurging.AgeofDarknessLite">
         <defName>GWPA_GuillimanReinforcement</defName>
         <comps>
             <li Class="PrimarchAssault.Abilities.CompProperties_DropTroops">

@@ -327,10 +327,10 @@
         </hediffStages>
 
         <abilityStages>
-            <li MayRequireAnyOf="HappyPurging.AgeofDarkness, HappyPurging.AgeofDarknessLite">
+            <li MayRequireAnyOf="HappyPurging.AgeofDarkness,HappyPurging.AgeofDarknessLite">
                 <stage>.75</stage>
                 <abilitiesToGain>
-                    <li>GWPA_GuillimanReinforcement</li>
+                    <li MayRequireAnyOf="HappyPurging.AgeofDarkness,HappyPurging.AgeofDarknessLite">GWPA_GuillimanReinforcement</li>
                 </abilitiesToGain>
             </li>
         </abilityStages>
