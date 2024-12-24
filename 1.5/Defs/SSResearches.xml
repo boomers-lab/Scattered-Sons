@@ -8,7 +8,7 @@
 		<defName>GW_SM_Guilliman</defName>
 		<label>Imperial Regent</label>
 		<description>Replicate the armor and weapons of the revived Imperial Regent, Roboute Guilliman.</description>
-        <baseCost>5000</baseCost>
+        <baseCost>7800</baseCost>
 		<prerequisites>
 			<li>AdvancedFabrication</li>
 			<li MayRequire="happypurging.ageofdarkness">GW_Primarchfabrication</li>
@@ -45,7 +45,7 @@
 		<defName>GW_SM_LionArmor</defName>
 		<label>Imperial Warden</label>
 		<description>Replicate the armor and weapons of Lion El’Jonson, the Primarch of the Dark Angels.</description>
-        <baseCost>5000</baseCost>
+        <baseCost>7800</baseCost>
 		<prerequisites>
 			<li>AdvancedFabrication</li>
 			<li MayRequire="happypurging.ageofdarkness">GW_Primarchfabrication</li>
@@ -80,7 +80,7 @@
 		<defName>GW_Primarchfabrication</defName>
 		<label>Primarch fabrication</label>
 		<description>Set up workbenches to prepare for constructing the equipment of the legendary Primarchs - the gene-fathers of the Space Marines.</description>
-        <baseCost>3000</baseCost>
+        <baseCost>2000</baseCost>
 		<prerequisites>
 			<li>AdvancedFabrication</li>
 			<li MayRequire="grimworld.talonoftheemperor">GW_TotE_CustodesFabrication</li>
