@@ -3,7 +3,7 @@
 	<ThingDef ParentName="GrimworldFabricationBenchBase">
 		<defName>GW_SM_ScatteredSons_ArmorBench</defName>
 		<label>scattered sons armor workbench</label>
-		<description>workbench used to make scattered sons armor set.</description>
+		<description>A workbench for assembling Primarch-grade armors. \n\nGodlike armors which are worn by Primarchs.</description>
 		<graphicData>
             <texPath>Things/Building/Production/ScatteredSonsArmorWorkbench/PrimarchBench_Armor_north</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -51,7 +51,7 @@
 	<ThingDef ParentName="GrimworldFabricationBenchBase">
 		<defName>GW_SM_ScatteredSons_WeaponBench</defName>
 		<label>scattered sons weapon workbench</label>
-		<description>workbench used to make scattered sons weapon set.</description>
+		<description>A workbench for assembling Primarch-grade weaponry. \n\nGodlike weapons which are used by Primarchs.</description>
 		<graphicData>
             <texPath>Things/Building/Production/ScatteredSonsArmorWorkbench/PrimarchBench_Weapon_north</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
