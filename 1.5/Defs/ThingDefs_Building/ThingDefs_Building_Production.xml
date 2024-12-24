@@ -2,8 +2,8 @@
 
 	<ThingDef ParentName="GrimworldFabricationBenchBase">
 		<defName>GW_SM_ScatteredSons_ArmorBench</defName>
-		<label>scattered sons armor workbench</label>
-		<description>A workbench for assembling Primarch-grade armors. \n\nGodlike armors which are worn by Primarchs.</description>
+		<label>Scattered Sons armor workbench</label>
+		<description>A workbench for assembling armor fit for a Primarch. \n\nEvery piece of armor leaving this workbench is a great investment and an arduous labor, but the result will be near-unassailable by bullet, blade, or blast. A full suit of this is the armor of demigods, striding the battlefield like titans of myth.</description>
 		<graphicData>
             <texPath>Things/Building/Production/ScatteredSonsArmorWorkbench/PrimarchBench_Armor_north</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -50,8 +50,8 @@
 	
 	<ThingDef ParentName="GrimworldFabricationBenchBase">
 		<defName>GW_SM_ScatteredSons_WeaponBench</defName>
-		<label>scattered sons weapon workbench</label>
-		<description>A workbench for assembling Primarch-grade weaponry. \n\nGodlike weapons which are used by Primarchs.</description>
+		<label>Scattered Sons weapon workbench</label>
+		<description>A workbench for assembling weapons fit for a Primarch. \n\nTo anyone but the most masterful of the craft, these armaments are more akin to magic than technology. Lesser things have been worshipped by whole civilisations - and have been the end of them as well.</description>
 		<graphicData>
             <texPath>Things/Building/Production/ScatteredSonsArmorWorkbench/PrimarchBench_Weapon_north</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
