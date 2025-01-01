@@ -20,6 +20,7 @@
 		</recipeMaker>
 		<uiIconScale>1.6</uiIconScale>
 		<equippedStatOffsets>
+			<VEF_MassCarryCapacity>50</VEF_MassCarryCapacity>
 			<Beauty>50</Beauty>
 		</equippedStatOffsets>
 		<graphicData>
