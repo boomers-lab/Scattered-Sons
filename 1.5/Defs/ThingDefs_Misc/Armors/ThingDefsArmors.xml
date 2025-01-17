@@ -23,7 +23,9 @@
 		</thingCategories>
 		<uiIconScale>1</uiIconScale>
 		<equippedStatOffsets>
-			<Beauty>50</Beauty>
+			<Beauty>50</Beauty>			
+			<DecompressionResistance MayRequire="kentington.saveourship2">0.75</DecompressionResistance>
+			<VacuumSpeedMultiplier MayRequire="kentington.saveourship2">4</VacuumSpeedMultiplier>
 		</equippedStatOffsets>
 		<apparel>
 			<drawData>
@@ -64,6 +66,11 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 		</apparel>
+		<comps>
+			<li MayRequire="kentington.saveourship2">
+				<compClass>SaveOurShip2.CompEVA</compClass>
+			</li>
+		</comps>
 		<modExtensions>
 			<li Class="VFECore.ApparelDrawPosExtension">
 				<isUnifiedApparel>true</isUnifiedApparel>
