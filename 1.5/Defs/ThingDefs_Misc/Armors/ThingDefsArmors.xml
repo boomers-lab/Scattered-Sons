@@ -24,7 +24,6 @@
 		<uiIconScale>1</uiIconScale>
 		<equippedStatOffsets>
 			<Beauty>50</Beauty>			
-			<VEF_MassCarryCapacity>50</VEF_MassCarryCapacity>
 			<DecompressionResistance MayRequire="kentington.saveourship2">0.75</DecompressionResistance>
 			<VacuumSpeedMultiplier MayRequire="kentington.saveourship2">4</VacuumSpeedMultiplier>
 		</equippedStatOffsets>
