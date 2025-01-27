@@ -6,13 +6,14 @@
 		<description>A workbench for assembling armor fit for a Primarch. \n\nEvery piece of armor leaving this workbench is a great investment and an arduous labor, but the result will be near-unassailable by bullet, blade, or blast. A full suit of this is the armor of demigods, striding the battlefield like titans of myth.</description>
 		<graphicData>
             <texPath>Things/Building/Production/ScatteredSonsArmorWorkbench/PrimarchBench_Armor_north</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<graphicClass>Graphic_Multi</graphicClass>
             <drawSize>(7,7)</drawSize>
 			<drawOffset>(0,0.05,-0.25)</drawOffset>
         </graphicData>
         <tickerType>Normal</tickerType>
         <size>(5,3)</size>
 		<interactionCellOffset>(0,0,-2)</interactionCellOffset>
+		<defaultPlacingRot>South</defaultPlacingRot>
 		<!-- <rotatable>false</rotatable> -->
 		<costList>
             <Steel>100</Steel>
@@ -54,13 +55,14 @@
 		<description>A workbench for assembling weapons fit for a Primarch. \n\nTo anyone but the most masterful of the craft, these armaments are more akin to magic than technology. Lesser things have been worshipped by whole civilisations - and have been the end of them as well.</description>
 		<graphicData>
             <texPath>Things/Building/Production/ScatteredSonsArmorWorkbench/PrimarchBench_Weapon_north</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(7,7)</drawSize>
 			<drawOffset>(0,0.05,-0.25)</drawOffset>
         </graphicData>
         <tickerType>Normal</tickerType>
         <size>(5,3)</size>
 		<interactionCellOffset>(0,0,-2)</interactionCellOffset>
+		<defaultPlacingRot>South</defaultPlacingRot>
 		<!-- <rotatable>false</rotatable> -->
 		<costList>
             <Steel>100</Steel>
