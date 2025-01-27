@@ -13,7 +13,6 @@
         <tickerType>Normal</tickerType>
         <size>(5,3)</size>
 		<interactionCellOffset>(0,0,-2)</interactionCellOffset>
-		<defaultPlacingRot>South</defaultPlacingRot>
 		<!-- <rotatable>false</rotatable> -->
 		<costList>
             <Steel>100</Steel>
@@ -62,7 +61,6 @@
         <tickerType>Normal</tickerType>
         <size>(5,3)</size>
 		<interactionCellOffset>(0,0,-2)</interactionCellOffset>
-		<defaultPlacingRot>South</defaultPlacingRot>
 		<!-- <rotatable>false</rotatable> -->
 		<costList>
             <Steel>100</Steel>
