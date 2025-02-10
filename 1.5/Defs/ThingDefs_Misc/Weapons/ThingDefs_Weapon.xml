@@ -14,16 +14,11 @@
         </graphicData>
 		<weaponTags Inherit="False">
 			<li>GW_EmperorWep</li>
+			<li>GW_LionSword</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
-			<li>GW_EmperorWeaponMelee</li>
-		</tradeTags>
 		<uiIconPath>Things/Weapons/GW_LionSword</uiIconPath>
         <techLevel>Spacer</techLevel>
         <tradeability>Sellable</tradeability>
-        <weaponTags>
-            <li>GW_LionSword</li>
-        </weaponTags>
         <generateCommonality>0.01</generateCommonality>
         <statBases>
 			<MaxHitPoints>5000</MaxHitPoints>
@@ -118,10 +113,8 @@
 		</graphicData>
 		<weaponTags Inherit="False">
 			<li>GW_EmperorWep</li>
+			<li>GW_GuillimanSword</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
-			<li>GW_EmperorWeaponMelee</li>
-		</tradeTags>
 		<recipeMaker>
             <researchPrerequisite>GW_SM_Guilliman</researchPrerequisite>
 			<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
@@ -164,10 +157,6 @@
         </equippedStatOffsets>
 		<techLevel>Archotech</techLevel>
 		<relicChance>3</relicChance>
-		<weaponTags>
-			<li>GW_GuillimanSword</li>
-			<li>UltratechMelee</li>
-		</weaponTags>
 		<weaponClasses>
 			<li>Melee</li>
 			<li>Ultratech</li>
