@@ -12,6 +12,12 @@
             <drawSize>1.5</drawSize>
 			<onGroundRandomRotateAngle>55</onGroundRandomRotateAngle>
         </graphicData>
+		<weaponTags Inherit="False">
+			<li>GW_EmperorWep</li>
+		</weaponTags>
+		<tradeTags Inherit="False">
+			<li>GW_EmperorWeaponMelee</li>
+		</tradeTags>
 		<uiIconPath>Things/Weapons/GW_LionSword</uiIconPath>
         <techLevel>Spacer</techLevel>
         <tradeability>Sellable</tradeability>
@@ -110,6 +116,12 @@
 			<drawSize>1.5, 1.5</drawSize>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
+		<weaponTags Inherit="False">
+			<li>GW_EmperorWep</li>
+		</weaponTags>
+		<tradeTags Inherit="False">
+			<li>GW_EmperorWeaponMelee</li>
+		</tradeTags>
 		<recipeMaker>
             <researchPrerequisite>GW_SM_Guilliman</researchPrerequisite>
 			<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
